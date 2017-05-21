@@ -1,0 +1,454 @@
+EESchema Schematic File Version 2
+LIBS:Seminar_Med_Tech-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:MechTech
+LIBS:MedTech
+LIBS:MedTec2
+LIBS:Seminar_Med_Tech-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Jumper JP1
+U 1 1 5921B571
+P 3050 2250
+F 0 "JP1" H 3050 2400 50  0000 C CNN
+F 1 "JP16" H 3050 2170 50  0000 C CNN
+F 2 "" H 3050 2250 50  0001 C CNN
+F 3 "" H 3050 2250 50  0001 C CNN
+	1    3050 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 1075 2900 0    60   Input ~ 0
+ECG_V6
+Text GLabel 1075 3025 0    60   Input ~ 0
+ECG_V1
+Text GLabel 1075 3150 0    60   Input ~ 0
+ECG_V5
+Text GLabel 1075 3275 0    60   Input ~ 0
+ECG_V4
+Text GLabel 1075 3400 0    60   Input ~ 0
+ECG_V3
+Text GLabel 1075 3525 0    60   Input ~ 0
+ECG_V2
+Text GLabel 1075 3650 0    60   Input ~ 0
+ECG_LL
+Text GLabel 1075 3775 0    60   Input ~ 0
+ECG_RA
+Text GLabel 1075 3900 0    60   Input ~ 0
+ECG_LA
+$Comp
+L R R58
+U 1 1 5921BE3B
+P 1175 4175
+F 0 "R58" V 1255 4175 50  0000 C CNN
+F 1 "R" V 1175 4175 50  0000 C CNN
+F 2 "" V 1105 4175 50  0001 C CNN
+F 3 "" H 1175 4175 50  0001 C CNN
+	1    1175 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R59
+U 1 1 5921BEBB
+P 1150 2325
+F 0 "R59" V 1230 2325 50  0000 C CNN
+F 1 "R" V 1150 2325 50  0000 C CNN
+F 2 "" V 1080 2325 50  0001 C CNN
+F 3 "" H 1150 2325 50  0001 C CNN
+	1    1150 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R60
+U 1 1 5921BF65
+P 1325 2325
+F 0 "R60" V 1405 2325 50  0000 C CNN
+F 1 "R" V 1325 2325 50  0000 C CNN
+F 2 "" V 1255 2325 50  0001 C CNN
+F 3 "" H 1325 2325 50  0001 C CNN
+	1    1325 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R61
+U 1 1 5921BFA2
+P 1500 2325
+F 0 "R61" V 1580 2325 50  0000 C CNN
+F 1 "R" V 1500 2325 50  0000 C CNN
+F 2 "" V 1430 2325 50  0001 C CNN
+F 3 "" H 1500 2325 50  0001 C CNN
+	1    1500 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R62
+U 1 1 5921C0BF
+P 1675 2325
+F 0 "R62" V 1755 2325 50  0000 C CNN
+F 1 "R" V 1675 2325 50  0000 C CNN
+F 2 "" V 1605 2325 50  0001 C CNN
+F 3 "" H 1675 2325 50  0001 C CNN
+	1    1675 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R63
+U 1 1 5921C129
+P 1850 2325
+F 0 "R63" V 1930 2325 50  0000 C CNN
+F 1 "R" V 1850 2325 50  0000 C CNN
+F 2 "" V 1780 2325 50  0001 C CNN
+F 3 "" H 1850 2325 50  0001 C CNN
+	1    1850 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R64
+U 1 1 5921C189
+P 2025 2325
+F 0 "R64" V 2105 2325 50  0000 C CNN
+F 1 "R" V 2025 2325 50  0000 C CNN
+F 2 "" V 1955 2325 50  0001 C CNN
+F 3 "" H 2025 2325 50  0001 C CNN
+	1    2025 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R65
+U 1 1 5921C1CE
+P 2200 2325
+F 0 "R65" V 2280 2325 50  0000 C CNN
+F 1 "R" V 2200 2325 50  0000 C CNN
+F 2 "" V 2130 2325 50  0001 C CNN
+F 3 "" H 2200 2325 50  0001 C CNN
+	1    2200 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R66
+U 1 1 5921C229
+P 2375 2325
+F 0 "R66" V 2455 2325 50  0000 C CNN
+F 1 "R" V 2375 2325 50  0000 C CNN
+F 2 "" V 2305 2325 50  0001 C CNN
+F 3 "" H 2375 2325 50  0001 C CNN
+	1    2375 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper2x2 U?
+U 1 1 5921D05C
+P 3050 2550
+F 0 "U?" H 3225 2675 39  0000 C CNN
+F 1 "JP26" H 2850 2675 60  0000 C CNN
+F 2 "" H 3050 2550 60  0001 C CNN
+F 3 "" H 3050 2550 60  0001 C CNN
+	1    3050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper2x2 U?
+U 1 1 5921D0B9
+P 3050 2800
+F 0 "U?" H 3225 2925 60  0000 C CNN
+F 1 "JP27" H 2875 2925 60  0000 C CNN
+F 2 "" H 3050 2800 60  0001 C CNN
+F 3 "" H 3050 2800 60  0001 C CNN
+	1    3050 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper2x2 U?
+U 1 1 5921D105
+P 3050 3050
+F 0 "U?" H 3225 3175 60  0000 C CNN
+F 1 "JP28" H 2875 3175 60  0000 C CNN
+F 2 "" H 3050 3050 60  0001 C CNN
+F 3 "" H 3050 3050 60  0001 C CNN
+	1    3050 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper2x2 U?
+U 1 1 5921D158
+P 3050 3300
+F 0 "U?" H 3225 3425 60  0000 C CNN
+F 1 "JP29" H 2875 3425 60  0000 C CNN
+F 2 "" H 3050 3300 60  0001 C CNN
+F 3 "" H 3050 3300 60  0001 C CNN
+	1    3050 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper2x2 U?
+U 1 1 5921D1AA
+P 3050 3575
+F 0 "U?" H 3225 3700 60  0000 C CNN
+F 1 "JP30" H 2875 3700 60  0000 C CNN
+F 2 "" H 3050 3575 60  0001 C CNN
+F 3 "" H 3050 3575 60  0001 C CNN
+	1    3050 3575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper2x2 U?
+U 1 1 5921D2F3
+P 3050 3850
+F 0 "U?" H 3200 3975 60  0000 C CNN
+F 1 "JP31" H 2875 3975 60  0000 C CNN
+F 2 "" H 3050 3850 60  0001 C CNN
+F 3 "" H 3050 3850 60  0001 C CNN
+	1    3050 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper2x2 U?
+U 1 1 5921D33F
+P 3050 4125
+F 0 "U?" H 3225 4275 60  0000 C CNN
+F 1 "JP32" H 2875 4275 60  0000 C CNN
+F 2 "" H 3050 4125 60  0001 C CNN
+F 3 "" H 3050 4125 60  0001 C CNN
+	1    3050 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper2x2 U?
+U 1 1 5921D38F
+P 3050 4425
+F 0 "U?" H 3225 4575 60  0000 C CNN
+F 1 "JP33" H 2875 4575 60  0000 C CNN
+F 2 "" H 3050 4425 60  0001 C CNN
+F 3 "" H 3050 4425 60  0001 C CNN
+	1    3050 4425
+	1    0    0    -1  
+$EndComp
+Text Label 1150 1925 0    60   ~ 0
+AVDD
+Text Label 1175 4475 0    60   ~ 0
+AVSS
+$Comp
+L C C?
+U 1 1 5921FB0A
+P 3750 2300
+F 0 "C?" H 3775 2400 50  0000 L CNN
+F 1 "C" H 3775 2200 50  0000 L CNN
+F 2 "" H 3788 2150 50  0001 C CNN
+F 3 "" H 3750 2300 50  0001 C CNN
+	1    3750 2300
+	1    0    0    -1  
+$EndComp
+Text Label 3750 2050 0    60   ~ 0
+AVSS
+$Comp
+L ADS1298 U?
+U 1 1 5921E8FA
+P 4650 3150
+F 0 "U?" H 5100 2525 60  0000 C CNN
+F 1 "ADS1298" H 4650 3250 60  0000 C CNN
+F 2 "" H 4600 3000 60  0001 C CNN
+F 3 "" H 4600 3000 60  0001 C CNN
+	1    4650 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 1925 1150 2175
+Wire Wire Line
+	1325 2175 1325 2100
+Wire Wire Line
+	1150 2100 2375 2100
+Connection ~ 1150 2100
+Wire Wire Line
+	2375 2100 2375 2175
+Connection ~ 1325 2100
+Wire Wire Line
+	2200 2175 2200 2100
+Connection ~ 2200 2100
+Wire Wire Line
+	2025 2175 2025 2100
+Connection ~ 2025 2100
+Wire Wire Line
+	1850 2175 1850 2100
+Connection ~ 1850 2100
+Wire Wire Line
+	1675 2175 1675 2100
+Connection ~ 1675 2100
+Wire Wire Line
+	1500 2175 1500 2100
+Connection ~ 1500 2100
+Wire Wire Line
+	1150 2475 1150 2900
+Connection ~ 1150 2900
+Wire Wire Line
+	1325 2475 1325 3025
+Connection ~ 1325 3025
+Wire Wire Line
+	1500 2475 1500 3150
+Connection ~ 1500 3150
+Wire Wire Line
+	1675 2475 1675 3275
+Connection ~ 1675 3275
+Wire Wire Line
+	1825 2450 1825 3375
+Connection ~ 1825 3375
+Wire Wire Line
+	2000 2450 2000 3500
+Connection ~ 2000 3500
+Wire Wire Line
+	2175 2450 2175 3625
+Connection ~ 2175 3625
+Wire Wire Line
+	2350 2450 2350 3875
+Connection ~ 2350 3875
+Wire Wire Line
+	1175 4325 1175 4475
+Wire Wire Line
+	2750 4450 2425 4450
+Wire Wire Line
+	2425 4450 2425 2900
+Wire Wire Line
+	2425 2900 1075 2900
+Wire Wire Line
+	1075 3025 2475 3025
+Wire Wire Line
+	2475 3025 2475 2575
+Wire Wire Line
+	2475 2575 2750 2575
+Wire Wire Line
+	2750 2825 2500 2825
+Wire Wire Line
+	2500 2825 2500 3150
+Wire Wire Line
+	2500 3150 1075 3150
+Wire Wire Line
+	1075 3275 2550 3275
+Wire Wire Line
+	2550 3275 2550 3075
+Wire Wire Line
+	2550 3075 2750 3075
+Wire Wire Line
+	2750 3325 2550 3325
+Wire Wire Line
+	2550 3325 2550 3400
+Wire Wire Line
+	2550 3400 1075 3400
+Wire Wire Line
+	1075 3525 2550 3525
+Wire Wire Line
+	2550 3525 2550 3600
+Wire Wire Line
+	2550 3600 2750 3600
+Wire Wire Line
+	1075 3650 2675 3650
+Wire Wire Line
+	1075 3775 2600 3775
+Wire Wire Line
+	2675 3650 2675 3875
+Wire Wire Line
+	2675 3875 2750 3875
+Wire Wire Line
+	2550 4150 2750 4150
+Wire Wire Line
+	1075 3900 2550 3900
+Wire Wire Line
+	2550 3900 2550 4150
+Wire Wire Line
+	2600 3775 2600 4100
+Wire Wire Line
+	2600 4100 2750 4100
+Wire Wire Line
+	2750 3825 2600 3825
+Connection ~ 2600 3825
+Wire Wire Line
+	2650 4400 2750 4400
+Wire Wire Line
+	2650 2250 2650 4400
+Wire Wire Line
+	2650 3550 2750 3550
+Wire Wire Line
+	2650 3275 2750 3275
+Connection ~ 2650 3550
+Wire Wire Line
+	2650 3025 2750 3025
+Connection ~ 2650 3275
+Wire Wire Line
+	2650 2775 2750 2775
+Connection ~ 2650 3025
+Wire Wire Line
+	2650 2525 2750 2525
+Connection ~ 2650 2775
+Wire Wire Line
+	2650 2250 2750 2250
+Connection ~ 2650 2525
+Wire Wire Line
+	1175 4025 1175 3775
+Connection ~ 1175 3775
+Wire Wire Line
+	3750 2050 3750 2150
+Wire Wire Line
+	3350 2250 3600 2250
+Wire Wire Line
+	3600 2250 3600 2525
+Wire Wire Line
+	3750 2750 4050 2750
+Wire Wire Line
+	3750 2450 3750 2750
+Wire Wire Line
+	3600 2525 3750 2525
+Connection ~ 3750 2525
+$Comp
+L ADS1298 U?
+U 1 1 592207CE
+P 6300 3150
+F 0 "U?" H 6750 2525 60  0000 C CNN
+F 1 "ADS1298" H 6300 3250 60  0000 C CNN
+F 2 "" H 6250 3000 60  0001 C CNN
+F 3 "" H 6250 3000 60  0001 C CNN
+	1    6300 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5275 3150 5500 3150
+Wire Wire Line
+	5500 3150 5500 3900
+$EndSCHEMATC
