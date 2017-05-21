@@ -454,6 +454,11 @@ Wire Wire Line
 Wire Wire Line
 	3750 2450 3750 3100
 Wire Wire Line
+<<<<<<< HEAD
+=======
+	3750 2450 3750 2775
+Wire Wire Line
+>>>>>>> cf10f51a118632f6f83a0c8bc71939f2e6335b1a
 	3600 2525 3750 2525
 Wire Wire Line
 	5275 3150 5500 3150
@@ -466,6 +471,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 3100 4100 3100
 Connection ~ 3750 2525
+<<<<<<< HEAD
 Wire Wire Line
 	3350 2525 3575 2525
 Wire Wire Line
@@ -558,4 +564,6 @@ Wire Wire Line
 	4100 3950 4050 3950
 Wire Wire Line
 	4050 3950 4050 4050
+=======
+>>>>>>> cf10f51a118632f6f83a0c8bc71939f2e6335b1a
 $EndSCHEMATC
