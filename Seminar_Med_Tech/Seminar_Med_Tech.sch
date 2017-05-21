@@ -423,22 +423,6 @@ Wire Wire Line
 Wire Wire Line
 	3750 2450 3750 2775
 Wire Wire Line
-<<<<<<< HEAD
 	3600 2525 3750 2525
 Connection ~ 3750 2525
-=======
-	4175 1700 3725 1700
-Connection ~ 3725 2050
-$Comp
-L ADS1298 U?
-U 1 1 5921BF53
-P 6550 3200
-F 0 "U?" H 7350 2050 60  0000 C CNN
-F 1 "ADS1298" H 6550 3400 60  0000 C CNN
-F 2 "" H 6100 3400 60  0001 C CNN
-F 3 "" H 6100 3400 60  0001 C CNN
-	1    6550 3200
-	1    0    0    -1  
-$EndComp
->>>>>>> fb7bcf60c6e94ebac2e6e83c80782ab87d0af434
 $EndSCHEMATC
