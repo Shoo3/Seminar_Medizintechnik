@@ -313,8 +313,6 @@ F 3 "" H 4050 4050 50  0001 C CNN
 	1    4050 4050
 	1    0    0    -1  
 $EndComp
-Text Label 3750 2050 0    60   ~ 0
-AVSS
 Wire Wire Line
 	1150 1925 1150 2175
 Wire Wire Line
@@ -456,6 +454,8 @@ Wire Wire Line
 Wire Wire Line
 	3750 2450 3750 3100
 Wire Wire Line
+	3750 2450 3750 2775
+Wire Wire Line
 	3600 2525 3750 2525
 Wire Wire Line
 	5275 3150 5500 3150
@@ -560,161 +560,4 @@ Wire Wire Line
 	4100 3950 4050 3950
 Wire Wire Line
 	4050 3950 4050 4050
-=======
-Wire Wire Line
-	1325 2175 1325 2100
-Wire Wire Line
-	1150 2100 2375 2100
-Connection ~ 1150 2100
-Wire Wire Line
-	2375 2100 2375 2175
-Connection ~ 1325 2100
-Wire Wire Line
-	2200 2175 2200 2100
-Connection ~ 2200 2100
-Wire Wire Line
-	2025 2175 2025 2100
-Connection ~ 2025 2100
-Wire Wire Line
-	1850 2175 1850 2100
-Connection ~ 1850 2100
-Wire Wire Line
-	1675 2175 1675 2100
-Connection ~ 1675 2100
-Wire Wire Line
-	1500 2175 1500 2100
-Connection ~ 1500 2100
-Wire Wire Line
-	1150 2475 1150 2900
-Connection ~ 1150 2900
-Wire Wire Line
-	1325 2475 1325 3025
-Connection ~ 1325 3025
-Wire Wire Line
-	1500 2475 1500 3150
-Connection ~ 1500 3150
-Wire Wire Line
-	1675 2475 1675 3275
-Connection ~ 1675 3275
-Wire Wire Line
-	1825 2450 1825 3375
-Connection ~ 1825 3375
-Wire Wire Line
-	2000 2450 2000 3500
-Connection ~ 2000 3500
-Wire Wire Line
-	2175 2450 2175 3625
-Connection ~ 2175 3625
-Wire Wire Line
-	2350 2450 2350 3875
-Connection ~ 2350 3875
-Wire Wire Line
-	1175 4325 1175 4475
-Wire Wire Line
-	2750 4450 2425 4450
-Wire Wire Line
-	2425 4450 2425 2900
-Wire Wire Line
-	2425 2900 1075 2900
-Wire Wire Line
-	1075 3025 2475 3025
-Wire Wire Line
-	2475 3025 2475 2575
-Wire Wire Line
-	2475 2575 2750 2575
-Wire Wire Line
-	2750 2825 2500 2825
-Wire Wire Line
-	2500 2825 2500 3150
-Wire Wire Line
-	2500 3150 1075 3150
-Wire Wire Line
-	1075 3275 2550 3275
-Wire Wire Line
-	2550 3275 2550 3075
-Wire Wire Line
-	2550 3075 2750 3075
-Wire Wire Line
-	2750 3325 2550 3325
-Wire Wire Line
-	2550 3325 2550 3400
-Wire Wire Line
-	2550 3400 1075 3400
-Wire Wire Line
-	1075 3525 2550 3525
-Wire Wire Line
-	2550 3525 2550 3600
-Wire Wire Line
-	2550 3600 2750 3600
-Wire Wire Line
-	1075 3650 2675 3650
-Wire Wire Line
-	1075 3775 2600 3775
-Wire Wire Line
-	2675 3650 2675 3875
-Wire Wire Line
-	2675 3875 2750 3875
-Wire Wire Line
-	2550 4150 2750 4150
-Wire Wire Line
-	1075 3900 2550 3900
-Wire Wire Line
-	2550 3900 2550 4150
-Wire Wire Line
-	2600 3775 2600 4100
-Wire Wire Line
-	2600 4100 2750 4100
-Wire Wire Line
-	2750 3825 2600 3825
-Connection ~ 2600 3825
-Wire Wire Line
-	2650 4400 2750 4400
-Wire Wire Line
-	2650 2250 2650 4400
-Wire Wire Line
-	2650 3550 2750 3550
-Wire Wire Line
-	2650 3275 2750 3275
-Connection ~ 2650 3550
-Wire Wire Line
-	2650 3025 2750 3025
-Connection ~ 2650 3275
-Wire Wire Line
-	2650 2775 2750 2775
-Connection ~ 2650 3025
-Wire Wire Line
-	2650 2525 2750 2525
-Connection ~ 2650 2775
-Wire Wire Line
-	2650 2250 2750 2250
-Connection ~ 2650 2525
-Wire Wire Line
-	1175 4025 1175 3775
-Connection ~ 1175 3775
-Wire Wire Line
-	3750 2050 3750 2150
-Wire Wire Line
-	3350 2250 3600 2250
-Wire Wire Line
-	3600 2250 3600 2525
-Wire Wire Line
-	3750 2775 4050 2775
-Wire Wire Line
-	3750 2450 3750 2775
-Wire Wire Line
-	3600 2525 3750 2525
-Connection ~ 3750 2525
-	4175 1700 3725 1700
-Connection ~ 3725 2050
-$Comp
-L ADS1298 U?
-U 1 1 5921BF53
-P 6550 3200
-F 0 "U?" H 7350 2050 60  0000 C CNN
-F 1 "ADS1298" H 6550 3400 60  0000 C CNN
-F 2 "" H 6100 3400 60  0001 C CNN
-F 3 "" H 6100 3400 60  0001 C CNN
-	1    6550 3200
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
