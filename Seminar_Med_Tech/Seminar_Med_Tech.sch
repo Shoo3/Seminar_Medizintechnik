@@ -294,12 +294,12 @@ $EndComp
 $Comp
 L ADS1298 U?
 U 1 1 592207CE
-P 6300 3150
-F 0 "U?" H 6750 2525 60  0000 C CNN
-F 1 "ADS1298" H 6300 3250 60  0000 C CNN
-F 2 "" H 6250 3000 60  0001 C CNN
-F 3 "" H 6250 3000 60  0001 C CNN
-	1    6300 3150
+P 4700 5650
+F 0 "U?" H 5150 5025 60  0000 C CNN
+F 1 "ADS1298" H 4700 5750 60  0000 C CNN
+F 2 "" H 4650 5500 60  0001 C CNN
+F 3 "" H 4650 5500 60  0001 C CNN
+	1    4700 5650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -313,6 +313,62 @@ F 3 "" H 4050 4050 50  0001 C CNN
 	1    4050 4050
 	1    0    0    -1  
 $EndComp
+$Comp
+L Jumper2x2 U?
+U 1 1 5924BCF7
+P 3050 4725
+F 0 "U?" H 3225 4875 60  0000 C CNN
+F 1 "JP34" H 2875 4875 60  0000 C CNN
+F 2 "" H 3125 4725 60  0001 C CNN
+F 3 "" H 3125 4725 60  0001 C CNN
+	1    3050 4725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper2x2 U?
+U 1 1 5924BDFA
+P 3050 5025
+F 0 "U?" H 3225 5175 60  0000 C CNN
+F 1 "JP35" H 2875 5175 60  0000 C CNN
+F 2 "" H 3125 5025 60  0001 C CNN
+F 3 "" H 3125 5025 60  0001 C CNN
+	1    3050 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper2x2 U?
+U 1 1 5924BE51
+P 3050 5325
+F 0 "U?" H 3225 5475 60  0000 C CNN
+F 1 "JP36" H 2875 5475 60  0000 C CNN
+F 2 "" H 3125 5325 60  0001 C CNN
+F 3 "" H 3125 5325 60  0001 C CNN
+	1    3050 5325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper2x2 U?
+U 1 1 5924CBE4
+P 3050 5625
+F 0 "U?" H 3225 5775 60  0000 C CNN
+F 1 "JP37" H 2875 5775 60  0000 C CNN
+F 2 "" H 3125 5625 60  0001 C CNN
+F 3 "" H 3125 5625 60  0001 C CNN
+	1    3050 5625
+	1    0    0    -1  
+$EndComp
+Text GLabel 6325 3700 2    39   Input ~ 0
+SPI_CS0
+Text GLabel 6325 5850 2    39   Input ~ 0
+SPI_CS1
+Text GLabel 6325 4775 2    39   Input ~ 0
+SPI_IN
+Text GLabel 6325 4425 2    39   Input ~ 0
+SPI_CLK
+Text GLabel 6325 4350 2    39   Input ~ 0
+SPI_OUT
+Text GLabel 6325 4700 2    39   Input ~ 0
+SPI_START
 Wire Wire Line
 	1150 1925 1150 2175
 Wire Wire Line
@@ -454,17 +510,9 @@ Wire Wire Line
 Wire Wire Line
 	3750 2450 3750 3100
 Wire Wire Line
-	3750 2450 3750 2775
+	3750 2525 3750 2775
 Wire Wire Line
 	3600 2525 3750 2525
-Wire Wire Line
-	5275 3150 5500 3150
-Wire Wire Line
-	5500 3150 5500 3925
-Wire Wire Line
-	6500 3850 6500 3925
-Wire Wire Line
-	6500 3925 5500 3925
 Wire Wire Line
 	3750 3100 4100 3100
 Connection ~ 3750 2525
@@ -560,4 +608,95 @@ Wire Wire Line
 	4100 3950 4050 3950
 Wire Wire Line
 	4050 3950 4050 4050
+Wire Wire Line
+	3525 5300 4100 5300
+Wire Wire Line
+	3500 5350 4100 5350
+Wire Wire Line
+	3475 5400 4100 5400
+Wire Wire Line
+	3450 5450 4100 5450
+Wire Wire Line
+	3425 5500 4100 5500
+Wire Wire Line
+	3400 5550 4100 5550
+Wire Wire Line
+	4100 5600 3350 5600
+Wire Wire Line
+	3350 5650 4100 5650
+Wire Wire Line
+	3350 5350 3400 5350
+Wire Wire Line
+	3400 5350 3400 5550
+Wire Wire Line
+	3425 5500 3425 5300
+Wire Wire Line
+	3425 5300 3350 5300
+Wire Wire Line
+	3350 5050 3450 5050
+Wire Wire Line
+	3450 5050 3450 5450
+Wire Wire Line
+	3475 5400 3475 5000
+Wire Wire Line
+	3475 5000 3350 5000
+Wire Wire Line
+	3350 4750 3500 4750
+Wire Wire Line
+	3500 4750 3500 5350
+Wire Wire Line
+	3525 5300 3525 4700
+Wire Wire Line
+	3525 4700 3350 4700
+Wire Wire Line
+	5325 6000 5725 6000
+Wire Wire Line
+	5725 6000 5725 3850
+Wire Wire Line
+	5725 3850 5325 3850
+Wire Wire Line
+	5925 5650 5925 3500
+Wire Wire Line
+	5875 5800 5875 3650
+Wire Wire Line
+	5925 3500 5325 3500
+Wire Wire Line
+	5875 3650 5325 3650
+Wire Wire Line
+	5325 5650 5925 5650
+Wire Wire Line
+	5325 5800 5875 5800
+Wire Wire Line
+	5325 5850 6325 5850
+Wire Wire Line
+	5325 3700 6325 3700
+Wire Wire Line
+	6325 4775 5725 4775
+Connection ~ 5725 4775
+Wire Wire Line
+	6325 4425 5875 4425
+Connection ~ 5875 4425
+Wire Wire Line
+	6325 4350 5925 4350
+Connection ~ 5925 4350
+Wire Wire Line
+	5325 3800 5775 3800
+Wire Wire Line
+	5775 3800 5775 5950
+Wire Wire Line
+	5775 5950 5325 5950
+Wire Wire Line
+	5325 3750 5825 3750
+Wire Wire Line
+	5825 3750 5825 5900
+Wire Wire Line
+	5825 5900 5325 5900
+Wire Wire Line
+	6325 4700 5775 4700
+Connection ~ 5775 4700
+Wire Wire Line
+	5825 4550 6975 4550
+Connection ~ 5825 4550
+Text Label 6675 4550 2    39   ~ 0
+CLK
 $EndSCHEMATC
