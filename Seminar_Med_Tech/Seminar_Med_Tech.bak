@@ -361,9 +361,9 @@ Text GLabel 9350 2800 2    39   Input ~ 0
 SPI_CS0
 Text GLabel 9800 2925 2    39   Input ~ 0
 SPI_IN
-Text GLabel 7375 2575 2    39   Input ~ 0
+Text GLabel 7200 2575 2    39   Input ~ 0
 SPI_CLK
-Text GLabel 7375 2425 2    39   Input ~ 0
+Text GLabel 6100 2425 2    39   Input ~ 0
 SPI_OUT
 Text GLabel 9000 2575 0    39   Input ~ 0
 SPI_START
@@ -1182,7 +1182,7 @@ Wire Wire Line
 Wire Wire Line
 	8250 5675 8250 5725
 Wire Wire Line
-	5750 2425 7375 2425
+	5750 2425 6100 2425
 Wire Wire Line
 	1625 3750 1625 4050
 Wire Wire Line
@@ -1359,7 +1359,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 2575 7125 2575
 Wire Wire Line
-	7125 2575 7375 2575
+	7125 2575 7200 2575
 Connection ~ 7125 2575
 Wire Wire Line
 	7125 2575 7125 2675
