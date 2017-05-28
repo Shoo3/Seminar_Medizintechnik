@@ -369,6 +369,8 @@ Text GLabel 6325 4350 2    39   Input ~ 0
 SPI_OUT
 Text GLabel 6325 4700 2    39   Input ~ 0
 SPI_START
+Text Label 6675 4550 2    39   ~ 0
+CLK
 Wire Wire Line
 	1150 1925 1150 2175
 Wire Wire Line
@@ -407,17 +409,17 @@ Wire Wire Line
 	1675 2475 1675 3275
 Connection ~ 1675 3275
 Wire Wire Line
-	1825 2450 1825 3375
-Connection ~ 1825 3375
+	1825 2450 1825 3400
+Connection ~ 1825 3400
 Wire Wire Line
-	2000 2450 2000 3500
-Connection ~ 2000 3500
+	2000 2450 2000 3525
+Connection ~ 2000 3525
 Wire Wire Line
-	2175 2450 2175 3625
-Connection ~ 2175 3625
+	2175 2450 2175 3650
+Connection ~ 2175 3650
 Wire Wire Line
-	2350 2450 2350 3875
-Connection ~ 2350 3875
+	2350 2450 2350 3900
+Connection ~ 2350 3900
 Wire Wire Line
 	1175 4325 1175 4475
 Wire Wire Line
@@ -461,7 +463,7 @@ Wire Wire Line
 Wire Wire Line
 	1075 3775 2600 3775
 Wire Wire Line
-	2675 3650 2675 3875
+	2675 3650 2675 4750
 Wire Wire Line
 	2675 3875 2750 3875
 Wire Wire Line
@@ -469,7 +471,7 @@ Wire Wire Line
 Wire Wire Line
 	1075 3900 2550 3900
 Wire Wire Line
-	2550 3900 2550 4150
+	2550 3900 2550 4700
 Wire Wire Line
 	2600 3775 2600 4100
 Wire Wire Line
@@ -509,8 +511,6 @@ Wire Wire Line
 	3600 2250 3600 2525
 Wire Wire Line
 	3750 2450 3750 3100
-Wire Wire Line
-	3750 2525 3750 2775
 Wire Wire Line
 	3600 2525 3750 2525
 Wire Wire Line
@@ -651,13 +651,19 @@ Wire Wire Line
 Wire Wire Line
 	5325 6000 5725 6000
 Wire Wire Line
-	5725 6000 5725 3850
+	5725 6000 5725 4775
+Wire Wire Line
+	5875 4775 5875 3850
 Wire Wire Line
 	5725 3850 5325 3850
 Wire Wire Line
-	5925 5650 5925 3500
+	5925 5650 5925 4350
 Wire Wire Line
-	5875 5800 5875 3650
+	6075 4350 6075 3500
+Wire Wire Line
+	5875 5800 5875 4425
+Wire Wire Line
+	6025 4425 6025 3650
 Wire Wire Line
 	5925 3500 5325 3500
 Wire Wire Line
@@ -671,32 +677,40 @@ Wire Wire Line
 Wire Wire Line
 	5325 3700 6325 3700
 Wire Wire Line
-	6325 4775 5725 4775
+	5725 4775 6325 4775
 Connection ~ 5725 4775
 Wire Wire Line
-	6325 4425 5875 4425
+	5875 4425 6325 4425
 Connection ~ 5875 4425
 Wire Wire Line
-	6325 4350 5925 4350
+	5925 4350 6325 4350
 Connection ~ 5925 4350
 Wire Wire Line
 	5325 3800 5775 3800
 Wire Wire Line
-	5775 3800 5775 5950
+	5775 3800 5775 4700
+Wire Wire Line
+	5925 4700 5925 5950
 Wire Wire Line
 	5775 5950 5325 5950
 Wire Wire Line
 	5325 3750 5825 3750
 Wire Wire Line
-	5825 3750 5825 5900
+	5825 3750 5825 4550
+Wire Wire Line
+	5975 4550 5975 5900
 Wire Wire Line
 	5825 5900 5325 5900
 Wire Wire Line
-	6325 4700 5775 4700
+	5775 4700 6325 4700
 Connection ~ 5775 4700
 Wire Wire Line
 	5825 4550 6975 4550
 Connection ~ 5825 4550
-Text Label 6675 4550 2    39   ~ 0
-CLK
+Wire Wire Line
+	2675 4750 2750 4750
+Connection ~ 2675 3875
+Wire Wire Line
+	2550 4700 2750 4700
+Connection ~ 2550 4150
 $EndSCHEMATC
