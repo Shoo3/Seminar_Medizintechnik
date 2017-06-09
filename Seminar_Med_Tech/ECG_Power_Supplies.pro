@@ -1,6 +1,6 @@
-update=22/05/2015 07:44:53
+update=Friday, 09 June 2017 'pmt' 17:12:56
 version=1
-last_client=kicad
+last_client=eeschema
 [general]
 version=1
 RootSch=
@@ -60,3 +60,6 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=MedTech
+LibName31=MedTec2
+LibName32=MechTech
