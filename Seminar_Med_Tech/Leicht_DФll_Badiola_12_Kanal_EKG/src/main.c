@@ -70,7 +70,7 @@ volatile uint8_t send_complete = TRUE;
 
 
 // INTERNAL VARIABLES
-uint8_t SPI_received[27], SPI_transfer;
+uint8_t SPI_received[27], SPI_transfer; // uinut8_t SPI_received[27] -> erhoehen da wir 2 ADSs benutzten
 int t = 0;
 
 
@@ -90,7 +90,7 @@ void main(void) {
 
     __enable_interrupt();  			// Enable interrupts globally
 
-    init_adc();
+    init_adc();                     // -> init adc2?
     //config_adc(current_configure);
 
     while(1) {
@@ -105,7 +105,7 @@ void main(void) {
        				P2OUT &= ~START;
     				receive_status = FALSE; 	// Reset receive event
 
-    				USBCDC_receiveData((uint8_t *)&current_configure, 28, CDC0_INTFNUM);
+    				USBCDC_receiveData((uint8_t *)&current_configure, 28, CDC0_INTFNUM); // -> uint8_t USBCDC_receiveData (uint8_t* data, uint16_t size, uint8_t intfNum) change size
 
     				while(!receive_complete);
     				receive_complete = FALSE;
@@ -152,7 +152,7 @@ void main(void) {
     }
 }
 
-void init_msp() {
+void init_msp() { // -> add ADC2 Pins
 	// Set up pins function
     P1DIR |= CS + LED_POWER + LED_STATUS;		// Set as output
     P1DIR &= ~DRDY;							// Set as input
@@ -231,6 +231,7 @@ uint8_t transferAndReceive(uint8_t transfer_buffer) {
 /*
  * ======== UNMI_ISR ========
  */
+
 #if defined(__TI_COMPILER_VERSION__) || (__IAR_SYSTEMS_ICC__)
 #pragma vector = UNMI_VECTOR
 __interrupt void UNMI_ISR (void)
