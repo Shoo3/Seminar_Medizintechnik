@@ -358,7 +358,7 @@ F 3 "" H 5700 4925 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 9350 2800 2    39   Input ~ 0
-SPI_CS0
+SPI_CS1
 Text GLabel 9800 2925 2    39   Input ~ 0
 SPI_IN
 Text GLabel 7200 2575 2    39   Input ~ 0
@@ -1230,6 +1230,24 @@ Text Label 8850 3275 0    39   ~ 0
 DVDD
 Text GLabel 6100 2425 2    39   Output ~ 0
 SPI_OUT
+Text GLabel 9300 3725 2    39   Output ~ 0
+GPIO24
+Text GLabel 9300 3825 2    39   Output ~ 0
+GPIO22
+Text GLabel 9300 3925 2    39   Output ~ 0
+GPIO23
+Text GLabel 6100 2025 2    39   Output ~ 0
+CLKSEL
+Text GLabel 6100 2250 2    39   Output ~ 0
+SPI_DRDY
+Text GLabel 6100 2350 2    39   Output ~ 0
+GPIO14
+Text GLabel 6550 2475 2    39   Output ~ 0
+GPIO12
+Text GLabel 6100 2525 2    39   Output ~ 0
+GPIO13
+Text GLabel 9300 3375 2    39   Output ~ 0
+CLKSEL
 Connection ~ 3000 2750
 Connection ~ 1825 2325
 Connection ~ 4150 1450
@@ -1358,8 +1376,6 @@ Connection ~ 3050 1450
 Wire Wire Line
 	3050 1175 3150 1175
 Connection ~ 3050 1700
-Wire Wire Line
-	3050 1450 3150 1450
 Connection ~ 3050 1950
 Wire Wire Line
 	3050 1700 3150 1700
@@ -1390,7 +1406,7 @@ Wire Wire Line
 Wire Wire Line
 	1075 2700 3000 2700
 Wire Wire Line
-	2175 2575 1075 2575
+	1075 2575 3150 2575
 Wire Wire Line
 	2950 2525 3150 2525
 Wire Wire Line
@@ -1818,16 +1834,11 @@ Wire Wire Line
 Wire Wire Line
 	8800 3925 8575 3925
 Wire Wire Line
-	8575 3975 9225 3975
-Wire Wire Line
-	9225 3975 9225 2800
-Wire Wire Line
-	7050 2800 9350 2800
+	8575 3975 9250 3975
 Wire Wire Line
 	5750 2625 7050 2625
 Wire Wire Line
 	7050 2625 7050 2800
-Connection ~ 9225 2800
 Wire Wire Line
 	8950 2925 8950 4125
 Wire Wire Line
@@ -2167,7 +2178,7 @@ Connection ~ 7975 2425
 Wire Wire Line
 	8350 2050 8350 3075
 Wire Wire Line
-	7900 2525 8675 2525
+	7900 2525 8625 2525
 Wire Wire Line
 	7900 2525 7900 3075
 Wire Wire Line
@@ -2180,9 +2191,9 @@ Wire Wire Line
 	8050 2525 8050 3075
 Connection ~ 8050 2525
 Wire Wire Line
-	8575 3525 8675 3525
+	8575 3525 8625 3525
 Wire Wire Line
-	8675 3525 8675 2525
+	8625 3525 8625 2525
 Connection ~ 8350 2525
 Wire Wire Line
 	8350 2050 6375 2050
@@ -2271,50 +2282,54 @@ Wire Wire Line
 Wire Wire Line
 	8850 3625 8575 3625
 Connection ~ 8850 3475
-NoConn ~ 8575 3675
-NoConn ~ 8575 3375
 Wire Wire Line
 	8575 3725 9300 3725
 Wire Wire Line
 	8575 3825 9300 3825
-Text GLabel 9300 3725 2    39   Output ~ 0
-GPIO24
-Text GLabel 9300 3825 2    39   Output ~ 0
-GPIO22
-Text GLabel 9300 3950 2    39   Output ~ 0
-GPIO23
 Wire Wire Line
 	5750 2025 6100 2025
-Text GLabel 6100 2025 2    39   Output ~ 0
-CLKSEL
 Wire Wire Line
 	5750 2325 6050 2325
 Wire Wire Line
 	6050 2325 6050 2250
 Wire Wire Line
 	6050 2250 6100 2250
-Text GLabel 6100 2250 2    39   Output ~ 0
-SPI_DRDY
-Text GLabel 6100 2350 2    39   Output ~ 0
-GPIO14
 Wire Wire Line
 	6100 2350 6050 2350
 Wire Wire Line
 	6050 2350 6050 2375
 Wire Wire Line
 	6050 2375 5750 2375
-Text GLabel 6550 2475 2    39   Output ~ 0
-GPIO12
 Wire Wire Line
 	5750 2475 6550 2475
-Text GLabel 6100 2525 2    39   Output ~ 0
-GPIO13
 Wire Wire Line
 	6100 2525 5750 2525
 Wire Wire Line
 	8575 3875 9250 3875
 Wire Wire Line
-	9250 3875 9250 3950
+	9250 3875 9250 3925
 Wire Wire Line
-	9250 3950 9300 3950
+	9250 3925 9300 3925
+Wire Wire Line
+	8575 3375 9300 3375
+Wire Wire Line
+	7050 2800 9350 2800
+Text GLabel 9300 4025 2    39   Output ~ 0
+SPI_CS2
+Wire Wire Line
+	9300 4025 9250 4025
+Wire Wire Line
+	9250 4025 9250 3975
+Wire Wire Line
+	8575 3675 9250 3675
+Wire Wire Line
+	9250 3675 9250 3625
+Wire Wire Line
+	9250 3625 9300 3625
+Text GLabel 9300 3625 2    39   Output ~ 0
+ReservedDRDY
+Wire Wire Line
+	3150 2575 3150 2800
+Wire Wire Line
+	3050 1450 3150 1450
 $EndSCHEMATC
