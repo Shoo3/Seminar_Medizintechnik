@@ -73,4 +73,12 @@ Wire Wire Line
 	3750 3350 3400 3350
 Text GLabel 3400 3350 0    60   Input ~ 0
 SPI_CLK
+Wire Wire Line
+	6375 3250 6675 3250
+Wire Wire Line
+	6375 3350 6675 3350
+Text GLabel 6675 3250 2    59   Input ~ 0
+SPI_IN
+Text GLabel 6675 3350 2    59   Input ~ 0
+SPI_OUT
 $EndSCHEMATC
