@@ -1099,17 +1099,6 @@ F 3 "" H 8475 1075 50  0001 C CNN
 $EndComp
 Text Label 8475 925  0    39   ~ 0
 AVDD
-$Comp
-L R_Variable R2
-U 1 1 593A36E0
-P 8475 1550
-F 0 "R2" V 8575 1450 50  0000 L CNN
-F 1 "NI" V 8375 1500 50  0000 L CNN
-F 2 "" V 8405 1550 50  0001 C CNN
-F 3 "" H 8475 1550 50  0001 C CNN
-	1    8475 1550
-	1    0    0    -1  
-$EndComp
 Text Label 8475 1800 0    39   ~ 0
 AVSS
 $Comp
@@ -1191,7 +1180,7 @@ CLKSEL
 Text GLabel 9300 4025 2    39   Output ~ 0
 SPI_CS2
 Text GLabel 9300 3625 2    39   Output ~ 0
-ReservedDRDY
+DRDY2
 Text GLabel 3900 6375 3    60   Input ~ 0
 ECG_V7P
 Text GLabel 4025 6375 3    60   Input ~ 0
@@ -2529,4 +2518,19 @@ Wire Wire Line
 	4725 5825 4725 6375
 Wire Wire Line
 	4725 6375 4650 6375
+$Comp
+L POT RV?
+U 1 1 5945231A
+P 8475 1550
+F 0 "RV?" V 8300 1550 50  0000 C CNN
+F 1 "POT" V 8375 1550 50  0000 C CNN
+F 2 "" H 8475 1550 50  0001 C CNN
+F 3 "" H 8475 1550 50  0001 C CNN
+	1    8475 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8475 1400 8325 1400
+Wire Wire Line
+	8325 1400 8325 1550
 $EndSCHEMATC
