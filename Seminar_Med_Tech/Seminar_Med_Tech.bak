@@ -1180,7 +1180,7 @@ CLKSEL
 Text GLabel 9300 4025 2    39   Output ~ 0
 SPI_CS2
 Text GLabel 9300 3625 2    39   Output ~ 0
-ReservedDRDY
+DRDY2
 Text GLabel 3900 6375 3    60   Input ~ 0
 ECG_V7P
 Text GLabel 4025 6375 3    60   Input ~ 0

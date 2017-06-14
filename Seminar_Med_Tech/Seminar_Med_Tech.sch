@@ -652,50 +652,50 @@ $EndComp
 $Comp
 L Header12 U20
 U 1 1 592B1741
-P 10300 4775
-F 0 "U20" H 10400 4450 39  0000 C CNN
-F 1 "J5" H 10300 5225 39  0000 C CNN
-F 2 "" H 10300 4800 60  0001 C CNN
-F 3 "" H 10300 4800 60  0001 C CNN
-	1    10300 4775
+P 10350 4900
+F 0 "U?" H 10450 4575 39  0000 C CNN
+F 1 "J5" H 10350 5350 39  0000 C CNN
+F 2 "" H 10350 4925 60  0001 C CNN
+F 3 "" H 10350 4925 60  0001 C CNN
+	1    10350 4900
 	1    0    0    -1  
 $EndComp
-Text GLabel 10550 4450 2    60   Input ~ 0
+Text GLabel 10600 4575 2    60   Input ~ 0
 PACEOUT22
-Text GLabel 10550 4575 2    60   Input ~ 0
+Text GLabel 10600 4700 2    60   Input ~ 0
 PACEOUT12
-Text GLabel 10550 4825 2    60   Input ~ 0
+Text GLabel 10600 4950 2    60   Input ~ 0
 /PWDN
-Text GLabel 10550 4950 2    60   Input ~ 0
+Text GLabel 10600 5075 2    60   Input ~ 0
 /PWDN
-Text GLabel 10050 4450 0    60   Input ~ 0
+Text GLabel 10100 4575 0    60   Input ~ 0
 PACEOUT21
-Text GLabel 10050 4575 0    60   Input ~ 0
+Text GLabel 10100 4700 0    60   Input ~ 0
 PACEOUT11
-Text GLabel 10050 4825 0    60   Input ~ 0
+Text GLabel 10100 4950 0    60   Input ~ 0
 GPIO14
-Text GLabel 10050 4950 0    60   Input ~ 0
+Text GLabel 10100 5075 0    60   Input ~ 0
 GPIO24
-NoConn ~ 10550 4700
-NoConn ~ 10050 5075
-NoConn ~ 10050 4700
+NoConn ~ 10600 4825
+NoConn ~ 10100 5200
+NoConn ~ 10100 4825
 $Comp
 L GND #PWR7
 U 1 1 592B1F34
-P 10550 5325
-F 0 "#PWR7" H 10550 5075 50  0001 C CNN
-F 1 "GND" H 10550 5175 50  0000 C CNN
-F 2 "" H 10550 5325 50  0001 C CNN
-F 3 "" H 10550 5325 50  0001 C CNN
-	1    10550 5325
+P 10600 5450
+F 0 "#PWR?" H 10600 5200 50  0001 C CNN
+F 1 "GND" H 10600 5300 50  0000 C CNN
+F 2 "" H 10600 5450 50  0001 C CNN
+F 3 "" H 10600 5450 50  0001 C CNN
+	1    10600 5450
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10550 5075
-Text GLabel 10550 5200 2    60   Input ~ 0
+NoConn ~ 10600 5200
+Text GLabel 10600 5325 2    60   Input ~ 0
 DAISY_IN
-Text GLabel 10050 5200 0    60   Input ~ 0
+Text GLabel 10100 5325 0    60   Input ~ 0
 GPIO13
-NoConn ~ 10050 5325
+NoConn ~ 10100 5450
 $Comp
 L TEST TP3
 U 1 1 592B47D5
@@ -1180,7 +1180,7 @@ CLKSEL
 Text GLabel 9300 4025 2    39   Output ~ 0
 SPI_CS2
 Text GLabel 9300 3625 2    39   Output ~ 0
-ReservedDRDY
+DRDY2
 Text GLabel 3900 6375 3    60   Input ~ 0
 ECG_V7P
 Text GLabel 4025 6375 3    60   Input ~ 0
@@ -1301,10 +1301,6 @@ Text GLabel 5650 6375 3    60   Input ~ 0
 ECV_V14P
 Text GLabel 5775 6375 3    60   Input ~ 0
 ECV_V14N
-Text GLabel 5900 6375 3    60   Input ~ 0
-ECV_V15P
-Text GLabel 6025 6375 3    60   Input ~ 0
-ECG_V15N
 Connection ~ 3000 2750
 Connection ~ 1825 2325
 Connection ~ 4150 1450
