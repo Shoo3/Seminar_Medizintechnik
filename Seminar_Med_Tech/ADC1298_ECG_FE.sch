@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Seminar_Med_Tech-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,20 +29,15 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:Seminar_Med_Tech-rescue
-LIBS:Seminar_Med_Tech-cache
-LIBS:Seminar_Med_Tech 4-cache
+LIBS:MechTech
 LIBS:MedTech
 LIBS:MedTec2
-LIBS:MechTech
-LIBS:ECG_Power_Supplies-cache
-LIBS:Connectors-cache
-LIBS:ADC1298_ECG_FE-cache
+LIBS:Seminar_Med_Tech-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 3 3
 Title ""
 Date ""
 Rev ""

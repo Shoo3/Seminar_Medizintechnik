@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -175,8 +175,6 @@ F 3 "" H 4150 1225 50  0001 C CNN
 	1    4150 1225
 	1    0    0    -1  
 $EndComp
-Text Label 4150 975  0    60   ~ 0
-AVSS
 $Comp
 L ADS1298 U20
 U 1 1 5921E8FA
@@ -220,17 +218,6 @@ Text GLabel 9000 2575 0    39   Input ~ 0
 SPI_START
 Text Label 9300 2300 2    39   ~ 0
 CLK
-$Comp
-L GND #PWR02
-U 1 1 592AF0AE
-P 4525 2875
-F 0 "#PWR02" H 4525 2625 50  0001 C CNN
-F 1 "GND" H 4525 2725 50  0000 C CNN
-F 2 "" H 4525 2875 50  0001 C CNN
-F 3 "" H 4525 2875 50  0001 C CNN
-	1    4525 2875
-	1    0    0    -1  
-$EndComp
 Text GLabel 7375 6000 0    60   Input ~ 0
 VREFP
 Text GLabel 7375 5550 0    60   Output ~ 0
@@ -278,8 +265,6 @@ F 3 "" H 9000 5900 50  0001 C CNN
 	1    9000 5900
 	0    1    1    0   
 $EndComp
-Text Label 9025 4325 0    60   ~ 0
-DVDD
 $Comp
 L C C30
 U 1 1 592B5A36
@@ -291,8 +276,6 @@ F 3 "" H 8575 5750 50  0001 C CNN
 	1    8575 5750
 	1    0    0    -1  
 $EndComp
-Text Label 8575 6025 0    60   ~ 0
-AVSS
 $Comp
 L C C29
 U 1 1 592B5E38
@@ -304,8 +287,6 @@ F 3 "" H 8325 5875 50  0001 C CNN
 	1    8325 5875
 	1    0    0    -1  
 $EndComp
-Text Label 8325 6200 0    60   ~ 0
-AVSS
 $Comp
 L C C25
 U 1 1 592B6790
@@ -318,8 +299,6 @@ F 3 "" H 7400 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 7400 5400 0    60   ~ 0
-AVSS
-Text Label 8100 4825 0    60   ~ 0
 AVSS
 $Comp
 L TEST TP2
@@ -412,8 +391,6 @@ F 3 "" H 5450 3700 50  0001 C CNN
 	1    5450 3700
 	1    0    0    -1  
 $EndComp
-Text Label 5450 3925 3    60   ~ 0
-AVSS
 $Comp
 L C C9
 U 1 1 592BD32B
@@ -425,8 +402,6 @@ F 3 "" H 2000 5325 50  0001 C CNN
 	1    2000 5325
 	1    0    0    -1  
 $EndComp
-Text Label 2000 5600 0    60   ~ 0
-AVSS
 $Comp
 L C C1
 U 1 1 592BD338
@@ -438,10 +413,6 @@ F 3 "" H 1025 4400 50  0001 C CNN
 	1    1025 4400
 	1    0    0    -1  
 $EndComp
-Text Label 1025 4650 0    60   ~ 0
-AVSS
-Text Label 1725 4275 0    60   ~ 0
-AVSS
 $Comp
 L TEST TP1
 U 1 1 592BD340
@@ -475,22 +446,9 @@ F 3 "" H 1700 4725 50  0001 C CNN
 	1    1700 4725
 	0    1    1    0   
 $EndComp
-Text Label 2900 3950 0    60   ~ 0
-DVDD
 NoConn ~ 5025 3125
 NoConn ~ 5125 3125
 NoConn ~ 7350 3375
-$Comp
-L GND #PWR03
-U 1 1 592C9248
-P 6000 2825
-F 0 "#PWR03" H 6000 2575 50  0001 C CNN
-F 1 "GND" H 6000 2675 50  0000 C CNN
-F 2 "" H 6000 2825 50  0001 C CNN
-F 3 "" H 6000 2825 50  0001 C CNN
-	1    6000 2825
-	1    0    0    -1  
-$EndComp
 $Comp
 L GND #PWR04
 U 1 1 592C92E3
@@ -624,10 +582,6 @@ F 3 "" H 1150 6400 50  0001 C CNN
 	1    1150 6400
 	1    0    0    -1  
 $EndComp
-Text Label 1000 6150 0    60   ~ 0
-AVDD
-Text Label 1000 6650 0    60   ~ 0
-AVSS
 $Comp
 L C C4
 U 1 1 592B240F
@@ -650,10 +604,6 @@ F 3 "" H 1750 6400 50  0001 C CNN
 	1    1750 6400
 	1    0    0    -1  
 $EndComp
-Text Label 1600 6150 0    60   ~ 0
-AVDD
-Text Label 1600 6650 0    60   ~ 0
-AVSS
 $Comp
 L C C17
 U 1 1 592B24CD
@@ -676,10 +626,6 @@ F 3 "" H 2325 6400 50  0001 C CNN
 	1    2325 6400
 	1    0    0    -1  
 $EndComp
-Text Label 2175 6150 0    60   ~ 0
-AVDD
-Text Label 2175 6650 0    60   ~ 0
-AGND
 $Comp
 L C C12
 U 1 1 592B258F
@@ -702,10 +648,6 @@ F 3 "" H 2900 6400 50  0001 C CNN
 	1    2900 6400
 	1    0    0    -1  
 $EndComp
-Text Label 2750 6150 0    60   ~ 0
-DVDD
-Text Label 2750 6650 0    60   ~ 0
-AGND
 $Comp
 L OPA2340 U19
 U 1 1 5934A2B6
@@ -717,8 +659,6 @@ F 3 "" H 9925 1100 50  0001 C CNN
 	1    9925 1100
 	1    0    0    1   
 $EndComp
-Text Label 9825 1575 2    39   ~ 0
-AVDD
 $Comp
 L C C21
 U 1 1 5934A8EE
@@ -730,10 +670,6 @@ F 3 "" H 9425 1475 50  0001 C CNN
 	1    9425 1475
 	0    -1   -1   0   
 $EndComp
-Text Label 9100 1525 2    39   ~ 0
-AGND
-Text Label 9825 625  2    39   ~ 0
-AVSS
 $Comp
 L C C22
 U 1 1 5934F164
@@ -747,8 +683,6 @@ F 3 "" H 9425 725 50  0001 C CNN
 $EndComp
 Text GLabel 10575 1100 2    39   Output ~ 0
 ECG_SHD_DRV
-Text Label 9100 800  2    39   ~ 0
-AGND
 $Comp
 L R R4
 U 1 1 59371C9C
@@ -817,8 +751,6 @@ F 3 "" H 5250 850 50  0001 C CNN
 $EndComp
 Text GLabel 7800 1100 2    39   Output ~ 0
 ECG_RL
-Text Label 5100 1400 0    39   ~ 0
-AVDD
 $Comp
 L C_Small C13
 U 1 1 593681B8
@@ -841,8 +773,6 @@ F 3 "" H 6075 1350 50  0001 C CNN
 	1    6075 1350
 	0    1    1    0   
 $EndComp
-Text Label 6300 1425 0    39   ~ 0
-AVSS
 $Comp
 L C_Small C76
 U 1 1 59370777
@@ -865,10 +795,6 @@ F 3 "" H 6900 1800 50  0001 C CNN
 	1    6900 1800
 	1    0    0    -1  
 $EndComp
-Text Label 6775 2025 0    39   ~ 0
-AGND
-Text Label 7350 1675 0    39   ~ 0
-AVSS
 Text Label 7975 2400 0    39   ~ 0
 AVDD
 NoConn ~ 7650 3075
@@ -896,10 +822,6 @@ F 3 "" H 8475 1075 50  0001 C CNN
 	1    8475 1075
 	1    0    0    -1  
 $EndComp
-Text Label 8475 925  0    39   ~ 0
-AVDD
-Text Label 8475 1800 0    39   ~ 0
-AVSS
 $Comp
 L Jumper_NC_Dual JP18
 U 1 1 593C6B14
@@ -935,8 +857,6 @@ F 3 "" H 11075 1825 50  0001 C CNN
 	1    11075 1825
 	0    1    1    0   
 $EndComp
-Text Label 11075 2175 2    39   ~ 0
-AGND
 $Comp
 L C_Small C11
 U 1 1 593D3889
@@ -948,12 +868,6 @@ F 3 "" H 10025 1700 50  0001 C CNN
 	1    10025 1700
 	1    0    0    -1  
 $EndComp
-Text Label 10025 1425 0    39   ~ 0
-DVDD
-Text Label 10025 1925 0    39   ~ 0
-AGND
-Text Label 5900 1925 0    39   ~ 0
-AVDD
 Text Label 8850 3275 0    39   ~ 0
 DVDD
 Text GLabel 6100 2425 2    39   Output ~ 0
@@ -1154,12 +1068,66 @@ Text GLabel 5500 7500 2    60   Input ~ 0
 ECV_V14P
 Text GLabel 5500 7600 2    60   Input ~ 0
 ECV_V14N
-Text Label 9125 6200 0    60   ~ 0
-AGND
 Text Label 3050 1175 0    60   ~ 0
 WCT
-Text Label 2750 5650 0    60   ~ 0
+$Sheet
+S 1025 825  1425 600 
+U 59470A40
+F0 "Connector" 60
+F1 "Connectors.sch" 60
+$EndSheet
+$Sheet
+S 900  6925 1700 650 
+U 59470E15
+F0 "ADC1298_ECG_FE" 60
+F1 "ADC1298_ECG_FE.sch" 60
+$EndSheet
+Text GLabel 9825 625  2    39   Input Italic 8
+AVSS
+Text GLabel 9100 725  0    39   Input Italic 8
 AGND
+Text GLabel 9100 1475 0    39   Input Italic 8
+AGND
+Text GLabel 9825 1575 0    39   Input Italic 8
+AVDD
+Text GLabel 10025 1375 2    39   Input Italic 8
+DVDD
+Text GLabel 10025 1925 0    39   Input Italic 8
+AGND
+Text GLabel 11075 2175 0    39   Input Italic 8
+AGND
+Text GLabel 8475 1800 2    39   Input Italic 8
+AVSS
+Text GLabel 8475 925  0    39   Input Italic 8
+AVDD
+Text GLabel 6300 1425 2    39   Input Italic 8
+AVSS
+Text GLabel 7350 1675 2    39   Input Italic 8
+AVSS
+Text GLabel 6775 2125 2    39   Input Italic 8
+AGND
+Text GLabel 5900 1925 2    39   Input Italic 8
+AVDD
+Text GLabel 4150 975  2    39   Input Italic 8
+AVSS
+Text GLabel 4475 3025 0    39   Input Italic 8
+AGND
+Text GLabel 6000 2925 2    39   Input Italic 8
+AGND
+Text GLabel 2900 3850 2    39   Input Italic 8
+DVDD
+Text GLabel 1725 4275 2    39   Input Italic 8
+AVSS
+Text GLabel 1025 4650 2    39   Input Italic 8
+AVSS
+Text GLabel 5450 3925 3    39   Input Italic 8
+AVSS
+Text GLabel 2000 5600 2    39   Input Italic 8
+AVSS
+Text GLabel 2750 5650 2    39   Input Italic 8
+AGND
+Text GLabel 9025 4300 2    39   Input Italic 8
+DVDD
 Connection ~ 3000 2750
 Connection ~ 4150 1450
 Wire Wire Line
@@ -1398,7 +1366,7 @@ Connection ~ 9000 5300
 Wire Wire Line
 	9000 6200 9125 6200
 Wire Wire Line
-	9025 4325 9025 4400
+	9025 4300 9025 4400
 Connection ~ 9025 4400
 Wire Wire Line
 	8200 4475 8200 4700
@@ -1533,8 +1501,6 @@ Wire Wire Line
 	4925 3600 4925 3125
 Wire Wire Line
 	2550 3850 2900 3850
-Wire Wire Line
-	2900 3850 2900 3950
 Connection ~ 2800 3850
 Wire Wire Line
 	4975 3125 4975 3650
@@ -1683,13 +1649,9 @@ Wire Wire Line
 	9825 725  9575 725 
 Connection ~ 9825 725 
 Wire Wire Line
-	9275 725  9100 725 
+	9100 725  9275 725 
 Wire Wire Line
-	9100 725  9100 800 
-Wire Wire Line
-	9275 1475 9100 1475
-Wire Wire Line
-	9100 1475 9100 1525
+	9100 1475 9275 1475
 Wire Wire Line
 	9625 1200 9325 1200
 Wire Wire Line
@@ -1751,7 +1713,7 @@ Wire Wire Line
 	5025 1725 5025 1450
 Connection ~ 5025 1450
 Wire Wire Line
-	5100 1450 5100 1400
+	5100 1350 5100 1450
 Connection ~ 5100 1450
 Wire Wire Line
 	5125 1675 5125 1725
@@ -1808,7 +1770,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 1950 6900 1900
 Wire Wire Line
-	6775 1950 6775 2025
+	6775 1950 6775 2125
 Connection ~ 6775 1950
 Wire Wire Line
 	7800 3075 7800 2425
@@ -1902,7 +1864,7 @@ Wire Wire Line
 	11075 2075 11075 2175
 Connection ~ 10175 1500
 Wire Wire Line
-	10025 1425 10025 1600
+	10025 1375 10025 1600
 Wire Wire Line
 	10025 1800 10025 1925
 Connection ~ 10025 1500
@@ -1916,7 +1878,7 @@ Connection ~ 5900 2125
 Wire Wire Line
 	5750 2075 6000 2075
 Wire Wire Line
-	6000 2075 6000 2825
+	6000 2075 6000 2925
 Wire Wire Line
 	6000 2825 5750 2825
 Wire Wire Line
@@ -2222,4 +2184,33 @@ Wire Wire Line
 	2550 4275 2550 4450
 Wire Wire Line
 	2550 4450 2875 4450
+Wire Wire Line
+	4525 2875 4475 2875
+Wire Wire Line
+	4475 2875 4475 3025
+Connection ~ 6000 2825
+Text GLabel 8100 4825 2    39   Input Italic 8
+AVSS
+Text GLabel 9125 6200 2    39   Input Italic 8
+AGND
+Text GLabel 8325 6200 2    39   Input Italic 8
+AVSS
+Text GLabel 8575 6025 2    39   Input Italic 8
+AVSS
+Text GLabel 2750 6150 2    39   Input Italic 8
+DVDD
+Text GLabel 2750 6650 2    39   Input Italic 8
+AGND
+Text GLabel 2175 6650 2    39   Input Italic 8
+AGND
+Text GLabel 2175 6150 2    39   Input Italic 8
+AVDD
+Text GLabel 1600 6150 2    39   Input Italic 8
+AVDD
+Text GLabel 1000 6150 2    39   Input Italic 8
+AVDD
+Text GLabel 1600 6650 2    39   Input Italic 8
+AVSS
+Text GLabel 1000 6650 2    39   Input Italic 8
+AVSS
 $EndSCHEMATC

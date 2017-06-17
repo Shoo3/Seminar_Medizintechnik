@@ -36,6 +36,7 @@ LIBS:MedTec2
 LIBS:MechTech
 LIBS:ECG_Power_Supplies-cache
 LIBS:Connectors-cache
+LIBS:ADC1298_ECG_FE-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1095,4 +1096,26 @@ Connection ~ 3700 2725
 Connection ~ 3625 1350
 Text GLabel 3750 1350 2    60   Output ~ 0
 ECG_V2
+Text Label 1625 1350 0    60   ~ 0
+ELEC_V2
+Text Label 2100 3400 0    60   ~ 0
+ELEC_V3
+Text Label 3225 3500 0    60   ~ 0
+ELEC_V4
+Text Label 3225 3600 0    60   ~ 0
+ELEC_V5
+Text Label 1400 3800 0    60   ~ 0
+ELEC_SHD
+Text Label 3225 3700 0    60   ~ 0
+ELEC_V6
+Text Label 1975 4100 0    60   ~ 0
+ELEC_RA
+Text Label 1975 4200 0    60   ~ 0
+ELEC_LA
+Text Label 1975 4300 0    60   ~ 0
+ELEC_LL
+Text Label 1975 4400 0    60   ~ 0
+ELEC_V1
+Text Label 1975 4600 0    60   ~ 0
+ELEC_RL
 $EndSCHEMATC

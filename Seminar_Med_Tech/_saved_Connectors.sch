@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Seminar_Med_Tech-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,19 +29,15 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ECG_Power_Supplies-cache
 LIBS:MechTech
-LIBS:MedTec2
 LIBS:MedTech
-LIBS:Seminar_Med_Tech 4-cache
+LIBS:MedTec2
 LIBS:Seminar_Med_Tech-cache
-LIBS:Seminar_Med_Tech-rescue
-LIBS:Connectors-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -184,8 +181,6 @@ F 3 "" H 1550 3550 50  0001 C CNN
 	1    1350 3550
 	0    -1   -1   0   
 $EndComp
-Text Label 1525 2600 2    60   ~ 0
-DVDD
 $Comp
 L C C71
 U 1 1 593E8011
@@ -208,8 +203,6 @@ F 3 "" H 2000 2975 50  0001 C CNN
 	1    2000 2975
 	0    1    1    0   
 $EndComp
-Text Label 2425 3025 0    60   ~ 0
-AGND
 $Comp
 L Jumper JP3
 U 1 1 593E89D7
@@ -267,8 +260,6 @@ F 3 "" H 4700 4150 50  0001 C CNN
 $EndComp
 Text Label 1725 3550 0    60   ~ 0
 VCC_3V
-Text Label 4875 3450 0    60   ~ 0
-VCC_5V
 Wire Wire Line
 	2550 4150 2325 4150
 Wire Wire Line
@@ -286,9 +277,7 @@ Wire Wire Line
 Wire Wire Line
 	2325 4250 2550 4250
 Wire Wire Line
-	7325 5750 7600 5750
-Wire Wire Line
-	7600 5750 7675 5750
+	7325 5750 7675 5750
 Wire Wire Line
 	7600 5525 7600 5750
 Connection ~ 7600 5750
@@ -317,18 +306,12 @@ Wire Wire Line
 Wire Wire Line
 	9850 5500 9850 5775
 Wire Wire Line
-	1350 3550 1525 3550
+	1350 3550 2550 3550
 Wire Wire Line
-	1525 3550 2550 3550
-Wire Wire Line
-	1525 2600 1525 2700
-Wire Wire Line
-	1525 2700 1525 3550
+	1525 2600 1525 3550
 Connection ~ 1525 3550
 Wire Wire Line
-	1525 2700 1725 2700
-Wire Wire Line
-	1725 2700 1850 2700
+	1525 2700 1850 2700
 Connection ~ 1525 2700
 Wire Wire Line
 	1725 2700 1725 2975
@@ -338,9 +321,7 @@ Connection ~ 1725 2700
 Wire Wire Line
 	2150 2700 2275 2700
 Wire Wire Line
-	2275 2700 2275 2850
-Wire Wire Line
-	2275 2850 2275 2975
+	2275 2700 2275 2975
 Wire Wire Line
 	2275 2975 2150 2975
 Wire Wire Line
@@ -351,13 +332,9 @@ Connection ~ 2275 2850
 Wire Wire Line
 	3050 3550 3550 3550
 Wire Wire Line
-	4150 3550 4500 3550
+	4150 3550 4875 3550
 Wire Wire Line
-	4500 3550 4875 3550
-Wire Wire Line
-	4875 3450 4875 3550
-Wire Wire Line
-	4875 3550 4875 3750
+	4875 3450 4875 3750
 Wire Wire Line
 	4500 3750 4500 3550
 Connection ~ 4500 3550
@@ -368,4 +345,10 @@ Wire Wire Line
 Wire Wire Line
 	4875 4150 4875 4050
 Connection ~ 4875 3550
+Text GLabel 1525 2600 0    39   Input Italic 8
+DVDD
+Text GLabel 2425 3025 2    39   Input Italic 8
+AGND
+Text GLabel 4875 3450 2    39   Input Italic 8
+VCC_5V
 $EndSCHEMATC
