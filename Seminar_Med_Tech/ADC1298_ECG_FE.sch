@@ -828,26 +828,6 @@ F 3 "" H 5400 5975 50  0001 C CNN
 	1    5400 5975
 	0    1    1    0   
 $EndComp
-Text Label 3400 825  0    60   ~ 0
-AVDD
-Text Label 6175 850  0    60   ~ 0
-AVDD
-Text Label 9175 800  0    60   ~ 0
-AVDD
-Text Label 9025 2250 0    60   ~ 0
-AVDD
-Text Label 6200 2275 0    60   ~ 0
-AVDD
-Text Label 3625 2250 0    60   ~ 0
-AVDD
-Text Label 5125 4800 0    60   ~ 0
-AVDD
-Text Label 8325 3925 0    60   ~ 0
-AVDD
-Text Label 9000 4975 0    60   ~ 0
-AVDD
-Text Label 5400 5825 0    60   ~ 0
-AVDD
 $Comp
 L Jumper_NC_Dual JP15
 U 1 1 5945A990
@@ -880,6 +860,54 @@ Text GLabel 8900 4300 2    60   Output ~ 0
 ECG_LL
 Text GLabel 9575 5400 2    60   Input ~ 0
 ECG_RL
+Text GLabel 9525 2650 2    60   Output ~ 0
+ECG_V1
+Text GLabel 9675 1300 2    60   Output ~ 0
+ECG_V1
+Text GLabel 6725 1100 2    60   Output ~ 0
+ECG_V4
+Text GLabel 6600 2550 1    60   Output ~ 0
+ECG_V4
+Text GLabel 3875 2725 2    60   Output ~ 0
+ECG_V3
+Text GLabel 3750 1350 2    60   Output ~ 0
+ECG_V2
+Text Label 1625 1350 0    60   ~ 0
+ELEC_V2
+Text Label 2100 3400 0    60   ~ 0
+ELEC_V3
+Text Label 3225 3500 0    60   ~ 0
+ELEC_V4
+Text Label 3225 3600 0    60   ~ 0
+ELEC_V5
+Text Label 1400 3800 0    60   ~ 0
+ELEC_SHD
+Text Label 3225 3700 0    60   ~ 0
+ELEC_V6
+Text Label 1975 4100 0    60   ~ 0
+ELEC_RA
+Text Label 1975 4200 0    60   ~ 0
+ELEC_LA
+Text Label 1975 4300 0    60   ~ 0
+ELEC_LL
+Text Label 1975 4400 0    60   ~ 0
+ELEC_V1
+Text Label 1975 4600 0    60   ~ 0
+ELEC_RL
+Text GLabel 3400 775  2    60   Input Italic 12
+AVDD
+Text GLabel 6175 775  2    60   Input Italic 12
+AVDD
+Text GLabel 9175 750  2    60   Input Italic 12
+AVDD
+Text GLabel 3625 2175 2    60   Input Italic 12
+AVDD
+Text GLabel 6200 2175 2    60   Input Italic 12
+AVDD
+Text GLabel 9025 2175 2    60   Input Italic 12
+AVDD
+Text GLabel 8325 3750 2    60   Input Italic 12
+AVDD
 Wire Wire Line
 	1350 3300 1600 3300
 Wire Wire Line
@@ -1070,48 +1098,40 @@ Connection ~ 5275 6150
 Connection ~ 5125 5200
 Connection ~ 8375 4300
 Connection ~ 9000 5400
-Text GLabel 9525 2650 2    60   Output ~ 0
-ECG_V1
 Connection ~ 9175 2650
 Connection ~ 9275 1300
-Text GLabel 9675 1300 2    60   Output ~ 0
-ECG_V1
 Wire Wire Line
 	6550 1100 6725 1100
 Connection ~ 6550 1350
-Text GLabel 6725 1100 2    60   Output ~ 0
-ECG_V4
-Text GLabel 6600 2550 1    60   Output ~ 0
-ECG_V4
 Wire Wire Line
 	6600 2675 6600 2550
 Connection ~ 6450 2675
-Text GLabel 3875 2725 2    60   Output ~ 0
-ECG_V3
 Connection ~ 3700 2725
 Connection ~ 3625 1350
-Text GLabel 3750 1350 2    60   Output ~ 0
-ECG_V2
-Text Label 1625 1350 0    60   ~ 0
-ELEC_V2
-Text Label 2100 3400 0    60   ~ 0
-ELEC_V3
-Text Label 3225 3500 0    60   ~ 0
-ELEC_V4
-Text Label 3225 3600 0    60   ~ 0
-ELEC_V5
-Text Label 1400 3800 0    60   ~ 0
-ELEC_SHD
-Text Label 3225 3700 0    60   ~ 0
-ELEC_V6
-Text Label 1975 4100 0    60   ~ 0
-ELEC_RA
-Text Label 1975 4200 0    60   ~ 0
-ELEC_LA
-Text Label 1975 4300 0    60   ~ 0
-ELEC_LL
-Text Label 1975 4400 0    60   ~ 0
-ELEC_V1
-Text Label 1975 4600 0    60   ~ 0
-ELEC_RL
+Wire Wire Line
+	8325 3750 8325 3925
+Wire Wire Line
+	9025 2175 9025 2250
+Wire Wire Line
+	3625 2175 3625 2250
+Wire Wire Line
+	6200 2275 6200 2175
+Wire Wire Line
+	9175 800  9175 750 
+Wire Wire Line
+	6175 775  6175 850 
+Wire Wire Line
+	3400 825  3400 775 
+Text GLabel 9000 4850 2    60   Input Italic 12
+AVDD
+Wire Wire Line
+	9000 4975 9000 4850
+Text GLabel 5125 4675 2    60   Input Italic 12
+AVDD
+Wire Wire Line
+	5125 4800 5125 4675
+Text GLabel 5400 5700 2    60   Input Italic 12
+AVDD
+Wire Wire Line
+	5400 5825 5400 5700
 $EndSCHEMATC
