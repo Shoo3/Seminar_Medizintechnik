@@ -430,7 +430,6 @@ NoConn ~ 3050 3850
 NoConn ~ 3050 3950
 NoConn ~ 3050 4050
 NoConn ~ 3050 4150
-NoConn ~ 3050 4275
 NoConn ~ 3050 4350
 NoConn ~ 3050 4450
 NoConn ~ 2550 4450
@@ -441,4 +440,8 @@ NoConn ~ 7850 4225
 NoConn ~ 7850 4325
 Connection ~ 4500 3550
 Connection ~ 4275 3550
+Text GLabel 3050 4250 2    60   Input ~ 0
+DRDY2
+NoConn ~ 3750 6225
+NoConn ~ 3850 6225
 $EndSCHEMATC
