@@ -448,17 +448,6 @@ Text GLabel 10075 4825 0    60   Input ~ 0
 GPIO14
 Text GLabel 10075 4925 0    60   Input ~ 0
 GPIO24
-$Comp
-L GND #PWR01
-U 1 1 592B1F34
-P 10575 5225
-F 0 "#PWR01" H 10575 4975 50  0001 C CNN
-F 1 "GND" H 10575 5075 50  0000 C CNN
-F 2 "" H 10575 5225 50  0001 C CNN
-F 3 "" H 10575 5225 50  0001 C CNN
-	1    10575 5225
-	1    0    0    -1  
-$EndComp
 Text GLabel 10575 5125 2    60   Input ~ 0
 DAISY_IN
 Text GLabel 10075 4725 0    60   Input ~ 0
@@ -2229,4 +2218,8 @@ Wire Wire Line
 	9925 3700 9925 3600
 Text GLabel 10800 6400 2    39   Input Italic 8
 AGND
+Text GLabel 10575 5350 2    39   Input Italic 8
+AGND
+Wire Wire Line
+	10575 5225 10575 5350
 $EndSCHEMATC
