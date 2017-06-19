@@ -255,7 +255,7 @@ F 3 "" H 4700 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 1725 3550 0    60   ~ 0
-VCC_3V
+VCC_3.3V
 Text GLabel 1525 2600 0    39   Input Italic 8
 DVDD
 Text GLabel 2425 3025 2    39   Input Italic 8
