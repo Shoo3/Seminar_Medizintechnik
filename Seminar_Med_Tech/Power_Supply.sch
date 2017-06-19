@@ -47,7 +47,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 1875 1450 0    60   Output ~ 0
+Text GLabel 1875 1450 0    60   Input ~ 0
 15V_Supply
 $Comp
 L LM317T U2
@@ -139,7 +139,7 @@ F 3 "" H 3125 2275 50  0001 C CNN
 	1    3125 2275
 	1    0    0    -1  
 $EndComp
-Text GLabel 1900 3275 0    60   Output ~ 0
+Text GLabel 1900 3275 0    60   Input ~ 0
 15V_Supply
 $Comp
 L LM317T U3
@@ -231,7 +231,7 @@ F 3 "" H 3150 4100 50  0001 C CNN
 	1    3150 4100
 	1    0    0    -1  
 $EndComp
-Text GLabel 5100 1525 0    60   Output ~ 0
+Text GLabel 5100 1525 0    60   Input ~ 0
 15V_Supply
 $Comp
 L LM317T U5
@@ -293,7 +293,7 @@ L R R32
 U 1 1 59480A26
 P 6700 1775
 F 0 "R32" V 6780 1775 50  0000 C CNN
-F 1 "10k" V 6700 1775 50  0000 C CNN
+F 1 "240" V 6700 1775 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6630 1775 50  0001 C CNN
 F 3 "" H 6700 1775 50  0001 C CNN
 	1    6700 1775
@@ -304,13 +304,13 @@ L R R28
 U 1 1 59480A2C
 P 6025 2125
 F 0 "R28" V 6105 2125 50  0000 C CNN
-F 1 "2k" V 6025 2125 50  0000 C CNN
+F 1 "47" V 6025 2125 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 5955 2125 50  0001 C CNN
 F 3 "" H 6025 2125 50  0001 C CNN
 	1    6025 2125
 	1    0    0    -1  
 $EndComp
-Text GLabel 7150 1525 2    60   Output ~ 0
+Text GLabel 7500 1525 2    60   Output ~ 0
 AVDD
 $Comp
 L GND #PWR10
@@ -323,7 +323,7 @@ F 3 "" H 6350 2350 50  0001 C CNN
 	1    6350 2350
 	1    0    0    -1  
 $EndComp
-Text GLabel 1925 4900 0    60   Output ~ 0
+Text GLabel 1925 4900 0    60   Input ~ 0
 15V_Supply
 $Comp
 L LM317T U4
@@ -402,7 +402,7 @@ F 3 "" H 2850 5500 50  0001 C CNN
 	1    2850 5500
 	1    0    0    -1  
 $EndComp
-Text GLabel 3975 4900 2    60   Output ~ 0
+Text GLabel 4275 4900 2    60   Output ~ 0
 DVDD
 $Comp
 L GND #PWR9
@@ -426,7 +426,7 @@ F 3 "" H 6100 3725 50  0001 C CNN
 	1    6100 3725
 	1    0    0    -1  
 $EndComp
-Text GLabel 5175 3775 0    60   Output ~ 0
+Text GLabel 5175 3775 0    60   Input ~ 0
 15V_Supply
 $Comp
 L C C42
@@ -477,7 +477,7 @@ L R R35
 U 1 1 5948C0BB
 P 6775 3525
 F 0 "R35" V 6855 3525 50  0000 C CNN
-F 1 "10k" V 6775 3525 50  0000 C CNN
+F 1 "240" V 6775 3525 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6705 3525 50  0001 C CNN
 F 3 "" H 6775 3525 50  0001 C CNN
 	1    6775 3525
@@ -488,13 +488,13 @@ L R R31
 U 1 1 5948C0C1
 P 6100 3175
 F 0 "R31" V 6180 3175 50  0000 C CNN
-F 1 "2k" V 6100 3175 50  0000 C CNN
+F 1 "47" V 6100 3175 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6030 3175 50  0001 C CNN
 F 3 "" H 6100 3175 50  0001 C CNN
 	1    6100 3175
 	1    0    0    1   
 $EndComp
-Text GLabel 7225 3775 2    60   Output ~ 0
+Text GLabel 7525 3775 2    60   Output ~ 0
 AVSS
 $Comp
 L GND #PWR11
@@ -601,7 +601,7 @@ Connection ~ 5475 1525
 Wire Wire Line
 	6025 1825 6025 1975
 Wire Wire Line
-	6425 1525 7150 1525
+	6425 1525 7500 1525
 Wire Wire Line
 	6500 1525 6500 1175
 Wire Wire Line
@@ -644,7 +644,7 @@ Connection ~ 2300 4900
 Wire Wire Line
 	2850 5200 2850 5350
 Wire Wire Line
-	3250 4900 3975 4900
+	3250 4900 4275 4900
 Wire Wire Line
 	3325 4900 3325 4550
 Wire Wire Line
@@ -687,7 +687,7 @@ Connection ~ 5550 3775
 Wire Wire Line
 	6100 3475 6100 3325
 Wire Wire Line
-	6500 3775 7225 3775
+	6500 3775 7525 3775
 Wire Wire Line
 	6575 3775 6575 4125
 Wire Wire Line
@@ -723,4 +723,10 @@ Wire Wire Line
 	7125 2950 7125 3225
 Connection ~ 6775 2950
 Connection ~ 7125 2950
+Text Label 7175 1525 0    60   ~ 0
++1.5V
+Text Label 7225 3775 0    60   ~ 0
+-1.5V
+Text Label 4000 4900 0    60   ~ 0
+1.8V
 $EndSCHEMATC
