@@ -2231,4 +2231,5 @@ Text GLabel 10075 5225 0    60   Input ~ 0
 GPIO21
 Text GLabel 10575 4725 2    60   Input ~ 0
 GPIO22
+NoConn ~ 13900 5175
 $EndSCHEMATC
