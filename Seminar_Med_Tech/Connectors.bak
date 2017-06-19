@@ -432,7 +432,7 @@ NoConn ~ 7850 4225
 NoConn ~ 7850 4325
 Connection ~ 4500 3550
 Connection ~ 4275 3550
-Text GLabel 3050 4250 2    60   Input ~ 0
+Text GLabel 2325 3950 0    60   Input ~ 0
 SPI_DRDY2
 NoConn ~ 3750 6225
 NoConn ~ 3850 6225
