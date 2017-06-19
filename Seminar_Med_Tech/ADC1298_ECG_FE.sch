@@ -619,17 +619,6 @@ F 3 "" H 1750 5550 50  0001 C CNN
 	1    1750 5550
 	-1   0    0    1   
 $EndComp
-$Comp
-L GND #PWR06
-U 1 1 5945AC6C
-P 2000 5550
-F 0 "#PWR06" H 2000 5300 50  0001 C CNN
-F 1 "GND" H 2000 5400 50  0000 C CNN
-F 2 "" H 2000 5550 50  0001 C CNN
-F 3 "" H 2000 5550 50  0001 C CNN
-	1    2000 5550
-	0    -1   -1   0   
-$EndComp
 Text GLabel 1500 5550 0    60   Input ~ 12
 ECG_SHD_DRV
 Text GLabel 5275 6300 3    60   Output ~ 12
@@ -998,4 +987,8 @@ Wire Wire Line
 	8225 1975 8225 1900
 Wire Wire Line
 	9275 1975 9275 1900
+Text GLabel 2050 5550 2    60   Input Italic 0
+AGND
+Wire Wire Line
+	2000 5550 2050 5550
 $EndSCHEMATC
