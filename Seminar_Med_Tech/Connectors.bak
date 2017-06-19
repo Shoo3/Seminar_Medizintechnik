@@ -322,10 +322,6 @@ Wire Wire Line
 Wire Wire Line
 	2550 3950 2325 3950
 Wire Wire Line
-	2325 3750 2550 3750
-Wire Wire Line
-	2550 3850 2325 3850
-Wire Wire Line
 	2325 4350 2550 4350
 $Comp
 L CONN_01X10 J2
@@ -447,4 +443,6 @@ Wire Wire Line
 	2250 3550 2550 3550
 Wire Wire Line
 	1300 4150 925  4150
+NoConn ~ 2550 3750
+NoConn ~ 2550 3850
 $EndSCHEMATC
