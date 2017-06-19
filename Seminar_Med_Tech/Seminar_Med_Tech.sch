@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -814,7 +814,7 @@ CLKSEL
 Text GLabel 10100 4025 2    39   Output ~ 0
 SPI_CS2
 Text GLabel 9300 3625 2    39   Output ~ 0
-DRDY2
+SPI_DRDY2
 Text GLabel 4175 4450 0    60   Input ~ 0
 ECG_V7P
 Text GLabel 4175 4575 0    60   Input ~ 0
@@ -1137,11 +1137,6 @@ F 3 "" H 9925 3800 50  0001 C CNN
 $EndComp
 Text GLabel 9925 3600 0    39   Input Italic 8
 DVDD
-NoConn ~ 10575 5025
-NoConn ~ 10075 5125
-NoConn ~ 10075 5225
-NoConn ~ 10575 4725
-NoConn ~ 10075 5025
 Text GLabel 10800 6400 2    39   Input Italic 8
 AGND
 Text GLabel 10575 5350 2    39   Input Italic 8
@@ -2222,4 +2217,18 @@ Wire Wire Line
 	9925 3700 9925 3600
 Wire Wire Line
 	10575 5225 10575 5350
+$Sheet
+S 10200 2750 800  950 
+U 5947A4D5
+F0 "Power_Supply" 60
+F1 "Power_Supply.sch" 60
+$EndSheet
+Text GLabel 10075 5025 0    60   Input ~ 0
+GPIO11
+Text GLabel 10075 5125 0    60   Input ~ 0
+GPIO12
+Text GLabel 10075 5225 0    60   Input ~ 0
+GPIO21
+Text GLabel 10575 4725 2    60   Input ~ 0
+GPIO22
 $EndSCHEMATC

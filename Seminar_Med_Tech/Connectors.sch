@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -80,9 +80,9 @@ Text GLabel 7025 3625 0    60   Input ~ 0
 Text GLabel 7025 3525 0    60   Input ~ 0
 SPI_START
 Text GLabel 7025 3725 0    60   Input ~ 0
-SPI_DRDY
+SPI_DRDY1
 Text GLabel 7025 3825 0    60   Input ~ 0
-SPI_CS2
+SPI_CS1
 Text GLabel 2325 4250 0    60   Output ~ 0
 EXT_CLK
 $Comp
@@ -143,7 +143,7 @@ F 3 "" H 9375 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8475 4425 2    60   Input ~ 0
-SPI_CS1
+SPI_CS2
 $Comp
 L GND #PWR04
 U 1 1 593E72B3
@@ -382,16 +382,8 @@ Wire Wire Line
 	7850 3725 8475 3725
 Wire Wire Line
 	7850 3825 8475 3825
-Text GLabel 2325 3950 0    60   Input ~ 0
-GPIO11
 Wire Wire Line
 	2550 3950 2325 3950
-Text GLabel 2325 3750 0    60   Input ~ 0
-GPIO12
-Text GLabel 2325 3850 0    60   Input ~ 0
-GPIO21
-Text GLabel 2325 4350 0    60   Input ~ 0
-GPIO22
 Wire Wire Line
 	2325 3750 2550 3750
 Wire Wire Line
@@ -440,8 +432,8 @@ NoConn ~ 7850 4225
 NoConn ~ 7850 4325
 Connection ~ 4500 3550
 Connection ~ 4275 3550
-Text GLabel 3050 4250 2    60   Input ~ 0
-DRDY2
+Text GLabel 2325 3950 0    60   Input ~ 0
+SPI_DRDY2
 NoConn ~ 3750 6225
 NoConn ~ 3850 6225
 $EndSCHEMATC
