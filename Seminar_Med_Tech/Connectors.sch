@@ -167,39 +167,6 @@ F 3 "" H 9525 5500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST_1P TP10
-U 1 1 593E7E55
-P 1350 3550
-F 0 "TP10" H 1350 3820 50  0000 C CNN
-F 1 "TEST" H 1350 3750 50  0000 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 1550 3550 50  0001 C CNN
-F 3 "" H 1550 3550 50  0001 C CNN
-	1    1350 3550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C C71
-U 1 1 593E8011
-P 2000 2700
-F 0 "C71" H 2025 2800 50  0000 L CNN
-F 1 "100uF" H 2025 2600 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 2038 2550 50  0001 C CNN
-F 3 "" H 2000 2700 50  0001 C CNN
-	1    2000 2700
-	0    1    1    0   
-$EndComp
-$Comp
-L C C70
-U 1 1 593E8072
-P 2000 2975
-F 0 "C70" H 2025 3075 50  0000 L CNN
-F 1 "0.1uF" H 2025 2875 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 2038 2825 50  0001 C CNN
-F 3 "" H 2000 2975 50  0001 C CNN
-	1    2000 2975
-	0    1    1    0   
-$EndComp
-$Comp
 L Jumper JP3
 U 1 1 593E89D7
 P 3850 3550
@@ -254,12 +221,6 @@ F 3 "" H 4700 4150 50  0001 C CNN
 	1    4700 4150
 	1    0    0    -1  
 $EndComp
-Text Label 1725 3550 0    60   ~ 0
-VCC_3.3V
-Text GLabel 1525 2600 0    39   Input Italic 8
-DVDD
-Text GLabel 2425 3025 2    39   Input Italic 8
-AGND
 Text GLabel 4875 3450 2    39   Input Italic 8
 VCC_5V
 Text GLabel 7600 5100 0    39   Input Italic 8
@@ -328,30 +289,6 @@ Wire Wire Line
 Wire Wire Line
 	9850 5500 9850 5775
 Wire Wire Line
-	1350 3550 2550 3550
-Wire Wire Line
-	1525 2600 1525 3550
-Connection ~ 1525 3550
-Wire Wire Line
-	1525 2700 1850 2700
-Connection ~ 1525 2700
-Wire Wire Line
-	1725 2700 1725 2975
-Wire Wire Line
-	1725 2975 1850 2975
-Connection ~ 1725 2700
-Wire Wire Line
-	2150 2700 2275 2700
-Wire Wire Line
-	2275 2700 2275 2975
-Wire Wire Line
-	2275 2975 2150 2975
-Wire Wire Line
-	2275 2850 2425 2850
-Wire Wire Line
-	2425 2850 2425 3025
-Connection ~ 2275 2850
-Wire Wire Line
 	3050 3550 3550 3550
 Wire Wire Line
 	4150 3550 4875 3550
@@ -384,10 +321,6 @@ Wire Wire Line
 	7850 3825 8475 3825
 Wire Wire Line
 	2550 3950 2325 3950
-Wire Wire Line
-	2325 3750 2550 3750
-Wire Wire Line
-	2550 3850 2325 3850
 Wire Wire Line
 	2325 4350 2550 4350
 $Comp
@@ -436,4 +369,80 @@ Text GLabel 2325 3950 0    60   Input ~ 0
 SPI_DRDY2
 NoConn ~ 3750 6225
 NoConn ~ 3850 6225
+$Comp
+L Jumper JP?
+U 1 1 5947B7A9
+P 1950 3550
+F 0 "JP?" H 1950 3700 50  0000 C CNN
+F 1 "Jumper" H 1950 3470 50  0000 C CNN
+F 2 "jumper:Jumper1x2" H 1950 3550 50  0001 C CNN
+F 3 "" H 1950 3550 50  0001 C CNN
+	1    1950 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L TEST_1P TP?
+U 1 1 5947B7AF
+P 1525 3550
+F 0 "TP?" H 1525 3820 50  0000 C CNN
+F 1 "TEST" H 1525 3750 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 1725 3550 50  0001 C CNN
+F 3 "" H 1725 3550 50  0001 C CNN
+	1    1525 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5947B7B5
+P 1300 3900
+F 0 "C?" H 1325 4000 50  0000 L CNN
+F 1 "0.1uF" H 1325 3800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 1338 3750 50  0001 C CNN
+F 3 "" H 1300 3900 50  0001 C CNN
+	1    1300 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5947B7BB
+P 925 3900
+F 0 "C?" H 950 4000 50  0000 L CNN
+F 1 "100uF" H 950 3800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 963 3750 50  0001 C CNN
+F 3 "" H 925 3900 50  0001 C CNN
+	1    925  3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5947B7C1
+P 1100 4150
+F 0 "#PWR?" H 1100 3900 50  0001 C CNN
+F 1 "GND" H 1100 4000 50  0000 C CNN
+F 2 "" H 1100 4150 50  0001 C CNN
+F 3 "" H 1100 4150 50  0001 C CNN
+	1    1100 4150
+	-1   0    0    -1  
+$EndComp
+Text GLabel 925  3450 0    39   Input Italic 8
+VCC_3.3V
+Wire Wire Line
+	1650 3550 925  3550
+Wire Wire Line
+	925  3450 925  3750
+Wire Wire Line
+	1300 3750 1300 3550
+Wire Wire Line
+	1300 4050 1300 4150
+Wire Wire Line
+	925  4150 925  4050
+Connection ~ 925  3550
+Connection ~ 1300 3550
+Connection ~ 1525 3550
+Wire Wire Line
+	2250 3550 2550 3550
+Wire Wire Line
+	1300 4150 925  4150
+NoConn ~ 2550 3750
+NoConn ~ 2550 3850
 $EndSCHEMATC
