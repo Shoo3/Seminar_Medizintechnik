@@ -1142,6 +1142,10 @@ NoConn ~ 10075 5125
 NoConn ~ 10075 5225
 NoConn ~ 10575 4725
 NoConn ~ 10075 5025
+Text GLabel 10800 6400 2    39   Input Italic 8
+AGND
+Text GLabel 10575 5350 2    39   Input Italic 8
+AGND
 Connection ~ 3000 2750
 Connection ~ 4150 1450
 Wire Wire Line
@@ -2216,10 +2220,6 @@ Wire Wire Line
 Connection ~ 9925 4025
 Wire Wire Line
 	9925 3700 9925 3600
-Text GLabel 10800 6400 2    39   Input Italic 8
-AGND
-Text GLabel 10575 5350 2    39   Input Italic 8
-AGND
 Wire Wire Line
 	10575 5225 10575 5350
 $EndSCHEMATC
