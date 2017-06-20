@@ -802,7 +802,7 @@ GPIO23
 Text GLabel 6100 2025 2    39   Output ~ 0
 CLKSEL
 Text GLabel 6100 2250 2    39   Output ~ 0
-SPI_DRDY
+SPI_DRDY1
 Text GLabel 6100 2350 2    39   Output ~ 0
 GPIO14
 Text GLabel 6550 2475 2    39   Output ~ 0
@@ -2232,4 +2232,5 @@ GPIO21
 Text GLabel 10575 4725 2    60   Input ~ 0
 GPIO22
 NoConn ~ 13900 5175
+NoConn ~ 10575 5025
 $EndSCHEMATC
