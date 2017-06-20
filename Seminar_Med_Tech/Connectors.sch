@@ -183,7 +183,7 @@ U 1 1 593E9035
 P 4275 3550
 F 0 "TP7" H 4275 3820 50  0000 C CNN
 F 1 "TEST" H 4275 3750 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4475 3550 50  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 4475 3550 50  0001 C CNN
 F 3 "" H 4475 3550 50  0001 C CNN
 	1    4275 3550
 	1    0    0    -1  
@@ -321,8 +321,6 @@ Wire Wire Line
 	7850 3825 8475 3825
 Wire Wire Line
 	2550 3950 2325 3950
-Wire Wire Line
-	2325 4350 2550 4350
 $Comp
 L CONN_01X10 J2
 U 1 1 5962D12A
@@ -386,7 +384,7 @@ U 1 1 5947B7AF
 P 1525 3550
 F 0 "TP8" H 1525 3820 50  0000 C CNN
 F 1 "TEST" H 1525 3750 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1725 3550 50  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 1725 3550 50  0001 C CNN
 F 3 "" H 1725 3550 50  0001 C CNN
 	1    1525 3550
 	-1   0    0    -1  
@@ -445,4 +443,6 @@ Wire Wire Line
 	1300 4150 925  4150
 NoConn ~ 2550 3750
 NoConn ~ 2550 3850
+NoConn ~ 3050 4250
+NoConn ~ 2550 4350
 $EndSCHEMATC

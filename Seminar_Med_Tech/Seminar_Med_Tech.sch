@@ -293,7 +293,7 @@ U 1 1 592B76C2
 P 7500 6150
 F 0 "TP2" H 7500 6450 50  0000 C BNN
 F 1 "TEST" H 7500 6400 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7500 6150 50  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 7500 6150 50  0001 C CNN
 F 3 "" H 7500 6150 50  0001 C CNN
 	1    7500 6150
 	0    1    1    0   
@@ -406,7 +406,7 @@ U 1 1 592BD340
 P 1200 5600
 F 0 "TP1" H 1200 5900 50  0000 C BNN
 F 1 "TEST" H 1200 5850 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1200 5600 50  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 1200 5600 50  0001 C CNN
 F 3 "" H 1200 5600 50  0001 C CNN
 	1    1200 5600
 	0    1    1    0   
@@ -458,7 +458,7 @@ U 1 1 592B47D5
 P 10525 6150
 F 0 "TP3" H 10525 6450 50  0000 C BNN
 F 1 "TEST" H 10525 6400 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10525 6150 50  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 10525 6150 50  0001 C CNN
 F 3 "" H 10525 6150 50  0001 C CNN
 	1    10525 6150
 	1    0    0    -1  
@@ -469,7 +469,7 @@ U 1 1 592B48B1
 P 10700 6150
 F 0 "TP4" H 10700 6450 50  0000 C BNN
 F 1 "TEST" H 10700 6400 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10700 6150 50  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 10700 6150 50  0001 C CNN
 F 3 "" H 10700 6150 50  0001 C CNN
 	1    10700 6150
 	1    0    0    -1  
@@ -480,7 +480,7 @@ U 1 1 592B4956
 P 10875 6150
 F 0 "TP5" H 10875 6450 50  0000 C BNN
 F 1 "TEST" H 10875 6400 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10875 6150 50  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 10875 6150 50  0001 C CNN
 F 3 "" H 10875 6150 50  0001 C CNN
 	1    10875 6150
 	1    0    0    -1  
@@ -491,7 +491,7 @@ U 1 1 592B49FA
 P 11050 6150
 F 0 "TP6" H 11050 6450 50  0000 C BNN
 F 1 "TEST" H 11050 6400 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 11050 6150 50  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 11050 6150 50  0001 C CNN
 F 3 "" H 11050 6150 50  0001 C CNN
 	1    11050 6150
 	1    0    0    -1  
@@ -802,7 +802,7 @@ GPIO23
 Text GLabel 6100 2025 2    39   Output ~ 0
 CLKSEL
 Text GLabel 6100 2250 2    39   Output ~ 0
-SPI_DRDY
+SPI_DRDY1
 Text GLabel 6100 2350 2    39   Output ~ 0
 GPIO14
 Text GLabel 6550 2475 2    39   Output ~ 0
@@ -2232,4 +2232,5 @@ GPIO21
 Text GLabel 10575 4725 2    60   Input ~ 0
 GPIO22
 NoConn ~ 13900 5175
+NoConn ~ 10575 5025
 $EndSCHEMATC
