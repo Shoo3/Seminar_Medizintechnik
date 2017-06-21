@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\Isshu\Documents\Seminar_Medizintechnik\Seminar_Med_Tech\Seminar_Med_Tech.sch</source>
-    <date>6/21/2017 11:54:10 AM</date>
+    <source>C:/Users/Isshu/Documents/Seminar_Medizintechnik/Seminar_Med_Tech/Seminar_Med_Tech.sch</source>
+    <date>6/21/2017 2:19:42 PM</date>
     <tool>Eeschema 4.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -543,7 +543,7 @@
     </comp>
     <comp ref="J1">
       <value>CONN_02X08</value>
-      <footprint>Jumper:Jumper2x2</footprint>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm</footprint>
       <libsource lib="conn" part="CONN_02X08"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>594C2861</tstamp>
@@ -963,70 +963,70 @@
     </comp>
     <comp ref="D1">
       <value>D</value>
-      <footprint>Diodes_SMD:D_SC-80_HandSoldering</footprint>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
       <libsource lib="device" part="D"/>
       <sheetpath names="/ADC1298_ECG_FE/" tstamps="/59470E15/"/>
       <tstamp>59456A7E</tstamp>
     </comp>
     <comp ref="D5">
       <value>D</value>
-      <footprint>Diodes_SMD:D_SC-80_HandSoldering</footprint>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
       <libsource lib="device" part="D"/>
       <sheetpath names="/ADC1298_ECG_FE/" tstamps="/59470E15/"/>
       <tstamp>59456B7D</tstamp>
     </comp>
     <comp ref="D10">
       <value>D</value>
-      <footprint>Diodes_SMD:D_SC-80_HandSoldering</footprint>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
       <libsource lib="device" part="D"/>
       <sheetpath names="/ADC1298_ECG_FE/" tstamps="/59470E15/"/>
       <tstamp>59456C3A</tstamp>
     </comp>
     <comp ref="D2">
       <value>D</value>
-      <footprint>Diodes_SMD:D_SC-80_HandSoldering</footprint>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
       <libsource lib="device" part="D"/>
       <sheetpath names="/ADC1298_ECG_FE/" tstamps="/59470E15/"/>
       <tstamp>59456D08</tstamp>
     </comp>
     <comp ref="D6">
       <value>D</value>
-      <footprint>Diodes_SMD:D_SC-80_HandSoldering</footprint>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
       <libsource lib="device" part="D"/>
       <sheetpath names="/ADC1298_ECG_FE/" tstamps="/59470E15/"/>
       <tstamp>59456DB4</tstamp>
     </comp>
     <comp ref="D9">
       <value>D</value>
-      <footprint>Diodes_SMD:D_SC-80_HandSoldering</footprint>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
       <libsource lib="device" part="D"/>
       <sheetpath names="/ADC1298_ECG_FE/" tstamps="/59470E15/"/>
       <tstamp>59456E80</tstamp>
     </comp>
     <comp ref="D7">
       <value>D</value>
-      <footprint>Diodes_SMD:D_SC-80_HandSoldering</footprint>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
       <libsource lib="device" part="D"/>
       <sheetpath names="/ADC1298_ECG_FE/" tstamps="/59470E15/"/>
       <tstamp>594570E7</tstamp>
     </comp>
     <comp ref="D8">
       <value>D</value>
-      <footprint>Diodes_SMD:D_SC-80_HandSoldering</footprint>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
       <libsource lib="device" part="D"/>
       <sheetpath names="/ADC1298_ECG_FE/" tstamps="/59470E15/"/>
       <tstamp>594571AB</tstamp>
     </comp>
     <comp ref="D3">
       <value>D</value>
-      <footprint>Diodes_SMD:D_SC-80_HandSoldering</footprint>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
       <libsource lib="device" part="D"/>
       <sheetpath names="/ADC1298_ECG_FE/" tstamps="/59470E15/"/>
       <tstamp>5945725C</tstamp>
     </comp>
     <comp ref="D4">
       <value>D</value>
-      <footprint>Diodes_SMD:D_SC-80_HandSoldering</footprint>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
       <libsource lib="device" part="D"/>
       <sheetpath names="/ADC1298_ECG_FE/" tstamps="/59470E15/"/>
       <tstamp>59457330</tstamp>
@@ -1047,7 +1047,7 @@
     </comp>
     <comp ref="PSK4">
       <value>CONN_01X02</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/ADC1298_ECG_FE/" tstamps="/59470E15/"/>
       <tstamp>59492CE6</tstamp>
@@ -1068,7 +1068,7 @@
     </comp>
     <comp ref="D11">
       <value>D</value>
-      <footprint>Diodes_SMD:D_SC-80_HandSoldering</footprint>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
       <libsource lib="device" part="D"/>
       <sheetpath names="/Power_Supply/" tstamps="/5947A4D5/"/>
       <tstamp>5947F210</tstamp>
@@ -1103,7 +1103,7 @@
     </comp>
     <comp ref="D12">
       <value>D</value>
-      <footprint>Diodes_SMD:D_SC-80_HandSoldering</footprint>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
       <libsource lib="device" part="D"/>
       <sheetpath names="/Power_Supply/" tstamps="/5947A4D5/"/>
       <tstamp>59480225</tstamp>
@@ -1138,7 +1138,7 @@
     </comp>
     <comp ref="D14">
       <value>D</value>
-      <footprint>Diodes_SMD:D_SC-80_HandSoldering</footprint>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
       <libsource lib="device" part="D"/>
       <sheetpath names="/Power_Supply/" tstamps="/5947A4D5/"/>
       <tstamp>59480A20</tstamp>
@@ -1173,7 +1173,7 @@
     </comp>
     <comp ref="D13">
       <value>D</value>
-      <footprint>Diodes_SMD:D_SC-80_HandSoldering</footprint>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
       <libsource lib="device" part="D"/>
       <sheetpath names="/Power_Supply/" tstamps="/5947A4D5/"/>
       <tstamp>59480B53</tstamp>
@@ -1208,7 +1208,7 @@
     </comp>
     <comp ref="D15">
       <value>D</value>
-      <footprint>Diodes_SMD:D_SC-80_HandSoldering</footprint>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
       <libsource lib="device" part="D"/>
       <sheetpath names="/Power_Supply/" tstamps="/5947A4D5/"/>
       <tstamp>5948C0B5</tstamp>
