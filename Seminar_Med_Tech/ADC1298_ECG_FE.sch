@@ -53,7 +53,7 @@ U 1 1 59454B8D
 P 450 4975
 F 0 "J6" H 850 6825 60  0000 C CNN
 F 1 "DB15_F-RA" H 1050 5100 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x15_Pitch2.54mm" H 450 4975 60  0001 C CNN
+F 2 "Connectors:DB15FC" H 450 4975 60  0001 C CNN
 F 3 "" H 450 4975 60  0001 C CNN
 	1    450  4975
 	1    0    0    -1  
@@ -614,7 +614,7 @@ U 1 1 5945A990
 P 1750 5550
 F 0 "JP15" H 1800 5450 50  0000 L CNN
 F 1 "Jumper_NC_Dual" H 1750 5650 50  0000 C BNN
-F 2 "jumper:jumper1x3" H 1750 5550 50  0001 C CNN
+F 2 "Jumper:jumper1x3" H 1750 5550 50  0001 C CNN
 F 3 "" H 1750 5550 50  0001 C CNN
 	1    1750 5550
 	-1   0    0    1   
@@ -1056,15 +1056,35 @@ Wire Wire Line
 	900  5000 1750 5000
 Connection ~ 1750 5000
 $Comp
-L CONN_01X02 J4
+L CONN_01X02 PSK4
 U 1 1 59492CE6
 P 700 5050
-F 0 "J4" H 700 5200 50  0000 C CNN
+F 0 "PSK4" H 675 5225 50  0000 C CNN
 F 1 "CONN_01X02" V 800 5050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 700 5050 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 700 5050 50  0001 C CNN
 F 3 "" H 700 5050 50  0001 C CNN
 	1    700  5050
 	-1   0    0    1   
 $EndComp
 NoConn ~ 900  5100
+Text Label 1350 2550 2    60   ~ 0
+ELEC_V2
+Text Label 1350 2450 2    60   ~ 0
+ELEC_V3
+Text Label 1350 2350 2    60   ~ 0
+ELEC_V4
+Text Label 1350 2250 2    60   ~ 0
+ELEC_V5
+Text Label 1350 2150 2    60   ~ 0
+ELEC_V6
+Text Label 1350 2050 2    60   ~ 0
+ELEC_RA
+Text Label 1350 1850 2    60   ~ 0
+ELEC_LL
+Text Label 1350 1750 2    60   ~ 0
+ELEC_V1
+Text Label 1350 1650 2    60   ~ 0
+ELEC_RL
+Text Label 1350 1950 2    60   ~ 0
+ELEC_LA
 $EndSCHEMATC

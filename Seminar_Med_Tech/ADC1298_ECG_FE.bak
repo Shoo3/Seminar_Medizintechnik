@@ -730,10 +730,10 @@ NoConn ~ 1350 4700
 Text GLabel 2050 5550 2    60   Input Italic 0
 AGND
 $Comp
-L CONN_01X10 PSK?
+L CONN_01X10 PSK2
 U 1 1 5947AEC5
 P 800 2100
-F 0 "PSK?" H 800 2650 50  0000 C CNN
+F 0 "PSK2" H 800 2650 50  0000 C CNN
 F 1 "CONN_01X10" V 900 2100 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 800 2100 50  0001 C CNN
 F 3 "" H 800 2100 50  0001 C CNN
@@ -1056,15 +1056,35 @@ Wire Wire Line
 	900  5000 1750 5000
 Connection ~ 1750 5000
 $Comp
-L CONN_01X02 J4
+L CONN_01X02 PSK4
 U 1 1 59492CE6
 P 700 5050
-F 0 "J4" H 700 5200 50  0000 C CNN
+F 0 "PSK4" H 675 5225 50  0000 C CNN
 F 1 "CONN_01X02" V 800 5050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 700 5050 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 700 5050 50  0001 C CNN
 F 3 "" H 700 5050 50  0001 C CNN
 	1    700  5050
 	-1   0    0    1   
 $EndComp
 NoConn ~ 900  5100
+Text Label 1350 2550 2    60   ~ 0
+ELEC_V2
+Text Label 1350 2450 2    60   ~ 0
+ELEC_V3
+Text Label 1350 2350 2    60   ~ 0
+ELEC_V4
+Text Label 1350 2250 2    60   ~ 0
+ELEC_V5
+Text Label 1350 2150 2    60   ~ 0
+ELEC_V6
+Text Label 1350 2050 2    60   ~ 0
+ELEC_RA
+Text Label 1350 1850 2    60   ~ 0
+ELEC_LL
+Text Label 1350 1750 2    60   ~ 0
+ELEC_V1
+Text Label 1350 1650 2    60   ~ 0
+ELEC_RL
+Text Label 1350 1950 2    60   ~ 0
+ELEC_LA
 $EndSCHEMATC
