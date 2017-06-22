@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/Isshu/Documents/Seminar_Medizintechnik/Seminar_Med_Tech/Seminar_Med_Tech.sch)
-    (date "6/22/2017 11:53:11 AM")
+    (date "6/22/2017 11:59:05 AM")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -902,6 +902,7 @@
       (tstamp 59492CE6))
     (comp (ref J6)
       (value DB15_F-RA)
+      (footprint Connectors:DB15FC)
       (libsource (lib conn) (part CONN_01X15))
       (sheetpath (names /ADC1298_ECG_FE/) (tstamps /59470E15/))
       (tstamp 594BFFB9))
