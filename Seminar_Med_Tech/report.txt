@@ -2,6 +2,10 @@ Hinweis:Lese Netzliste  "C:\Users\Isshu\Documents\Seminar_Medizintechnik\Seminar
 
 Hinweis:Verwende Referenzen für den Abgleich von Bauteilen mit Footprints.
 
+Fehler:Es wurde kein Footprint für die Komponente 'J2' definiert.
+
+Fehler:Es wurde kein Footprint für die Komponente 'PSK3' definiert.
+
 Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "C1:/592BD338:Capacitors_SMD:C_1206_HandSoldering".
 
 Füge neues Bauteil "C1:/592BD338" mit Footprint "Capacitors_SMD:C_1206_HandSoldering" hinzu.
@@ -266,38 +270,6 @@ Füge neues Bauteil "C33:/59470A40/5947B7B5" mit Footprint "Capacitors_SMD:C_120
 
 Ändere Netzname von Bauteil "C33:/59470A40/5947B7B5" Pin "2" von "" zu "Net-(C27-Pad2)".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "C34:/5947A4D5/594A8579:Capacitors_SMD:CP_Elec_4x5.8".
-
-Füge neues Bauteil "C34:/5947A4D5/594A8579" mit Footprint "Capacitors_SMD:CP_Elec_4x5.8" hinzu.
-
-Ändere Netzname von Bauteil "C34:/5947A4D5/594A8579" Pin "1" von "" zu "15V_Supply".
-
-Ändere Netzname von Bauteil "C34:/5947A4D5/594A8579" Pin "2" von "" zu "GND".
-
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "C35:/5947A4D5/594AC0E4:Capacitors_SMD:CP_Elec_4x5.8".
-
-Füge neues Bauteil "C35:/5947A4D5/594AC0E4" mit Footprint "Capacitors_SMD:CP_Elec_4x5.8" hinzu.
-
-Ändere Netzname von Bauteil "C35:/5947A4D5/594AC0E4" Pin "1" von "" zu "15V_Supply".
-
-Ändere Netzname von Bauteil "C35:/5947A4D5/594AC0E4" Pin "2" von "" zu "GND".
-
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "C36:/5947A4D5/5947F17D:Capacitors_SMD:C_1206_HandSoldering".
-
-Füge neues Bauteil "C36:/5947A4D5/5947F17D" mit Footprint "Capacitors_SMD:C_1206_HandSoldering" hinzu.
-
-Ändere Netzname von Bauteil "C36:/5947A4D5/5947F17D" Pin "1" von "" zu "Net-(C36-Pad1)".
-
-Ändere Netzname von Bauteil "C36:/5947A4D5/5947F17D" Pin "2" von "" zu "GND".
-
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "C37:/5947A4D5/59480219:Capacitors_SMD:C_1206_HandSoldering".
-
-Füge neues Bauteil "C37:/5947A4D5/59480219" mit Footprint "Capacitors_SMD:C_1206_HandSoldering" hinzu.
-
-Ändere Netzname von Bauteil "C37:/5947A4D5/59480219" Pin "1" von "" zu "Net-(C37-Pad1)".
-
-Ändere Netzname von Bauteil "C37:/5947A4D5/59480219" Pin "2" von "" zu "GND".
-
 Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "C38:/5947A4D5/59480B47:Capacitors_SMD:C_1206_HandSoldering".
 
 Füge neues Bauteil "C38:/5947A4D5/59480B47" mit Footprint "Capacitors_SMD:C_1206_HandSoldering" hinzu.
@@ -306,37 +278,21 @@ Füge neues Bauteil "C38:/5947A4D5/59480B47" mit Footprint "Capacitors_SMD:C_120
 
 Ändere Netzname von Bauteil "C38:/5947A4D5/59480B47" Pin "2" von "" zu "GND".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "C39:/5947A4D5/594AC187:Capacitors_SMD:CP_Elec_4x5.8".
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "C39:/5947A4D5/594AC187:Jumper:4mmx5,5mmSMDElec".
 
-Füge neues Bauteil "C39:/5947A4D5/594AC187" mit Footprint "Capacitors_SMD:CP_Elec_4x5.8" hinzu.
-
-Ändere Netzname von Bauteil "C39:/5947A4D5/594AC187" Pin "1" von "" zu "15V_Supply".
+Füge neues Bauteil "C39:/5947A4D5/594AC187" mit Footprint "Jumper:4mmx5,5mmSMDElec" hinzu.
 
 Ändere Netzname von Bauteil "C39:/5947A4D5/594AC187" Pin "2" von "" zu "GND".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "C40:/5947A4D5/594A8C56:Capacitors_SMD:CP_Elec_4x5.8".
+Ändere Netzname von Bauteil "C39:/5947A4D5/594AC187" Pin "1" von "" zu "5V_Supply".
 
-Füge neues Bauteil "C40:/5947A4D5/594A8C56" mit Footprint "Capacitors_SMD:CP_Elec_4x5.8" hinzu.
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "C42:/5947A4D5/594AC487:Jumper:4mmx5,5mmSMDElec10uf".
 
-Ändere Netzname von Bauteil "C40:/5947A4D5/594A8C56" Pin "1" von "" zu "VCC_3.3V".
-
-Ändere Netzname von Bauteil "C40:/5947A4D5/594A8C56" Pin "2" von "" zu "GND".
-
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "C41:/5947A4D5/594AC3B8:Capacitors_SMD:CP_Elec_4x5.8".
-
-Füge neues Bauteil "C41:/5947A4D5/594AC3B8" mit Footprint "Capacitors_SMD:CP_Elec_4x5.8" hinzu.
-
-Ändere Netzname von Bauteil "C41:/5947A4D5/594AC3B8" Pin "1" von "" zu "VCC_5V".
-
-Ändere Netzname von Bauteil "C41:/5947A4D5/594AC3B8" Pin "2" von "" zu "GND".
-
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "C42:/5947A4D5/594AC487:Capacitors_SMD:CP_Elec_4x5.8".
-
-Füge neues Bauteil "C42:/5947A4D5/594AC487" mit Footprint "Capacitors_SMD:CP_Elec_4x5.8" hinzu.
-
-Ändere Netzname von Bauteil "C42:/5947A4D5/594AC487" Pin "1" von "" zu "DVDD".
+Füge neues Bauteil "C42:/5947A4D5/594AC487" mit Footprint "Jumper:4mmx5,5mmSMDElec10uf" hinzu.
 
 Ändere Netzname von Bauteil "C42:/5947A4D5/594AC487" Pin "2" von "" zu "GND".
+
+Ändere Netzname von Bauteil "C42:/5947A4D5/594AC487" Pin "1" von "" zu "DVDD".
 
 Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "C43:/5947A4D5/59480A14:Capacitors_SMD:C_1206_HandSoldering".
 
@@ -358,7 +314,7 @@ Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "C45:/5947A4D5/594AC2
 
 Füge neues Bauteil "C45:/5947A4D5/594AC237" mit Footprint "Capacitors_SMD:CP_Elec_4x5.8" hinzu.
 
-Ändere Netzname von Bauteil "C45:/5947A4D5/594AC237" Pin "1" von "" zu "15V_Supply".
+Ändere Netzname von Bauteil "C45:/5947A4D5/594AC237" Pin "1" von "" zu "5V_Supply".
 
 Ändere Netzname von Bauteil "C45:/5947A4D5/594AC237" Pin "2" von "" zu "GND".
 
@@ -530,137 +486,149 @@ Füge neues Bauteil "C95:/592BD346" mit Footprint "Capacitors_SMD:C_1206_HandSol
 
 Ändere Netzname von Bauteil "C95:/592BD346" Pin "2" von "" zu "VREFP".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D1:/59470E15/59456A7E:Diodes_SMD:D_SC-80_HandSoldering".
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D1:/59470E15/59456A7E:Diodes_SMD:D_SOD-123".
 
-Füge neues Bauteil "D1:/59470E15/59456A7E" mit Footprint "Diodes_SMD:D_SC-80_HandSoldering" hinzu.
-
-Ändere Netzname von Bauteil "D1:/59470E15/59456A7E" Pin "2" von "" zu "ECG_V2".
+Füge neues Bauteil "D1:/59470E15/59456A7E" mit Footprint "Diodes_SMD:D_SOD-123" hinzu.
 
 Ändere Netzname von Bauteil "D1:/59470E15/59456A7E" Pin "1" von "" zu "AVDD".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D2:/59470E15/59456D08:Diodes_SMD:D_SC-80_HandSoldering".
+Ändere Netzname von Bauteil "D1:/59470E15/59456A7E" Pin "2" von "" zu "ECG_V2".
 
-Füge neues Bauteil "D2:/59470E15/59456D08" mit Footprint "Diodes_SMD:D_SC-80_HandSoldering" hinzu.
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D2:/59470E15/59456D08:Diodes_SMD:D_SOD-123".
 
-Ändere Netzname von Bauteil "D2:/59470E15/59456D08" Pin "2" von "" zu "ECG_V3".
+Füge neues Bauteil "D2:/59470E15/59456D08" mit Footprint "Diodes_SMD:D_SOD-123" hinzu.
 
 Ändere Netzname von Bauteil "D2:/59470E15/59456D08" Pin "1" von "" zu "AVDD".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D3:/59470E15/5945725C:Diodes_SMD:D_SC-80_HandSoldering".
+Ändere Netzname von Bauteil "D2:/59470E15/59456D08" Pin "2" von "" zu "ECG_V3".
 
-Füge neues Bauteil "D3:/59470E15/5945725C" mit Footprint "Diodes_SMD:D_SC-80_HandSoldering" hinzu.
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D3:/59470E15/5945725C:Diodes_SMD:D_SOD-123".
 
-Ändere Netzname von Bauteil "D3:/59470E15/5945725C" Pin "2" von "" zu "ECG_RA".
+Füge neues Bauteil "D3:/59470E15/5945725C" mit Footprint "Diodes_SMD:D_SOD-123" hinzu.
 
 Ändere Netzname von Bauteil "D3:/59470E15/5945725C" Pin "1" von "" zu "AVDD".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D4:/59470E15/59457330:Diodes_SMD:D_SC-80_HandSoldering".
+Ändere Netzname von Bauteil "D3:/59470E15/5945725C" Pin "2" von "" zu "ECG_RA".
 
-Füge neues Bauteil "D4:/59470E15/59457330" mit Footprint "Diodes_SMD:D_SC-80_HandSoldering" hinzu.
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D4:/59470E15/59457330:Diodes_SMD:D_SOD-123".
 
-Ändere Netzname von Bauteil "D4:/59470E15/59457330" Pin "2" von "" zu "ECG_LA".
+Füge neues Bauteil "D4:/59470E15/59457330" mit Footprint "Diodes_SMD:D_SOD-123" hinzu.
 
 Ändere Netzname von Bauteil "D4:/59470E15/59457330" Pin "1" von "" zu "AVDD".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D5:/59470E15/59456B7D:Diodes_SMD:D_SC-80_HandSoldering".
+Ändere Netzname von Bauteil "D4:/59470E15/59457330" Pin "2" von "" zu "ECG_LA".
 
-Füge neues Bauteil "D5:/59470E15/59456B7D" mit Footprint "Diodes_SMD:D_SC-80_HandSoldering" hinzu.
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D5:/59470E15/59456B7D:Diodes_SMD:D_SOD-123".
 
-Ändere Netzname von Bauteil "D5:/59470E15/59456B7D" Pin "2" von "" zu "ECG_V4".
+Füge neues Bauteil "D5:/59470E15/59456B7D" mit Footprint "Diodes_SMD:D_SOD-123" hinzu.
 
 Ändere Netzname von Bauteil "D5:/59470E15/59456B7D" Pin "1" von "" zu "AVDD".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D6:/59470E15/59456DB4:Diodes_SMD:D_SC-80_HandSoldering".
+Ändere Netzname von Bauteil "D5:/59470E15/59456B7D" Pin "2" von "" zu "ECG_V4".
 
-Füge neues Bauteil "D6:/59470E15/59456DB4" mit Footprint "Diodes_SMD:D_SC-80_HandSoldering" hinzu.
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D6:/59470E15/59456DB4:Diodes_SMD:D_SOD-123".
 
-Ändere Netzname von Bauteil "D6:/59470E15/59456DB4" Pin "2" von "" zu "ECG_V5".
+Füge neues Bauteil "D6:/59470E15/59456DB4" mit Footprint "Diodes_SMD:D_SOD-123" hinzu.
 
 Ändere Netzname von Bauteil "D6:/59470E15/59456DB4" Pin "1" von "" zu "AVDD".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D7:/59470E15/594570E7:Diodes_SMD:D_SC-80_HandSoldering".
+Ändere Netzname von Bauteil "D6:/59470E15/59456DB4" Pin "2" von "" zu "ECG_V5".
 
-Füge neues Bauteil "D7:/59470E15/594570E7" mit Footprint "Diodes_SMD:D_SC-80_HandSoldering" hinzu.
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D7:/59470E15/594570E7:Diodes_SMD:D_SOD-123".
 
-Ändere Netzname von Bauteil "D7:/59470E15/594570E7" Pin "2" von "" zu "ECG_LL".
+Füge neues Bauteil "D7:/59470E15/594570E7" mit Footprint "Diodes_SMD:D_SOD-123" hinzu.
 
 Ändere Netzname von Bauteil "D7:/59470E15/594570E7" Pin "1" von "" zu "AVDD".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D8:/59470E15/594571AB:Diodes_SMD:D_SC-80_HandSoldering".
+Ändere Netzname von Bauteil "D7:/59470E15/594570E7" Pin "2" von "" zu "ECG_LL".
 
-Füge neues Bauteil "D8:/59470E15/594571AB" mit Footprint "Diodes_SMD:D_SC-80_HandSoldering" hinzu.
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D8:/59470E15/594571AB:Diodes_SMD:D_SOD-123".
 
-Ändere Netzname von Bauteil "D8:/59470E15/594571AB" Pin "2" von "" zu "ECG_RL".
+Füge neues Bauteil "D8:/59470E15/594571AB" mit Footprint "Diodes_SMD:D_SOD-123" hinzu.
 
 Ändere Netzname von Bauteil "D8:/59470E15/594571AB" Pin "1" von "" zu "AVDD".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D9:/59470E15/59456E80:Diodes_SMD:D_SC-80_HandSoldering".
+Ändere Netzname von Bauteil "D8:/59470E15/594571AB" Pin "2" von "" zu "ECG_RL".
 
-Füge neues Bauteil "D9:/59470E15/59456E80" mit Footprint "Diodes_SMD:D_SC-80_HandSoldering" hinzu.
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D9:/59470E15/59456E80:Diodes_SMD:D_SOD-123".
 
-Ändere Netzname von Bauteil "D9:/59470E15/59456E80" Pin "2" von "" zu "ECG_V1".
+Füge neues Bauteil "D9:/59470E15/59456E80" mit Footprint "Diodes_SMD:D_SOD-123" hinzu.
 
 Ändere Netzname von Bauteil "D9:/59470E15/59456E80" Pin "1" von "" zu "AVDD".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D10:/59470E15/59456C3A:Diodes_SMD:D_SC-80_HandSoldering".
+Ändere Netzname von Bauteil "D9:/59470E15/59456E80" Pin "2" von "" zu "ECG_V1".
 
-Füge neues Bauteil "D10:/59470E15/59456C3A" mit Footprint "Diodes_SMD:D_SC-80_HandSoldering" hinzu.
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D10:/59470E15/59456C3A:Diodes_SMD:D_SOD-123".
 
-Ändere Netzname von Bauteil "D10:/59470E15/59456C3A" Pin "2" von "" zu "ECG_V6".
+Füge neues Bauteil "D10:/59470E15/59456C3A" mit Footprint "Diodes_SMD:D_SOD-123" hinzu.
 
 Ändere Netzname von Bauteil "D10:/59470E15/59456C3A" Pin "1" von "" zu "AVDD".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D11:/5947A4D5/5947F210:Diodes_SMD:D_SC-80_HandSoldering".
+Ändere Netzname von Bauteil "D10:/59470E15/59456C3A" Pin "2" von "" zu "ECG_V6".
 
-Füge neues Bauteil "D11:/5947A4D5/5947F210" mit Footprint "Diodes_SMD:D_SC-80_HandSoldering" hinzu.
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D13:/5947A4D5/59480B53:Diodes_SMD:D_SOD-123".
 
-Ändere Netzname von Bauteil "D11:/5947A4D5/5947F210" Pin "2" von "" zu "VCC_3.3V".
+Füge neues Bauteil "D13:/5947A4D5/59480B53" mit Footprint "Diodes_SMD:D_SOD-123" hinzu.
 
-Ändere Netzname von Bauteil "D11:/5947A4D5/5947F210" Pin "1" von "" zu "15V_Supply".
-
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D12:/5947A4D5/59480225:Diodes_SMD:D_SC-80_HandSoldering".
-
-Füge neues Bauteil "D12:/5947A4D5/59480225" mit Footprint "Diodes_SMD:D_SC-80_HandSoldering" hinzu.
-
-Ändere Netzname von Bauteil "D12:/5947A4D5/59480225" Pin "2" von "" zu "VCC_5V".
-
-Ändere Netzname von Bauteil "D12:/5947A4D5/59480225" Pin "1" von "" zu "15V_Supply".
-
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D13:/5947A4D5/59480B53:Diodes_SMD:D_SC-80_HandSoldering".
-
-Füge neues Bauteil "D13:/5947A4D5/59480B53" mit Footprint "Diodes_SMD:D_SC-80_HandSoldering" hinzu.
+Ändere Netzname von Bauteil "D13:/5947A4D5/59480B53" Pin "1" von "" zu "5V_Supply".
 
 Ändere Netzname von Bauteil "D13:/5947A4D5/59480B53" Pin "2" von "" zu "DVDD".
 
-Ändere Netzname von Bauteil "D13:/5947A4D5/59480B53" Pin "1" von "" zu "15V_Supply".
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D14:/5947A4D5/59480A20:Diodes_SMD:D_SOD-123".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D14:/5947A4D5/59480A20:Diodes_SMD:D_SC-80_HandSoldering".
+Füge neues Bauteil "D14:/5947A4D5/59480A20" mit Footprint "Diodes_SMD:D_SOD-123" hinzu.
 
-Füge neues Bauteil "D14:/5947A4D5/59480A20" mit Footprint "Diodes_SMD:D_SC-80_HandSoldering" hinzu.
+Ändere Netzname von Bauteil "D14:/5947A4D5/59480A20" Pin "1" von "" zu "5V_Supply".
 
 Ändere Netzname von Bauteil "D14:/5947A4D5/59480A20" Pin "2" von "" zu "AVDD".
 
-Ändere Netzname von Bauteil "D14:/5947A4D5/59480A20" Pin "1" von "" zu "15V_Supply".
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D15:/5947A4D5/5948C0B5:Diodes_SMD:D_SOD-123".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "D15:/5947A4D5/5948C0B5:Diodes_SMD:D_SC-80_HandSoldering".
-
-Füge neues Bauteil "D15:/5947A4D5/5948C0B5" mit Footprint "Diodes_SMD:D_SC-80_HandSoldering" hinzu.
-
-Ändere Netzname von Bauteil "D15:/5947A4D5/5948C0B5" Pin "2" von "" zu "AVSS".
+Füge neues Bauteil "D15:/5947A4D5/5948C0B5" mit Footprint "Diodes_SMD:D_SOD-123" hinzu.
 
 Ändere Netzname von Bauteil "D15:/5947A4D5/5948C0B5" Pin "1" von "" zu "-15V_Supply".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "J1:/594C2861:Jumper:Jumper2x2".
+Ändere Netzname von Bauteil "D15:/5947A4D5/5948C0B5" Pin "2" von "" zu "AVSS".
 
-Füge neues Bauteil "J1:/594C2861" mit Footprint "Jumper:Jumper2x2" hinzu.
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "J1:/594C2861:Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm".
 
-Ändere Netzname von Bauteil "J1:/594C2861" Pin "1" von "" zu "ECG_V7P".
+Füge neues Bauteil "J1:/594C2861" mit Footprint "Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm" hinzu.
 
-Ändere Netzname von Bauteil "J1:/594C2861" Pin "2" von "" zu "ECG_V11P".
+Ändere Netzname von Bauteil "J1:/594C2861" Pin "1" von "" zu "ECG_16N".
 
-Ändere Netzname von Bauteil "J1:/594C2861" Pin "3" von "" zu "ECG_V7N".
+Ändere Netzname von Bauteil "J1:/594C2861" Pin "2" von "" zu "ECG_12N".
 
-Ändere Netzname von Bauteil "J1:/594C2861" Pin "4" von "" zu "ECG_V11N".
+Ändere Netzname von Bauteil "J1:/594C2861" Pin "3" von "" zu "ECG_16P".
+
+Ändere Netzname von Bauteil "J1:/594C2861" Pin "4" von "" zu "ECG_12P".
+
+Ändere Netzname von Bauteil "J1:/594C2861" Pin "5" von "" zu "ECG_15N".
+
+Ändere Netzname von Bauteil "J1:/594C2861" Pin "6" von "" zu "ECG_11N".
+
+Ändere Netzname von Bauteil "J1:/594C2861" Pin "7" von "" zu "ECG_15P".
+
+Ändere Netzname von Bauteil "J1:/594C2861" Pin "8" von "" zu "ECG_11P".
+
+Ändere Netzname von Bauteil "J1:/594C2861" Pin "9" von "" zu "ECG_14N".
+
+Ändere Netzname von Bauteil "J1:/594C2861" Pin "10" von "" zu "ECG_10N".
+
+Ändere Netzname von Bauteil "J1:/594C2861" Pin "11" von "" zu "ECG_14P".
+
+Ändere Netzname von Bauteil "J1:/594C2861" Pin "12" von "" zu "ECG_10P".
+
+Ändere Netzname von Bauteil "J1:/594C2861" Pin "13" von "" zu "ECG_13N".
+
+Ändere Netzname von Bauteil "J1:/594C2861" Pin "14" von "" zu "ECG_9N".
+
+Ändere Netzname von Bauteil "J1:/594C2861" Pin "15" von "" zu "ECG_13P".
+
+Ändere Netzname von Bauteil "J1:/594C2861" Pin "16" von "" zu "ECG_9P".
+
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "J2:/595298A0:".
+
+Fehler:Neues Bauteil "J2:/595298A0" konnte nicht hinzugefügt werden, wegen fehlendem Footprint "".
 
 Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "J3:/59470A40/593ACF11:Pin_Headers:Pin_Header_Straight_2x10_Pitch2.54mm".
 
@@ -908,11 +876,11 @@ Füge neues Bauteil "JP22:/5921D05C" mit Footprint "Jumper:Jumper2x2" hinzu.
 
 Ändere Netzname von Bauteil "JP22:/5921D05C" Pin "1" von "" zu "/WCT".
 
-Ändere Netzname von Bauteil "JP22:/5921D05C" Pin "2" von "" zu "Net-(JP22-Pad2)".
+Ändere Netzname von Bauteil "JP22:/5921D05C" Pin "2" von "" zu "ECG_8N".
 
 Ändere Netzname von Bauteil "JP22:/5921D05C" Pin "3" von "" zu "ECG_V1".
 
-Ändere Netzname von Bauteil "JP22:/5921D05C" Pin "4" von "" zu "Net-(JP22-Pad4)".
+Ändere Netzname von Bauteil "JP22:/5921D05C" Pin "4" von "" zu "ECG_8P".
 
 Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "JP23:/5921D0B9:Jumper:Jumper2x2".
 
@@ -920,11 +888,11 @@ Füge neues Bauteil "JP23:/5921D0B9" mit Footprint "Jumper:Jumper2x2" hinzu.
 
 Ändere Netzname von Bauteil "JP23:/5921D0B9" Pin "1" von "" zu "/WCT".
 
-Ändere Netzname von Bauteil "JP23:/5921D0B9" Pin "2" von "" zu "Net-(JP23-Pad2)".
+Ändere Netzname von Bauteil "JP23:/5921D0B9" Pin "2" von "" zu "ECG_7N".
 
 Ändere Netzname von Bauteil "JP23:/5921D0B9" Pin "3" von "" zu "ECG_V5".
 
-Ändere Netzname von Bauteil "JP23:/5921D0B9" Pin "4" von "" zu "Net-(JP23-Pad4)".
+Ändere Netzname von Bauteil "JP23:/5921D0B9" Pin "4" von "" zu "ECG_7P".
 
 Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "JP24:/5921D105:Jumper:Jumper2x2".
 
@@ -932,11 +900,11 @@ Füge neues Bauteil "JP24:/5921D105" mit Footprint "Jumper:Jumper2x2" hinzu.
 
 Ändere Netzname von Bauteil "JP24:/5921D105" Pin "1" von "" zu "/WCT".
 
-Ändere Netzname von Bauteil "JP24:/5921D105" Pin "2" von "" zu "Net-(JP24-Pad2)".
+Ändere Netzname von Bauteil "JP24:/5921D105" Pin "2" von "" zu "ECG_6N".
 
 Ändere Netzname von Bauteil "JP24:/5921D105" Pin "3" von "" zu "ECG_V4".
 
-Ändere Netzname von Bauteil "JP24:/5921D105" Pin "4" von "" zu "Net-(JP24-Pad4)".
+Ändere Netzname von Bauteil "JP24:/5921D105" Pin "4" von "" zu "ECG_6P".
 
 Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "JP25:/5921D158:Jumper:Jumper2x2".
 
@@ -944,11 +912,11 @@ Füge neues Bauteil "JP25:/5921D158" mit Footprint "Jumper:Jumper2x2" hinzu.
 
 Ändere Netzname von Bauteil "JP25:/5921D158" Pin "1" von "" zu "/WCT".
 
-Ändere Netzname von Bauteil "JP25:/5921D158" Pin "2" von "" zu "Net-(JP25-Pad2)".
+Ändere Netzname von Bauteil "JP25:/5921D158" Pin "2" von "" zu "ECG_5N".
 
 Ändere Netzname von Bauteil "JP25:/5921D158" Pin "3" von "" zu "ECG_V3".
 
-Ändere Netzname von Bauteil "JP25:/5921D158" Pin "4" von "" zu "Net-(JP25-Pad4)".
+Ändere Netzname von Bauteil "JP25:/5921D158" Pin "4" von "" zu "ECG_5P".
 
 Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "JP26:/5921D1AA:Jumper:Jumper2x2".
 
@@ -956,11 +924,11 @@ Füge neues Bauteil "JP26:/5921D1AA" mit Footprint "Jumper:Jumper2x2" hinzu.
 
 Ändere Netzname von Bauteil "JP26:/5921D1AA" Pin "1" von "" zu "/WCT".
 
-Ändere Netzname von Bauteil "JP26:/5921D1AA" Pin "2" von "" zu "Net-(JP26-Pad2)".
+Ändere Netzname von Bauteil "JP26:/5921D1AA" Pin "2" von "" zu "ECG_4N".
 
 Ändere Netzname von Bauteil "JP26:/5921D1AA" Pin "3" von "" zu "ECG_V2".
 
-Ändere Netzname von Bauteil "JP26:/5921D1AA" Pin "4" von "" zu "Net-(JP26-Pad4)".
+Ändere Netzname von Bauteil "JP26:/5921D1AA" Pin "4" von "" zu "ECG_4P".
 
 Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "JP27:/5921D2F3:Jumper:Jumper2x2".
 
@@ -968,11 +936,11 @@ Füge neues Bauteil "JP27:/5921D2F3" mit Footprint "Jumper:Jumper2x2" hinzu.
 
 Ändere Netzname von Bauteil "JP27:/5921D2F3" Pin "1" von "" zu "ECG_RA".
 
-Ändere Netzname von Bauteil "JP27:/5921D2F3" Pin "2" von "" zu "Net-(JP27-Pad2)".
+Ändere Netzname von Bauteil "JP27:/5921D2F3" Pin "2" von "" zu "ECG_3N".
 
 Ändere Netzname von Bauteil "JP27:/5921D2F3" Pin "3" von "" zu "ECG_LL".
 
-Ändere Netzname von Bauteil "JP27:/5921D2F3" Pin "4" von "" zu "Net-(JP27-Pad4)".
+Ändere Netzname von Bauteil "JP27:/5921D2F3" Pin "4" von "" zu "ECG_3P".
 
 Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "JP28:/5921D33F:Jumper:Jumper2x2".
 
@@ -980,11 +948,11 @@ Füge neues Bauteil "JP28:/5921D33F" mit Footprint "Jumper:Jumper2x2" hinzu.
 
 Ändere Netzname von Bauteil "JP28:/5921D33F" Pin "1" von "" zu "ECG_RA".
 
-Ändere Netzname von Bauteil "JP28:/5921D33F" Pin "2" von "" zu "Net-(JP28-Pad2)".
+Ändere Netzname von Bauteil "JP28:/5921D33F" Pin "2" von "" zu "ECG_2N".
 
 Ändere Netzname von Bauteil "JP28:/5921D33F" Pin "3" von "" zu "ECG_LA".
 
-Ändere Netzname von Bauteil "JP28:/5921D33F" Pin "4" von "" zu "Net-(JP28-Pad4)".
+Ändere Netzname von Bauteil "JP28:/5921D33F" Pin "4" von "" zu "ECG_2P".
 
 Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "JP29:/5921D38F:Jumper:Jumper2x2".
 
@@ -992,21 +960,21 @@ Füge neues Bauteil "JP29:/5921D38F" mit Footprint "Jumper:Jumper2x2" hinzu.
 
 Ändere Netzname von Bauteil "JP29:/5921D38F" Pin "1" von "" zu "/WCT".
 
-Ändere Netzname von Bauteil "JP29:/5921D38F" Pin "2" von "" zu "Net-(JP29-Pad2)".
+Ändere Netzname von Bauteil "JP29:/5921D38F" Pin "2" von "" zu "ECG_1N".
 
 Ändere Netzname von Bauteil "JP29:/5921D38F" Pin "3" von "" zu "ECG_V6".
 
-Ändere Netzname von Bauteil "JP29:/5921D38F" Pin "4" von "" zu "Net-(JP29-Pad4)".
+Ändere Netzname von Bauteil "JP29:/5921D38F" Pin "4" von "" zu "ECG_1P".
 
 Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "JP30:/593ABCC9:Jumper:Jumper2x2".
 
 Füge neues Bauteil "JP30:/593ABCC9" mit Footprint "Jumper:Jumper2x2" hinzu.
 
-Ändere Netzname von Bauteil "JP30:/593ABCC9" Pin "1" von "" zu "ECG_V7P".
+Ändere Netzname von Bauteil "JP30:/593ABCC9" Pin "1" von "" zu "ECG_16N".
 
 Ändere Netzname von Bauteil "JP30:/593ABCC9" Pin "2" von "" zu "Net-(JP30-Pad2)".
 
-Ändere Netzname von Bauteil "JP30:/593ABCC9" Pin "3" von "" zu "ECG_V7N".
+Ändere Netzname von Bauteil "JP30:/593ABCC9" Pin "3" von "" zu "ECG_16P".
 
 Ändere Netzname von Bauteil "JP30:/593ABCC9" Pin "4" von "" zu "Net-(JP30-Pad4)".
 
@@ -1014,11 +982,11 @@ Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "JP31:/593ABCCF:Jumpe
 
 Füge neues Bauteil "JP31:/593ABCCF" mit Footprint "Jumper:Jumper2x2" hinzu.
 
-Ändere Netzname von Bauteil "JP31:/593ABCCF" Pin "1" von "" zu "ECG_V8P".
+Ändere Netzname von Bauteil "JP31:/593ABCCF" Pin "1" von "" zu "ECG_15N".
 
 Ändere Netzname von Bauteil "JP31:/593ABCCF" Pin "2" von "" zu "Net-(JP31-Pad2)".
 
-Ändere Netzname von Bauteil "JP31:/593ABCCF" Pin "3" von "" zu "ECG_V8N".
+Ändere Netzname von Bauteil "JP31:/593ABCCF" Pin "3" von "" zu "ECG_15P".
 
 Ändere Netzname von Bauteil "JP31:/593ABCCF" Pin "4" von "" zu "Net-(JP31-Pad4)".
 
@@ -1026,11 +994,11 @@ Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "JP32:/593ABCD5:Jumpe
 
 Füge neues Bauteil "JP32:/593ABCD5" mit Footprint "Jumper:Jumper2x2" hinzu.
 
-Ändere Netzname von Bauteil "JP32:/593ABCD5" Pin "1" von "" zu "ECG_V9P".
+Ändere Netzname von Bauteil "JP32:/593ABCD5" Pin "1" von "" zu "ECG_14N".
 
 Ändere Netzname von Bauteil "JP32:/593ABCD5" Pin "2" von "" zu "Net-(JP32-Pad2)".
 
-Ändere Netzname von Bauteil "JP32:/593ABCD5" Pin "3" von "" zu "ECG_V9N".
+Ändere Netzname von Bauteil "JP32:/593ABCD5" Pin "3" von "" zu "ECG_14P".
 
 Ändere Netzname von Bauteil "JP32:/593ABCD5" Pin "4" von "" zu "Net-(JP32-Pad4)".
 
@@ -1038,11 +1006,11 @@ Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "JP33:/593ABCDB:Jumpe
 
 Füge neues Bauteil "JP33:/593ABCDB" mit Footprint "Jumper:Jumper2x2" hinzu.
 
-Ändere Netzname von Bauteil "JP33:/593ABCDB" Pin "1" von "" zu "ECG_V10P".
+Ändere Netzname von Bauteil "JP33:/593ABCDB" Pin "1" von "" zu "ECG_13N".
 
 Ändere Netzname von Bauteil "JP33:/593ABCDB" Pin "2" von "" zu "Net-(JP33-Pad2)".
 
-Ändere Netzname von Bauteil "JP33:/593ABCDB" Pin "3" von "" zu "ECG_V10N".
+Ändere Netzname von Bauteil "JP33:/593ABCDB" Pin "3" von "" zu "ECG_13P".
 
 Ändere Netzname von Bauteil "JP33:/593ABCDB" Pin "4" von "" zu "Net-(JP33-Pad4)".
 
@@ -1050,11 +1018,11 @@ Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "JP34:/593ABCE1:Jumpe
 
 Füge neues Bauteil "JP34:/593ABCE1" mit Footprint "Jumper:Jumper2x2" hinzu.
 
-Ändere Netzname von Bauteil "JP34:/593ABCE1" Pin "1" von "" zu "ECG_V11P".
+Ändere Netzname von Bauteil "JP34:/593ABCE1" Pin "1" von "" zu "ECG_12N".
 
 Ändere Netzname von Bauteil "JP34:/593ABCE1" Pin "2" von "" zu "Net-(JP34-Pad2)".
 
-Ändere Netzname von Bauteil "JP34:/593ABCE1" Pin "3" von "" zu "ECV_V11N".
+Ändere Netzname von Bauteil "JP34:/593ABCE1" Pin "3" von "" zu "ECG_12P".
 
 Ändere Netzname von Bauteil "JP34:/593ABCE1" Pin "4" von "" zu "Net-(JP34-Pad4)".
 
@@ -1062,11 +1030,11 @@ Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "JP35:/593ABCE7:Jumpe
 
 Füge neues Bauteil "JP35:/593ABCE7" mit Footprint "Jumper:Jumper2x2" hinzu.
 
-Ändere Netzname von Bauteil "JP35:/593ABCE7" Pin "1" von "" zu "ECV_V12P".
+Ändere Netzname von Bauteil "JP35:/593ABCE7" Pin "1" von "" zu "ECG_11N".
 
 Ändere Netzname von Bauteil "JP35:/593ABCE7" Pin "2" von "" zu "Net-(JP35-Pad2)".
 
-Ändere Netzname von Bauteil "JP35:/593ABCE7" Pin "3" von "" zu "ECV_V12N".
+Ändere Netzname von Bauteil "JP35:/593ABCE7" Pin "3" von "" zu "ECG_11P".
 
 Ändere Netzname von Bauteil "JP35:/593ABCE7" Pin "4" von "" zu "Net-(JP35-Pad4)".
 
@@ -1074,11 +1042,11 @@ Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "JP36:/593ABCED:Jumpe
 
 Füge neues Bauteil "JP36:/593ABCED" mit Footprint "Jumper:Jumper2x2" hinzu.
 
-Ändere Netzname von Bauteil "JP36:/593ABCED" Pin "1" von "" zu "ECV_V13P".
+Ändere Netzname von Bauteil "JP36:/593ABCED" Pin "1" von "" zu "ECG_10N".
 
 Ändere Netzname von Bauteil "JP36:/593ABCED" Pin "2" von "" zu "Net-(JP36-Pad2)".
 
-Ändere Netzname von Bauteil "JP36:/593ABCED" Pin "3" von "" zu "ECV_V13N".
+Ändere Netzname von Bauteil "JP36:/593ABCED" Pin "3" von "" zu "ECG_10P".
 
 Ändere Netzname von Bauteil "JP36:/593ABCED" Pin "4" von "" zu "Net-(JP36-Pad4)".
 
@@ -1086,11 +1054,11 @@ Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "JP37:/593ABCF3:Jumpe
 
 Füge neues Bauteil "JP37:/593ABCF3" mit Footprint "Jumper:Jumper2x2" hinzu.
 
-Ändere Netzname von Bauteil "JP37:/593ABCF3" Pin "1" von "" zu "ECV_V14P".
+Ändere Netzname von Bauteil "JP37:/593ABCF3" Pin "1" von "" zu "ECG_9N".
 
 Ändere Netzname von Bauteil "JP37:/593ABCF3" Pin "2" von "" zu "Net-(JP37-Pad2)".
 
-Ändere Netzname von Bauteil "JP37:/593ABCF3" Pin "3" von "" zu "ECV_V14N".
+Ändere Netzname von Bauteil "JP37:/593ABCF3" Pin "3" von "" zu "ECG_9P".
 
 Ändere Netzname von Bauteil "JP37:/593ABCF3" Pin "4" von "" zu "Net-(JP37-Pad4)".
 
@@ -1146,19 +1114,13 @@ Füge neues Bauteil "PSK2:/59470E15/5947AEC5" mit Footprint "Pin_Headers:Pin_Hea
 
 Ändere Netzname von Bauteil "PSK2:/59470E15/5947AEC5" Pin "10" von "" zu "/ADC1298_ECG_FE/ELEC_RL".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "PSK3:/5947A4D5/594B44A3:Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm".
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "PSK3:/5947A4D5/594BA5C4:".
 
-Füge neues Bauteil "PSK3:/5947A4D5/594B44A3" mit Footprint "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" hinzu.
+Fehler:Neues Bauteil "PSK3:/5947A4D5/594BA5C4" konnte nicht hinzugefügt werden, wegen fehlendem Footprint "".
 
-Ändere Netzname von Bauteil "PSK3:/5947A4D5/594B44A3" Pin "1" von "" zu "15V_Supply".
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "PSK4:/59470E15/59492CE6:Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm".
 
-Ändere Netzname von Bauteil "PSK3:/5947A4D5/594B44A3" Pin "2" von "" zu "-15V_Supply".
-
-Ändere Netzname von Bauteil "PSK3:/5947A4D5/594B44A3" Pin "3" von "" zu "GND".
-
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "PSK4:/59470E15/59492CE6:Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm".
-
-Füge neues Bauteil "PSK4:/59470E15/59492CE6" mit Footprint "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" hinzu.
+Füge neues Bauteil "PSK4:/59470E15/59492CE6" mit Footprint "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" hinzu.
 
 Ändere Netzname von Bauteil "PSK4:/59470E15/59492CE6" Pin "1" von "" zu "Net-(PSK4-Pad1)".
 
@@ -1284,14 +1246,6 @@ Füge neues Bauteil "R15:/594DC380" mit Footprint "Resistors_SMD:R_0805_HandSold
 
 Ändere Netzname von Bauteil "R15:/594DC380" Pin "2" von "" zu "SPI_CS2".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "R16:/5947A4D5/5947F26A:Resistors_SMD:R_0805_HandSoldering".
-
-Füge neues Bauteil "R16:/5947A4D5/5947F26A" mit Footprint "Resistors_SMD:R_0805_HandSoldering" hinzu.
-
-Ändere Netzname von Bauteil "R16:/5947A4D5/5947F26A" Pin "1" von "" zu "Net-(C36-Pad1)".
-
-Ändere Netzname von Bauteil "R16:/5947A4D5/5947F26A" Pin "2" von "" zu "GND".
-
 Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "R17:/59470E15/59454CBA:Resistors_SMD:R_0805_HandSoldering".
 
 Füge neues Bauteil "R17:/59470E15/59454CBA" mit Footprint "Resistors_SMD:R_0805_HandSoldering" hinzu.
@@ -1307,14 +1261,6 @@ Füge neues Bauteil "R18:/59470E15/59454D1E" mit Footprint "Resistors_SMD:R_0805
 Ändere Netzname von Bauteil "R18:/59470E15/59454D1E" Pin "1" von "" zu "ECG_V4".
 
 Ändere Netzname von Bauteil "R18:/59470E15/59454D1E" Pin "2" von "" zu "Net-(C28-Pad1)".
-
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "R19:/5947A4D5/59480231:Resistors_SMD:R_0805_HandSoldering".
-
-Füge neues Bauteil "R19:/5947A4D5/59480231" mit Footprint "Resistors_SMD:R_0805_HandSoldering" hinzu.
-
-Ändere Netzname von Bauteil "R19:/5947A4D5/59480231" Pin "1" von "" zu "Net-(C37-Pad1)".
-
-Ändere Netzname von Bauteil "R19:/5947A4D5/59480231" Pin "2" von "" zu "GND".
 
 Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "R20:/5947A4D5/59480B5F:Resistors_SMD:R_0805_HandSoldering".
 
@@ -1339,22 +1285,6 @@ Füge neues Bauteil "R22:/59470E15/59454E76" mit Footprint "Resistors_SMD:R_0805
 Ändere Netzname von Bauteil "R22:/59470E15/59454E76" Pin "1" von "" zu "ECG_V5".
 
 Ändere Netzname von Bauteil "R22:/59470E15/59454E76" Pin "2" von "" zu "Net-(C82-Pad1)".
-
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "R23:/5947A4D5/5947F235:Resistors_SMD:R_0805_HandSoldering".
-
-Füge neues Bauteil "R23:/5947A4D5/5947F235" mit Footprint "Resistors_SMD:R_0805_HandSoldering" hinzu.
-
-Ändere Netzname von Bauteil "R23:/5947A4D5/5947F235" Pin "1" von "" zu "VCC_3.3V".
-
-Ändere Netzname von Bauteil "R23:/5947A4D5/5947F235" Pin "2" von "" zu "Net-(C36-Pad1)".
-
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "R24:/5947A4D5/5948022B:Resistors_SMD:R_0805_HandSoldering".
-
-Füge neues Bauteil "R24:/5947A4D5/5948022B" mit Footprint "Resistors_SMD:R_0805_HandSoldering" hinzu.
-
-Ändere Netzname von Bauteil "R24:/5947A4D5/5948022B" Pin "1" von "" zu "VCC_5V".
-
-Ändere Netzname von Bauteil "R24:/5947A4D5/5948022B" Pin "2" von "" zu "Net-(C37-Pad1)".
 
 Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "R25:/59470E15/59454EA8:Resistors_SMD:R_0805_HandSoldering".
 
@@ -1516,51 +1446,51 @@ Füge neues Bauteil "R75:/594D49B0" mit Footprint "Resistors_SMD:R_0805_HandSold
 
 Ändere Netzname von Bauteil "R75:/594D49B0" Pin "2" von "" zu "SPI_CS1".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "TP1:/592BD340:Measurement_Points:Test_Point_Keystone_5000-5004_Miniature".
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "TP1:/592BD340:Measurement_Points:Measurement_Point_Round-TH_Small".
 
-Füge neues Bauteil "TP1:/592BD340" mit Footprint "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" hinzu.
+Füge neues Bauteil "TP1:/592BD340" mit Footprint "Measurement_Points:Measurement_Point_Round-TH_Small" hinzu.
 
 Ändere Netzname von Bauteil "TP1:/592BD340" Pin "1" von "" zu "VREFP".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "TP2:/592B76C2:Measurement_Points:Test_Point_Keystone_5000-5004_Miniature".
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "TP2:/592B76C2:Measurement_Points:Measurement_Point_Round-TH_Small".
 
-Füge neues Bauteil "TP2:/592B76C2" mit Footprint "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" hinzu.
+Füge neues Bauteil "TP2:/592B76C2" mit Footprint "Measurement_Points:Measurement_Point_Round-TH_Small" hinzu.
 
 Ändere Netzname von Bauteil "TP2:/592B76C2" Pin "1" von "" zu "VREFP".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "TP3:/592B47D5:Measurement_Points:Test_Point_Keystone_5000-5004_Miniature".
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "TP3:/592B47D5:Measurement_Points:Measurement_Point_Round-TH_Small".
 
-Füge neues Bauteil "TP3:/592B47D5" mit Footprint "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" hinzu.
+Füge neues Bauteil "TP3:/592B47D5" mit Footprint "Measurement_Points:Measurement_Point_Round-TH_Small" hinzu.
 
 Ändere Netzname von Bauteil "TP3:/592B47D5" Pin "1" von "" zu "AGND".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "TP4:/592B48B1:Measurement_Points:Test_Point_Keystone_5000-5004_Miniature".
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "TP4:/592B48B1:Measurement_Points:Measurement_Point_Round-TH_Small".
 
-Füge neues Bauteil "TP4:/592B48B1" mit Footprint "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" hinzu.
+Füge neues Bauteil "TP4:/592B48B1" mit Footprint "Measurement_Points:Measurement_Point_Round-TH_Small" hinzu.
 
 Ändere Netzname von Bauteil "TP4:/592B48B1" Pin "1" von "" zu "AGND".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "TP5:/592B4956:Measurement_Points:Test_Point_Keystone_5000-5004_Miniature".
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "TP5:/592B4956:Measurement_Points:Measurement_Point_Round-TH_Small".
 
-Füge neues Bauteil "TP5:/592B4956" mit Footprint "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" hinzu.
+Füge neues Bauteil "TP5:/592B4956" mit Footprint "Measurement_Points:Measurement_Point_Round-TH_Small" hinzu.
 
 Ändere Netzname von Bauteil "TP5:/592B4956" Pin "1" von "" zu "AGND".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "TP6:/592B49FA:Measurement_Points:Test_Point_Keystone_5000-5004_Miniature".
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "TP6:/592B49FA:Measurement_Points:Measurement_Point_Round-TH_Small".
 
-Füge neues Bauteil "TP6:/592B49FA" mit Footprint "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" hinzu.
+Füge neues Bauteil "TP6:/592B49FA" mit Footprint "Measurement_Points:Measurement_Point_Round-TH_Small" hinzu.
 
 Ändere Netzname von Bauteil "TP6:/592B49FA" Pin "1" von "" zu "AGND".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "TP7:/59470A40/593E9035:Measurement_Points:Test_Point_Keystone_5000-5004_Miniature".
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "TP7:/59470A40/593E9035:Measurement_Points:Measurement_Point_Round-TH_Small".
 
-Füge neues Bauteil "TP7:/59470A40/593E9035" mit Footprint "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" hinzu.
+Füge neues Bauteil "TP7:/59470A40/593E9035" mit Footprint "Measurement_Points:Measurement_Point_Round-TH_Small" hinzu.
 
 Ändere Netzname von Bauteil "TP7:/59470A40/593E9035" Pin "1" von "" zu "VCC_5V".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "TP8:/59470A40/5947B7AF:Measurement_Points:Test_Point_Keystone_5000-5004_Miniature".
+Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "TP8:/59470A40/5947B7AF:Measurement_Points:Measurement_Point_Round-TH_Small".
 
-Füge neues Bauteil "TP8:/59470A40/5947B7AF" mit Footprint "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" hinzu.
+Füge neues Bauteil "TP8:/59470A40/5947B7AF" mit Footprint "Measurement_Points:Measurement_Point_Round-TH_Small" hinzu.
 
 Ändere Netzname von Bauteil "TP8:/59470A40/5947B7AF" Pin "1" von "" zu "VCC_3.3V".
 
@@ -1578,26 +1508,6 @@ Füge neues Bauteil "U1:/595E3160" mit Footprint "Jumper:OPA132" hinzu.
 
 Ändere Netzname von Bauteil "U1:/595E3160" Pin "2" von "" zu "ECG_SHD_DRV".
 
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "U2:/5947A4D5/5947A8F6:Linear_Regulator:LM317".
-
-Füge neues Bauteil "U2:/5947A4D5/5947A8F6" mit Footprint "Linear_Regulator:LM317" hinzu.
-
-Ändere Netzname von Bauteil "U2:/5947A4D5/5947A8F6" Pin "1" von "" zu "Net-(C36-Pad1)".
-
-Ändere Netzname von Bauteil "U2:/5947A4D5/5947A8F6" Pin "2" von "" zu "VCC_3.3V".
-
-Ändere Netzname von Bauteil "U2:/5947A4D5/5947A8F6" Pin "3" von "" zu "15V_Supply".
-
-Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "U3:/5947A4D5/5948020D:Linear_Regulator:LM317".
-
-Füge neues Bauteil "U3:/5947A4D5/5948020D" mit Footprint "Linear_Regulator:LM317" hinzu.
-
-Ändere Netzname von Bauteil "U3:/5947A4D5/5948020D" Pin "1" von "" zu "Net-(C37-Pad1)".
-
-Ändere Netzname von Bauteil "U3:/5947A4D5/5948020D" Pin "2" von "" zu "VCC_5V".
-
-Ändere Netzname von Bauteil "U3:/5947A4D5/5948020D" Pin "3" von "" zu "15V_Supply".
-
 Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "U4:/5947A4D5/59480B3B:Linear_Regulator:LM317".
 
 Füge neues Bauteil "U4:/5947A4D5/59480B3B" mit Footprint "Linear_Regulator:LM317" hinzu.
@@ -1606,7 +1516,7 @@ Füge neues Bauteil "U4:/5947A4D5/59480B3B" mit Footprint "Linear_Regulator:LM31
 
 Ändere Netzname von Bauteil "U4:/5947A4D5/59480B3B" Pin "2" von "" zu "DVDD".
 
-Ändere Netzname von Bauteil "U4:/5947A4D5/59480B3B" Pin "3" von "" zu "15V_Supply".
+Ändere Netzname von Bauteil "U4:/5947A4D5/59480B3B" Pin "3" von "" zu "5V_Supply".
 
 Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "U5:/5947A4D5/59480A08:Linear_Regulator:LM317".
 
@@ -1616,7 +1526,7 @@ Füge neues Bauteil "U5:/5947A4D5/59480A08" mit Footprint "Linear_Regulator:LM31
 
 Ändere Netzname von Bauteil "U5:/5947A4D5/59480A08" Pin "2" von "" zu "AVDD".
 
-Ändere Netzname von Bauteil "U5:/5947A4D5/59480A08" Pin "3" von "" zu "15V_Supply".
+Ändere Netzname von Bauteil "U5:/5947A4D5/59480A08" Pin "3" von "" zu "5V_Supply".
 
 Hinweis:Überprüfe aus der Netzliste den Bauteilfootprint "U6:/5947A4D5/5948BDC4:Linear_Regulator:LM317".
 
@@ -1858,63 +1768,39 @@ Füge neues Bauteil "U20:/5921E8FA" mit Footprint "ADS1298:ADS1298" hinzu.
 
 Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "18" von "" zu "PACEOUT12".
 
-Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "10" von "" zu "Net-(JP26-Pad4)".
+Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "10" von "" zu "ECG_4P".
 
-Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "9" von "" zu "Net-(JP26-Pad2)".
+Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "9" von "" zu "ECG_4N".
 
-Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "11" von "" zu "Net-(JP27-Pad2)".
+Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "11" von "" zu "ECG_3N".
 
-Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "12" von "" zu "Net-(JP27-Pad4)".
+Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "12" von "" zu "ECG_3P".
 
-Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "16" von "" zu "Net-(JP29-Pad4)".
+Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "16" von "" zu "ECG_1P".
 
-Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "15" von "" zu "Net-(JP29-Pad2)".
+Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "15" von "" zu "ECG_1N".
 
-Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "13" von "" zu "Net-(JP28-Pad2)".
+Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "13" von "" zu "ECG_2N".
 
-Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "14" von "" zu "Net-(JP28-Pad4)".
+Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "14" von "" zu "ECG_2P".
 
-Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "6" von "" zu "Net-(JP24-Pad4)".
+Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "6" von "" zu "ECG_6P".
 
-Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "5" von "" zu "Net-(JP24-Pad2)".
+Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "5" von "" zu "ECG_6N".
 
-Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "7" von "" zu "Net-(JP25-Pad2)".
+Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "7" von "" zu "ECG_5N".
 
-Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "8" von "" zu "Net-(JP25-Pad4)".
+Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "8" von "" zu "ECG_5P".
 
-Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "4" von "" zu "Net-(JP23-Pad4)".
+Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "4" von "" zu "ECG_7P".
 
-Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "3" von "" zu "Net-(JP23-Pad2)".
+Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "3" von "" zu "ECG_7N".
 
-Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "1" von "" zu "Net-(JP22-Pad2)".
+Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "1" von "" zu "ECG_8N".
 
-Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "2" von "" zu "Net-(JP22-Pad4)".
+Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "2" von "" zu "ECG_8P".
 
 Ändere Netzname von Bauteil "U20:/5921E8FA" Pin "17" von "" zu "PACEOUT11".
-
-Fehler:Bauteil 'J1' mit Pad '13' konnte nicht im Footprint 'Jumper:Jumper2x2' gefunden werden.
-
-Fehler:Bauteil 'J1' mit Pad '9' konnte nicht im Footprint 'Jumper:Jumper2x2' gefunden werden.
-
-Fehler:Bauteil 'J1' mit Pad '15' konnte nicht im Footprint 'Jumper:Jumper2x2' gefunden werden.
-
-Fehler:Bauteil 'J1' mit Pad '11' konnte nicht im Footprint 'Jumper:Jumper2x2' gefunden werden.
-
-Fehler:Bauteil 'J1' mit Pad '7' konnte nicht im Footprint 'Jumper:Jumper2x2' gefunden werden.
-
-Fehler:Bauteil 'J1' mit Pad '5' konnte nicht im Footprint 'Jumper:Jumper2x2' gefunden werden.
-
-Fehler:Bauteil 'J1' mit Pad '16' konnte nicht im Footprint 'Jumper:Jumper2x2' gefunden werden.
-
-Fehler:Bauteil 'J1' mit Pad '14' konnte nicht im Footprint 'Jumper:Jumper2x2' gefunden werden.
-
-Fehler:Bauteil 'J1' mit Pad '12' konnte nicht im Footprint 'Jumper:Jumper2x2' gefunden werden.
-
-Fehler:Bauteil 'J1' mit Pad '10' konnte nicht im Footprint 'Jumper:Jumper2x2' gefunden werden.
-
-Fehler:Bauteil 'J1' mit Pad '8' konnte nicht im Footprint 'Jumper:Jumper2x2' gefunden werden.
-
-Fehler:Bauteil 'J1' mit Pad '6' konnte nicht im Footprint 'Jumper:Jumper2x2' gefunden werden.
 
 Fehler:Bauteil 'J6' mit Pad '2~' konnte nicht im Footprint 'Connectors:DB15FC' gefunden werden.
 

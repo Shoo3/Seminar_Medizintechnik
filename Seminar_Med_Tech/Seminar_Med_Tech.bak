@@ -815,24 +815,20 @@ Text GLabel 10100 4025 2    39   Output ~ 0
 SPI_CS2
 Text GLabel 9300 3625 2    39   Output ~ 0
 SPI_DRDY2
-Text GLabel 4175 4450 0    60   Input ~ 0
-ECG_V7P
-Text GLabel 4175 4575 0    60   Input ~ 0
-ECG_V7N
+Text GLabel 4175 6325 0    60   Input ~ 0
+ECG_9P
+Text GLabel 4175 6200 0    60   Input ~ 0
+ECG_9N
 Text GLabel 4175 4700 0    60   Input ~ 0
-ECG_V8P
+ECG_15N
 Text GLabel 4175 4825 0    60   Input ~ 0
-ECG_V8N
-Text GLabel 4175 4950 0    60   Input ~ 0
-ECG_V9P
-Text GLabel 4175 5075 0    60   Input ~ 0
-ECG_V9N
-Text GLabel 4175 5200 0    60   Input ~ 0
-ECG_V10P
-Text GLabel 4175 5325 0    60   Input ~ 0
-ECG_V10N
-Text GLabel 4175 5450 0    60   Input ~ 0
-ECG_V11P
+ECG_15P
+Text GLabel 4175 6075 0    60   Input ~ 0
+ECG_10P
+Text GLabel 4175 5950 0    60   Input ~ 0
+ECG_10N
+Text GLabel 4175 5825 0    60   Input ~ 0
+ECG_11P
 $Comp
 L Jumper2x2 JP30
 U 1 1 593ABCC9
@@ -921,20 +917,20 @@ F 3 "" H 5025 6425 60  0001 C CNN
 	1    5025 6425
 	1    0    0    -1  
 $EndComp
-Text GLabel 4175 5575 0    60   Input ~ 0
-ECV_V11N
 Text GLabel 4175 5700 0    60   Input ~ 0
-ECV_V12P
-Text GLabel 4175 5825 0    60   Input ~ 0
-ECV_V12N
-Text GLabel 4175 5950 0    60   Input ~ 0
-ECV_V13P
-Text GLabel 4175 6075 0    60   Input ~ 0
-ECV_V13N
-Text GLabel 4175 6200 0    60   Input ~ 0
-ECV_V14P
-Text GLabel 4175 6325 0    60   Input ~ 0
-ECV_V14N
+ECG_11N
+Text GLabel 4175 5575 0    60   Input ~ 0
+ECG_12P
+Text GLabel 4175 5450 0    60   Input ~ 0
+ECG_12N
+Text GLabel 4175 5325 0    60   Input ~ 0
+ECG_13P
+Text GLabel 4175 5200 0    60   Input ~ 0
+ECG_13N
+Text GLabel 4175 5075 0    60   Input ~ 0
+ECG_14P
+Text GLabel 4175 4950 0    60   Input ~ 0
+ECG_14N
 $Comp
 L POT R2
 U 1 1 5945231A
@@ -957,38 +953,6 @@ F 3 "" H 4850 6050 50  0001 C CNN
 	1    4850 7250
 	1    0    0    -1  
 $EndComp
-Text GLabel 4150 6900 0    60   Input ~ 0
-ECG_V7P
-Text GLabel 4150 7000 0    60   Input ~ 0
-ECG_V7N
-Text GLabel 4150 7100 0    60   Input ~ 0
-ECG_V8P
-Text GLabel 4150 7200 0    60   Input ~ 0
-ECG_V8N
-Text GLabel 4150 7300 0    60   Input ~ 0
-ECG_V9P
-Text GLabel 4150 7400 0    60   Input ~ 0
-ECG_V9N
-Text GLabel 4150 7500 0    60   Input ~ 0
-ECG_V10P
-Text GLabel 4150 7600 0    60   Input ~ 0
-ECG_V10N
-Text GLabel 5500 6900 2    60   Input ~ 0
-ECG_V11P
-Text GLabel 5500 7000 2    60   Input ~ 0
-ECG_V11N
-Text GLabel 5500 7100 2    60   Input ~ 0
-ECG_V12P
-Text GLabel 5500 7200 2    60   Input ~ 0
-ECG_V12N
-Text GLabel 5500 7300 2    60   Input ~ 0
-ECG_V13P
-Text GLabel 5500 7400 2    60   Input ~ 0
-ECG_V13N
-Text GLabel 5500 7500 2    60   Input ~ 0
-ECG_V14P
-Text GLabel 5500 7600 2    60   Input ~ 0
-ECG_V14N
 Text Label 2000 1175 0    60   ~ 0
 WCT
 $Sheet
@@ -1158,44 +1122,44 @@ GPIO22
 NoConn ~ 13900 5175
 NoConn ~ 10575 5025
 Text GLabel 4325 1825 1    39   Input ~ 0
-ECG_V8N
+ECG_8N
 Text GLabel 4225 1825 1    39   Input ~ 0
-ECG_V8P
+ECG_8P
 Text GLabel 4125 1825 1    39   Input ~ 0
-ECG_V7N
+ECG_7N
 Text GLabel 4025 1825 1    39   Input ~ 0
-ECG_V7P
+ECG_7P
 Text GLabel 3925 1825 1    39   Input ~ 0
-ECG_V6N
+ECG_6N
 Text GLabel 3825 1825 1    39   Input ~ 0
-ECG_V6P
+ECG_6P
 Text GLabel 3725 1825 1    39   Input ~ 0
-ECG_V5N
+ECG_5N
 Text GLabel 3625 1825 1    39   Input ~ 0
-ECG_V5P
+ECG_5P
 Text GLabel 3250 3000 3    39   Input ~ 0
-ECG_V1P
+ECG_1P
 Text GLabel 3350 3000 3    39   Input ~ 0
-ECG_V1N
+ECG_1N
 Text GLabel 3450 3000 3    39   Input ~ 0
-ECG_V2P
+ECG_2P
 Text GLabel 3550 3000 3    39   Input ~ 0
-ECG_V2N
+ECG_2N
 Text GLabel 3650 3000 3    39   Input ~ 0
-ECG_V3P
+ECG_3P
 Text GLabel 3750 3000 3    39   Input ~ 0
-ECG_V3N
+ECG_3N
 Text GLabel 3850 3000 3    39   Input ~ 0
-ECG_V4P
+ECG_4P
 Text GLabel 3950 3000 3    39   Input ~ 0
-ECG_V4N
+ECG_4N
 $Comp
-L CONN_02X08 J?
+L CONN_02X08 J2
 U 1 1 595298A0
 P 4000 1025
-F 0 "J?" H 4000 1475 50  0000 C CNN
+F 0 "J2" H 4000 1475 50  0000 C CNN
 F 1 "CONN_02X08" V 4000 1025 50  0000 C CNN
-F 2 "" H 4000 -175 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm" H 4000 -175 50  0001 C CNN
 F 3 "" H 4000 -175 50  0001 C CNN
 	1    4000 1025
 	1    0    0    -1  
@@ -2325,35 +2289,71 @@ Connection ~ 3750 2575
 Connection ~ 3850 2525
 Connection ~ 3950 2475
 Text GLabel 3750 675  0    39   Input ~ 0
-ECG_V8N
+ECG_8N
 Text GLabel 3750 775  0    39   Input ~ 0
-ECG_V8P
+ECG_8P
 Text GLabel 3750 875  0    39   Input ~ 0
-ECG_V7N
+ECG_7N
 Text GLabel 3750 975  0    39   Input ~ 0
-ECG_V7P
+ECG_7P
 Text GLabel 3750 1075 0    39   Input ~ 0
-ECG_V6N
+ECG_6N
 Text GLabel 3750 1175 0    39   Input ~ 0
-ECG_V6P
+ECG_6P
 Text GLabel 3750 1275 0    39   Input ~ 0
-ECG_V5N
+ECG_5N
 Text GLabel 3750 1375 0    39   Input ~ 0
-ECG_V5P
+ECG_5P
 Text GLabel 4250 1375 2    39   Input ~ 0
-ECG_V1P
+ECG_1P
 Text GLabel 4250 1275 2    39   Input ~ 0
-ECG_V1N
+ECG_1N
 Text GLabel 4250 1175 2    39   Input ~ 0
-ECG_V2P
+ECG_2P
 Text GLabel 4250 1075 2    39   Input ~ 0
-ECG_V2N
+ECG_2N
 Text GLabel 4250 975  2    39   Input ~ 0
-ECG_V3P
+ECG_3P
 Text GLabel 4250 875  2    39   Input ~ 0
-ECG_V3N
+ECG_3N
 Text GLabel 4250 775  2    39   Input ~ 0
-ECG_V4P
+ECG_4P
 Text GLabel 4250 675  2    39   Input ~ 0
-ECG_V4N
+ECG_4N
+Text GLabel 4175 4450 0    60   Input ~ 0
+ECG_16N
+Text GLabel 4175 4575 0    60   Input ~ 0
+ECG_16P
+Text GLabel 4150 7100 0    60   Input ~ 0
+ECG_15N
+Text GLabel 4150 7200 0    60   Input ~ 0
+ECG_15P
+Text GLabel 4150 7600 0    60   Input ~ 0
+ECG_13P
+Text GLabel 4150 7500 0    60   Input ~ 0
+ECG_13N
+Text GLabel 4150 7400 0    60   Input ~ 0
+ECG_14P
+Text GLabel 4150 7300 0    60   Input ~ 0
+ECG_14N
+Text GLabel 4150 6900 0    60   Input ~ 0
+ECG_16N
+Text GLabel 4150 7000 0    60   Input ~ 0
+ECG_16P
+Text GLabel 5500 7600 2    60   Input ~ 0
+ECG_9P
+Text GLabel 5500 7500 2    60   Input ~ 0
+ECG_9N
+Text GLabel 5500 7400 2    60   Input ~ 0
+ECG_10P
+Text GLabel 5500 7300 2    60   Input ~ 0
+ECG_10N
+Text GLabel 5500 7200 2    60   Input ~ 0
+ECG_11P
+Text GLabel 5500 7100 2    60   Input ~ 0
+ECG_11N
+Text GLabel 5500 7000 2    60   Input ~ 0
+ECG_12P
+Text GLabel 5500 6900 2    60   Input ~ 0
+ECG_12N
 $EndSCHEMATC
