@@ -1192,12 +1192,12 @@ ECG_V4N
 $Comp
 L CONN_02X08 J?
 U 1 1 595298A0
-P 3975 900
-F 0 "J?" H 3975 1350 50  0000 C CNN
-F 1 "CONN_02X08" V 3975 900 50  0000 C CNN
-F 2 "" H 3975 -300 50  0001 C CNN
-F 3 "" H 3975 -300 50  0001 C CNN
-	1    3975 900 
+P 4000 1025
+F 0 "J?" H 4000 1475 50  0000 C CNN
+F 1 "CONN_02X08" V 4000 1025 50  0000 C CNN
+F 2 "" H 4000 -175 50  0001 C CNN
+F 3 "" H 4000 -175 50  0001 C CNN
+	1    4000 1025
 	1    0    0    -1  
 $EndComp
 Connection ~ 1725 2750
@@ -2324,36 +2324,36 @@ Connection ~ 3650 2625
 Connection ~ 3750 2575
 Connection ~ 3850 2525
 Connection ~ 3950 2475
-Text GLabel 3725 550  0    39   Input ~ 0
+Text GLabel 3750 675  0    39   Input ~ 0
 ECG_V8N
-Text GLabel 3725 650  0    39   Input ~ 0
+Text GLabel 3750 775  0    39   Input ~ 0
 ECG_V8P
-Text GLabel 3725 750  0    39   Input ~ 0
+Text GLabel 3750 875  0    39   Input ~ 0
 ECG_V7N
-Text GLabel 3725 850  0    39   Input ~ 0
+Text GLabel 3750 975  0    39   Input ~ 0
 ECG_V7P
-Text GLabel 3725 950  0    39   Input ~ 0
+Text GLabel 3750 1075 0    39   Input ~ 0
 ECG_V6N
-Text GLabel 3725 1050 0    39   Input ~ 0
+Text GLabel 3750 1175 0    39   Input ~ 0
 ECG_V6P
-Text GLabel 3725 1150 0    39   Input ~ 0
+Text GLabel 3750 1275 0    39   Input ~ 0
 ECG_V5N
-Text GLabel 3725 1250 0    39   Input ~ 0
+Text GLabel 3750 1375 0    39   Input ~ 0
 ECG_V5P
-Text GLabel 4225 1250 2    39   Input ~ 0
+Text GLabel 4250 1375 2    39   Input ~ 0
 ECG_V1P
-Text GLabel 4225 1150 2    39   Input ~ 0
+Text GLabel 4250 1275 2    39   Input ~ 0
 ECG_V1N
-Text GLabel 4225 1050 2    39   Input ~ 0
+Text GLabel 4250 1175 2    39   Input ~ 0
 ECG_V2P
-Text GLabel 4225 950  2    39   Input ~ 0
+Text GLabel 4250 1075 2    39   Input ~ 0
 ECG_V2N
-Text GLabel 4225 850  2    39   Input ~ 0
+Text GLabel 4250 975  2    39   Input ~ 0
 ECG_V3P
-Text GLabel 4225 750  2    39   Input ~ 0
+Text GLabel 4250 875  2    39   Input ~ 0
 ECG_V3N
-Text GLabel 4225 650  2    39   Input ~ 0
+Text GLabel 4250 775  2    39   Input ~ 0
 ECG_V4P
-Text GLabel 4225 550  2    39   Input ~ 0
+Text GLabel 4250 675  2    39   Input ~ 0
 ECG_V4N
 $EndSCHEMATC
