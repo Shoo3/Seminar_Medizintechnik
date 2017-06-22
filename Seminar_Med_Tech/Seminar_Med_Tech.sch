@@ -1154,10 +1154,10 @@ ECG_4P
 Text GLabel 3950 3000 3    39   Input ~ 0
 ECG_4N
 $Comp
-L CONN_02X08 J2
+L CONN_02X08 PSK5
 U 1 1 595298A0
 P 4000 1025
-F 0 "J2" H 4000 1475 50  0000 C CNN
+F 0 "PSK5" H 4000 1475 50  0000 C CNN
 F 1 "CONN_02X08" V 4000 1025 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm" H 4000 -175 50  0001 C CNN
 F 3 "" H 4000 -175 50  0001 C CNN
@@ -2288,21 +2288,21 @@ Connection ~ 3650 2625
 Connection ~ 3750 2575
 Connection ~ 3850 2525
 Connection ~ 3950 2475
-Text GLabel 3750 675  0    39   Input ~ 0
-ECG_8N
-Text GLabel 3750 775  0    39   Input ~ 0
-ECG_8P
-Text GLabel 3750 875  0    39   Input ~ 0
-ECG_7N
-Text GLabel 3750 975  0    39   Input ~ 0
-ECG_7P
-Text GLabel 3750 1075 0    39   Input ~ 0
-ECG_6N
-Text GLabel 3750 1175 0    39   Input ~ 0
-ECG_6P
-Text GLabel 3750 1275 0    39   Input ~ 0
-ECG_5N
 Text GLabel 3750 1375 0    39   Input ~ 0
+ECG_8N
+Text GLabel 3750 1275 0    39   Input ~ 0
+ECG_8P
+Text GLabel 3750 1175 0    39   Input ~ 0
+ECG_7N
+Text GLabel 3750 1075 0    39   Input ~ 0
+ECG_7P
+Text GLabel 3750 975  0    39   Input ~ 0
+ECG_6N
+Text GLabel 3750 875  0    39   Input ~ 0
+ECG_6P
+Text GLabel 3750 775  0    39   Input ~ 0
+ECG_5N
+Text GLabel 3750 675  0    39   Input ~ 0
 ECG_5P
 Text GLabel 4250 1375 2    39   Input ~ 0
 ECG_1P
@@ -2324,21 +2324,21 @@ Text GLabel 4175 4450 0    60   Input ~ 0
 ECG_16N
 Text GLabel 4175 4575 0    60   Input ~ 0
 ECG_16P
-Text GLabel 4150 7100 0    60   Input ~ 0
-ECG_15N
-Text GLabel 4150 7200 0    60   Input ~ 0
-ECG_15P
-Text GLabel 4150 7600 0    60   Input ~ 0
-ECG_13P
-Text GLabel 4150 7500 0    60   Input ~ 0
-ECG_13N
 Text GLabel 4150 7400 0    60   Input ~ 0
-ECG_14P
+ECG_15N
 Text GLabel 4150 7300 0    60   Input ~ 0
-ECG_14N
+ECG_15P
 Text GLabel 4150 6900 0    60   Input ~ 0
-ECG_16N
+ECG_13P
 Text GLabel 4150 7000 0    60   Input ~ 0
+ECG_13N
+Text GLabel 4150 7100 0    60   Input ~ 0
+ECG_14P
+Text GLabel 4150 7200 0    60   Input ~ 0
+ECG_14N
+Text GLabel 4150 7600 0    60   Input ~ 0
+ECG_16N
+Text GLabel 4150 7500 0    60   Input ~ 0
 ECG_16P
 Text GLabel 5500 7600 2    60   Input ~ 0
 ECG_9P
