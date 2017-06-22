@@ -937,7 +937,7 @@ U 1 1 5945231A
 P 8475 1550
 F 0 "R2" V 8300 1550 50  0000 C CNN
 F 1 "NI" V 8375 1550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 8475 1550 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Alps_RK09K_Horizontal" H 8475 1550 50  0001 C CNN
 F 3 "" H 8475 1550 50  0001 C CNN
 	1    8475 1550
 	-1   0    0    1   
