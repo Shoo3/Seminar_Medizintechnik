@@ -359,8 +359,6 @@ NoConn ~ 2550 4450
 NoConn ~ 2550 4050
 NoConn ~ 2550 3650
 NoConn ~ 7850 3925
-NoConn ~ 7850 4225
-NoConn ~ 7850 4325
 Connection ~ 4500 3550
 Connection ~ 4275 3550
 Text GLabel 2325 3950 0    60   Input ~ 0
@@ -445,4 +443,12 @@ NoConn ~ 2550 3750
 NoConn ~ 2550 3850
 NoConn ~ 3050 4250
 NoConn ~ 2550 4350
+Text GLabel 8475 4225 2    60   Input ~ 0
+GPIO14
+Text GLabel 8475 4325 2    60   Input ~ 0
+GPIO24
+Wire Wire Line
+	8475 4225 7850 4225
+Wire Wire Line
+	7850 4325 8475 4325
 $EndSCHEMATC

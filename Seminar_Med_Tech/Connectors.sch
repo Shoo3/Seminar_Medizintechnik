@@ -83,7 +83,7 @@ Text GLabel 7025 3725 0    60   Input ~ 0
 SPI_DRDY1
 Text GLabel 7025 3825 0    60   Input ~ 0
 SPI_CS1
-Text GLabel 2325 4250 0    60   Output ~ 0
+Text GLabel 8475 4425 2    60   Output ~ 0
 EXT_CLK
 $Comp
 L Jumper_NC_Dual JP21
@@ -142,7 +142,7 @@ F 3 "" H 9375 3700 50  0001 C CNN
 	1    9375 3700
 	1    0    0    -1  
 $EndComp
-Text GLabel 8475 4425 2    60   Input ~ 0
+Text GLabel 2325 4250 0    60   Input ~ 0
 SPI_CS2
 $Comp
 L GND #PWR04
@@ -222,7 +222,7 @@ F 3 "" H 4700 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4875 3450 2    39   Input Italic 8
-VCC_5V
+5V_Supply
 Text GLabel 7600 5100 0    39   Input Italic 8
 DVDD
 Text GLabel 9850 5775 2    39   Input Italic 8
@@ -359,8 +359,6 @@ NoConn ~ 2550 4450
 NoConn ~ 2550 4050
 NoConn ~ 2550 3650
 NoConn ~ 7850 3925
-NoConn ~ 7850 4225
-NoConn ~ 7850 4325
 Connection ~ 4500 3550
 Connection ~ 4275 3550
 Text GLabel 2325 3950 0    60   Input ~ 0
@@ -423,7 +421,7 @@ F 3 "" H 1100 4150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text GLabel 925  3450 0    39   Input Italic 8
-VCC_3.3V
+3.3V_Supply
 Wire Wire Line
 	1650 3550 925  3550
 Wire Wire Line
@@ -445,4 +443,12 @@ NoConn ~ 2550 3750
 NoConn ~ 2550 3850
 NoConn ~ 3050 4250
 NoConn ~ 2550 4350
+Text GLabel 8475 4225 2    60   Input ~ 0
+GPIO14
+Text GLabel 8475 4325 2    60   Input ~ 0
+GPIO24
+Wire Wire Line
+	8475 4225 7850 4225
+Wire Wire Line
+	7850 4325 8475 4325
 $EndSCHEMATC

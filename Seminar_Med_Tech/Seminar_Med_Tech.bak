@@ -2288,21 +2288,21 @@ Connection ~ 3650 2625
 Connection ~ 3750 2575
 Connection ~ 3850 2525
 Connection ~ 3950 2475
-Text GLabel 3750 675  0    39   Input ~ 0
-ECG_8N
-Text GLabel 3750 775  0    39   Input ~ 0
-ECG_8P
-Text GLabel 3750 875  0    39   Input ~ 0
-ECG_7N
-Text GLabel 3750 975  0    39   Input ~ 0
-ECG_7P
-Text GLabel 3750 1075 0    39   Input ~ 0
-ECG_6N
-Text GLabel 3750 1175 0    39   Input ~ 0
-ECG_6P
-Text GLabel 3750 1275 0    39   Input ~ 0
-ECG_5N
 Text GLabel 3750 1375 0    39   Input ~ 0
+ECG_8N
+Text GLabel 3750 1275 0    39   Input ~ 0
+ECG_8P
+Text GLabel 3750 1175 0    39   Input ~ 0
+ECG_7N
+Text GLabel 3750 1075 0    39   Input ~ 0
+ECG_7P
+Text GLabel 3750 975  0    39   Input ~ 0
+ECG_6N
+Text GLabel 3750 875  0    39   Input ~ 0
+ECG_6P
+Text GLabel 3750 775  0    39   Input ~ 0
+ECG_5N
+Text GLabel 3750 675  0    39   Input ~ 0
 ECG_5P
 Text GLabel 4250 1375 2    39   Input ~ 0
 ECG_1P

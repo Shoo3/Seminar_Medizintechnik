@@ -6310,7 +6310,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm (layer F.Cu) (tedit 58CD4EC5) (tstamp 594C0959)
-    (at 106.68 146.05 270)
+    (at 109.22 123.19 270)
     (descr "Through hole straight pin header, 2x08, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x08 2.54mm double row")
     (path /594C2861)
