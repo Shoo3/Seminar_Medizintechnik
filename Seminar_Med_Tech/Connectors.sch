@@ -227,22 +227,22 @@ Text GLabel 7600 5100 0    39   Input Italic 8
 DVDD
 Text GLabel 9850 5775 2    39   Input Italic 8
 AGND
-Text GLabel 7025 3925 0    60   Input ~ 0
-I/O_1
-Text GLabel 7025 4025 0    60   Input ~ 0
-I/O_2
 Text GLabel 7025 4125 0    60   Input ~ 0
-I/O_3
+I/O_6
 Text GLabel 7025 4225 0    60   Input ~ 0
-I/O_4
+I/O_7
 Text GLabel 7025 4325 0    60   Input ~ 0
+I/O_8
+Text GLabel 7025 3925 0    60   Input ~ 0
+I/O_4
+Text GLabel 7025 4025 0    60   Input ~ 0
 I/O_5
 Text GLabel 8475 3825 2    60   Input ~ 0
-I/O_8
+I/O_3
 Text GLabel 8475 3725 2    60   Input ~ 0
-I/O_7
+I/O_2
 Text GLabel 8475 3625 2    60   Input ~ 0
-I/O_6
+I/O_1
 Wire Wire Line
 	2550 4150 2325 4150
 Wire Wire Line
