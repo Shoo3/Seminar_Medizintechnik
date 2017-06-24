@@ -436,21 +436,17 @@ $EndComp
 NoConn ~ 5025 3125
 NoConn ~ 5125 3125
 NoConn ~ 7350 3375
-Text GLabel 10575 4525 2    60   Input ~ 0
+Text GLabel 10075 4525 0    60   Input ~ 0
 PACEOUT22
 Text GLabel 10575 4625 2    60   Input ~ 0
 PACEOUT12
-Text GLabel 10575 4825 2    60   Input ~ 0
+Text GLabel 10575 4725 2    60   Input ~ 0
 /PWDN
-Text GLabel 10075 4625 0    60   Input ~ 0
+Text GLabel 10575 4525 2    60   Input ~ 0
 PACEOUT11
-Text GLabel 10075 4825 0    60   Input ~ 0
-GPIO14
-Text GLabel 10075 4925 0    60   Input ~ 0
-GPIO24
-Text GLabel 10575 5125 2    60   Input ~ 0
+Text GLabel 10075 5225 0    60   Input ~ 0
 DAISY_IN
-Text GLabel 10075 4725 0    60   Input ~ 0
+Text GLabel 10575 5125 2    60   Input ~ 0
 GPIO13
 $Comp
 L TEST TP3
@@ -1054,7 +1050,7 @@ F 3 "" H 10325 3675 50  0001 C CNN
 	1    10325 4875
 	1    0    0    -1  
 $EndComp
-Text GLabel 10075 4525 0    60   Input ~ 0
+Text GLabel 10075 4625 0    60   Input ~ 0
 PACEOUT21
 $Comp
 L OPA132 U1
@@ -1067,7 +1063,7 @@ F 3 "" H 9925 1100 60  0001 C CNN
 	1    9925 1100
 	1    0    0    -1  
 $EndComp
-Text GLabel 10575 4925 2    60   Input ~ 0
+Text GLabel 10075 4725 0    60   Input ~ 0
 GPIO23
 Text GLabel 5100 1350 2    39   Input Italic 8
 AVDD
@@ -1111,16 +1107,15 @@ U 5947A4D5
 F0 "Power_Supply" 60
 F1 "Power_Supply.sch" 60
 $EndSheet
-Text GLabel 10075 5025 0    60   Input ~ 0
+Text GLabel 10575 4925 2    60   Input ~ 0
 GPIO11
-Text GLabel 10075 5125 0    60   Input ~ 0
+Text GLabel 10575 5025 2    60   Input ~ 0
 GPIO12
-Text GLabel 10075 5225 0    60   Input ~ 0
+Text GLabel 10075 4925 0    60   Input ~ 0
 GPIO21
-Text GLabel 10575 4725 2    60   Input ~ 0
+Text GLabel 10075 4825 0    60   Input ~ 0
 GPIO22
 NoConn ~ 13900 5175
-NoConn ~ 10575 5025
 Text GLabel 4325 1825 1    39   Input ~ 0
 ECG_8N
 Text GLabel 4225 1825 1    39   Input ~ 0
@@ -1154,16 +1149,110 @@ ECG_4P
 Text GLabel 3950 3000 3    39   Input ~ 0
 ECG_4N
 $Comp
-L CONN_02X08 J2
+L CONN_02X08 PSK5
 U 1 1 595298A0
 P 4000 1025
-F 0 "J2" H 4000 1475 50  0000 C CNN
+F 0 "PSK5" H 4000 1475 50  0000 C CNN
 F 1 "CONN_02X08" V 4000 1025 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm" H 4000 -175 50  0001 C CNN
 F 3 "" H 4000 -175 50  0001 C CNN
 	1    4000 1025
 	1    0    0    -1  
 $EndComp
+Text GLabel 3750 1375 0    39   Input ~ 0
+ECG_8N
+Text GLabel 3750 1275 0    39   Input ~ 0
+ECG_8P
+Text GLabel 3750 1175 0    39   Input ~ 0
+ECG_7N
+Text GLabel 3750 1075 0    39   Input ~ 0
+ECG_7P
+Text GLabel 3750 975  0    39   Input ~ 0
+ECG_6N
+Text GLabel 3750 875  0    39   Input ~ 0
+ECG_6P
+Text GLabel 3750 775  0    39   Input ~ 0
+ECG_5N
+Text GLabel 3750 675  0    39   Input ~ 0
+ECG_5P
+Text GLabel 4250 1375 2    39   Input ~ 0
+ECG_1P
+Text GLabel 4250 1275 2    39   Input ~ 0
+ECG_1N
+Text GLabel 4250 1175 2    39   Input ~ 0
+ECG_2P
+Text GLabel 4250 1075 2    39   Input ~ 0
+ECG_2N
+Text GLabel 4250 975  2    39   Input ~ 0
+ECG_3P
+Text GLabel 4250 875  2    39   Input ~ 0
+ECG_3N
+Text GLabel 4250 775  2    39   Input ~ 0
+ECG_4P
+Text GLabel 4250 675  2    39   Input ~ 0
+ECG_4N
+Text GLabel 4175 4450 0    60   Input ~ 0
+ECG_16N
+Text GLabel 4175 4575 0    60   Input ~ 0
+ECG_16P
+Text GLabel 4150 7400 0    60   Input ~ 0
+ECG_15N
+Text GLabel 4150 7300 0    60   Input ~ 0
+ECG_15P
+Text GLabel 4150 6900 0    60   Input ~ 0
+ECG_13P
+Text GLabel 4150 7000 0    60   Input ~ 0
+ECG_13N
+Text GLabel 4150 7100 0    60   Input ~ 0
+ECG_14P
+Text GLabel 4150 7200 0    60   Input ~ 0
+ECG_14N
+Text GLabel 4150 7600 0    60   Input ~ 0
+ECG_16N
+Text GLabel 4150 7500 0    60   Input ~ 0
+ECG_16P
+Text GLabel 5500 7600 2    60   Input ~ 0
+ECG_9P
+Text GLabel 5500 7500 2    60   Input ~ 0
+ECG_9N
+Text GLabel 5500 7400 2    60   Input ~ 0
+ECG_10P
+Text GLabel 5500 7300 2    60   Input ~ 0
+ECG_10N
+Text GLabel 5500 7200 2    60   Input ~ 0
+ECG_11P
+Text GLabel 5500 7100 2    60   Input ~ 0
+ECG_11N
+Text GLabel 5500 7000 2    60   Input ~ 0
+ECG_12P
+Text GLabel 5500 6900 2    60   Input ~ 0
+ECG_12N
+NoConn ~ 10075 5025
+NoConn ~ 10075 5125
+$Comp
+L C_Small C35
+U 1 1 594E4D87
+P 8850 2150
+F 0 "C35" V 8900 2200 50  0000 L CNN
+F 1 "0.1uF" V 8900 1900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8850 2150 50  0001 C CNN
+F 3 "" H 8850 2150 50  0001 C CNN
+	1    8850 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C34
+U 1 1 594E4D8D
+P 8850 2000
+F 0 "C34" V 8800 2050 50  0000 L CNN
+F 1 "1uF" V 8800 1825 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8850 2000 50  0001 C CNN
+F 3 "" H 8850 2000 50  0001 C CNN
+	1    8850 2000
+	0    1    1    0   
+$EndComp
+Text GLabel 9075 2075 2    39   Input Italic 8
+AVSS
 Connection ~ 1725 2750
 Connection ~ 2975 1450
 Wire Wire Line
@@ -1831,12 +1920,7 @@ Wire Wire Line
 	6375 2050 6375 1675
 Connection ~ 6375 1675
 Wire Wire Line
-	5700 1500 5700 1600
-Wire Wire Line
-	5700 1600 8250 1600
-Wire Wire Line
-	8250 1600 8250 3075
-Connection ~ 5700 1500
+	8250 2150 8250 3075
 Wire Wire Line
 	8475 1175 8475 1400
 Wire Wire Line
@@ -2288,72 +2372,22 @@ Connection ~ 3650 2625
 Connection ~ 3750 2575
 Connection ~ 3850 2525
 Connection ~ 3950 2475
-Text GLabel 3750 675  0    39   Input ~ 0
-ECG_8N
-Text GLabel 3750 775  0    39   Input ~ 0
-ECG_8P
-Text GLabel 3750 875  0    39   Input ~ 0
-ECG_7N
-Text GLabel 3750 975  0    39   Input ~ 0
-ECG_7P
-Text GLabel 3750 1075 0    39   Input ~ 0
-ECG_6N
-Text GLabel 3750 1175 0    39   Input ~ 0
-ECG_6P
-Text GLabel 3750 1275 0    39   Input ~ 0
-ECG_5N
-Text GLabel 3750 1375 0    39   Input ~ 0
-ECG_5P
-Text GLabel 4250 1375 2    39   Input ~ 0
-ECG_1P
-Text GLabel 4250 1275 2    39   Input ~ 0
-ECG_1N
-Text GLabel 4250 1175 2    39   Input ~ 0
-ECG_2P
-Text GLabel 4250 1075 2    39   Input ~ 0
-ECG_2N
-Text GLabel 4250 975  2    39   Input ~ 0
-ECG_3P
-Text GLabel 4250 875  2    39   Input ~ 0
-ECG_3N
-Text GLabel 4250 775  2    39   Input ~ 0
-ECG_4P
-Text GLabel 4250 675  2    39   Input ~ 0
-ECG_4N
-Text GLabel 4175 4450 0    60   Input ~ 0
-ECG_16N
-Text GLabel 4175 4575 0    60   Input ~ 0
-ECG_16P
-Text GLabel 4150 7100 0    60   Input ~ 0
-ECG_15N
-Text GLabel 4150 7200 0    60   Input ~ 0
-ECG_15P
-Text GLabel 4150 7600 0    60   Input ~ 0
-ECG_13P
-Text GLabel 4150 7500 0    60   Input ~ 0
-ECG_13N
-Text GLabel 4150 7400 0    60   Input ~ 0
-ECG_14P
-Text GLabel 4150 7300 0    60   Input ~ 0
-ECG_14N
-Text GLabel 4150 6900 0    60   Input ~ 0
-ECG_16N
-Text GLabel 4150 7000 0    60   Input ~ 0
-ECG_16P
-Text GLabel 5500 7600 2    60   Input ~ 0
-ECG_9P
-Text GLabel 5500 7500 2    60   Input ~ 0
-ECG_9N
-Text GLabel 5500 7400 2    60   Input ~ 0
-ECG_10P
-Text GLabel 5500 7300 2    60   Input ~ 0
-ECG_10N
-Text GLabel 5500 7200 2    60   Input ~ 0
-ECG_11P
-Text GLabel 5500 7100 2    60   Input ~ 0
-ECG_11N
-Text GLabel 5500 7000 2    60   Input ~ 0
-ECG_12P
-Text GLabel 5500 6900 2    60   Input ~ 0
-ECG_12N
+Wire Wire Line
+	8250 2150 8750 2150
+Wire Wire Line
+	8750 2000 8625 2000
+Wire Wire Line
+	8625 2000 8625 2150
+Connection ~ 8625 2150
+Wire Wire Line
+	8950 2000 9025 2000
+Wire Wire Line
+	9025 2000 9025 2150
+Wire Wire Line
+	9025 2150 8950 2150
+Wire Wire Line
+	9025 2075 9075 2075
+Connection ~ 9025 2075
+NoConn ~ 10575 4825
+NoConn ~ 16350 3325
 $EndSCHEMATC
