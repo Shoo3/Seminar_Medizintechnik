@@ -50,12 +50,12 @@ $EndDescr
 $Comp
 L Jumper JP16
 U 1 1 5921B571
-P 2400 1175
-F 0 "JP16" H 2400 1325 50  0000 C CNN
-F 1 "Jumper" H 2400 1095 50  0000 C CNN
-F 2 "Jumper:Jumper1x2" H 2400 1175 50  0001 C CNN
-F 3 "" H 2400 1175 50  0001 C CNN
-	1    2400 1175
+P 3025 725
+F 0 "JP16" H 3025 875 50  0000 C CNN
+F 1 "Jumper" H 3025 645 50  0000 C CNN
+F 2 "Jumper:Jumper1x2" H 3025 725 50  0001 C CNN
+F 3 "" H 3025 725 50  0001 C CNN
+	1    3025 725 
 	1    0    0    -1  
 $EndComp
 Text GLabel 1075 1825 0    60   Input ~ 0
@@ -949,7 +949,7 @@ F 3 "" H 4850 6050 50  0001 C CNN
 	1    4850 7250
 	1    0    0    -1  
 $EndComp
-Text Label 2000 1175 0    60   ~ 0
+Text Label 2750 1175 0    60   ~ 0
 WCT
 $Sheet
 S 508  616  1425 600 
@@ -1175,21 +1175,21 @@ Text GLabel 3750 775  0    39   Input ~ 0
 ECG_5N
 Text GLabel 3750 675  0    39   Input ~ 0
 ECG_5P
-Text GLabel 4250 1375 2    39   Input ~ 0
-ECG_1P
-Text GLabel 4250 1275 2    39   Input ~ 0
-ECG_1N
-Text GLabel 4250 1175 2    39   Input ~ 0
-ECG_2P
-Text GLabel 4250 1075 2    39   Input ~ 0
-ECG_2N
-Text GLabel 4250 975  2    39   Input ~ 0
-ECG_3P
-Text GLabel 4250 875  2    39   Input ~ 0
-ECG_3N
-Text GLabel 4250 775  2    39   Input ~ 0
-ECG_4P
 Text GLabel 4250 675  2    39   Input ~ 0
+ECG_1P
+Text GLabel 4250 775  2    39   Input ~ 0
+ECG_1N
+Text GLabel 4250 875  2    39   Input ~ 0
+ECG_2P
+Text GLabel 4250 975  2    39   Input ~ 0
+ECG_2N
+Text GLabel 4250 1075 2    39   Input ~ 0
+ECG_3P
+Text GLabel 4250 1175 2    39   Input ~ 0
+ECG_3N
+Text GLabel 4250 1275 2    39   Input ~ 0
+ECG_4P
+Text GLabel 4250 1375 2    39   Input ~ 0
 ECG_4N
 Text GLabel 4175 4450 0    60   Input ~ 0
 ECG_16N
@@ -1211,21 +1211,21 @@ Text GLabel 4150 7600 0    60   Input ~ 0
 ECG_16N
 Text GLabel 4150 7500 0    60   Input ~ 0
 ECG_16P
-Text GLabel 5500 7600 2    60   Input ~ 0
-ECG_9P
-Text GLabel 5500 7500 2    60   Input ~ 0
-ECG_9N
-Text GLabel 5500 7400 2    60   Input ~ 0
-ECG_10P
-Text GLabel 5500 7300 2    60   Input ~ 0
-ECG_10N
-Text GLabel 5500 7200 2    60   Input ~ 0
-ECG_11P
-Text GLabel 5500 7100 2    60   Input ~ 0
-ECG_11N
-Text GLabel 5500 7000 2    60   Input ~ 0
-ECG_12P
 Text GLabel 5500 6900 2    60   Input ~ 0
+ECG_9P
+Text GLabel 5500 7000 2    60   Input ~ 0
+ECG_9N
+Text GLabel 5500 7100 2    60   Input ~ 0
+ECG_10P
+Text GLabel 5500 7200 2    60   Input ~ 0
+ECG_10N
+Text GLabel 5500 7300 2    60   Input ~ 0
+ECG_11P
+Text GLabel 5500 7400 2    60   Input ~ 0
+ECG_11N
+Text GLabel 5500 7500 2    60   Input ~ 0
+ECG_12P
+Text GLabel 5500 7600 2    60   Input ~ 0
 ECG_12N
 NoConn ~ 10075 5025
 NoConn ~ 10075 5125
@@ -1373,7 +1373,7 @@ Wire Wire Line
 	3125 1050 3125 1150
 Connection ~ 2000 1450
 Wire Wire Line
-	2000 1175 2100 1175
+	2000 900  2000 3325
 Connection ~ 2000 1700
 Connection ~ 2000 1950
 Wire Wire Line
@@ -1386,8 +1386,6 @@ Wire Wire Line
 	2000 2200 2100 2200
 Wire Wire Line
 	2000 2475 2100 2475
-Wire Wire Line
-	2000 1175 2000 3325
 Wire Wire Line
 	2000 3325 2100 3325
 Wire Wire Line
@@ -2246,21 +2244,21 @@ Wire Wire Line
 Wire Wire Line
 	4600 7600 4150 7600
 Wire Wire Line
-	5100 6900 5500 6900
+	5100 7600 5500 7600
 Wire Wire Line
-	5100 7000 5500 7000
+	5100 7500 5500 7500
 Wire Wire Line
-	5500 7100 5100 7100
-Wire Wire Line
-	5100 7200 5500 7200
+	5500 7400 5100 7400
 Wire Wire Line
 	5100 7300 5500 7300
 Wire Wire Line
-	5100 7400 5500 7400
+	5100 7200 5500 7200
 Wire Wire Line
-	5500 7500 5100 7500
+	5100 7100 5500 7100
 Wire Wire Line
-	5100 7600 5500 7600
+	5500 7000 5100 7000
+Wire Wire Line
+	5100 6900 5500 6900
 Wire Wire Line
 	1075 1950 1300 1950
 Wire Wire Line
@@ -2390,4 +2388,21 @@ Wire Wire Line
 Connection ~ 9025 2075
 NoConn ~ 10575 4825
 NoConn ~ 16350 3325
+$Comp
+L Jumper_NC_Dual JP16
+U 1 1 595092D3
+P 2450 1175
+F 0 "JP16" H 2500 1075 50  0000 L CNN
+F 1 "Jumper_NC_Dual" H 2450 1250 50  0000 C BNN
+F 2 "" H 2450 1175 50  0001 C CNN
+F 3 "" H 2450 1175 50  0001 C CNN
+	1    2450 1175
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2000 900  2450 900 
+Wire Wire Line
+	2450 900  2450 1075
+Text GLabel 2200 1175 0    60   Input ~ 0
+AGND
 $EndSCHEMATC
