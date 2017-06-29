@@ -261,9 +261,9 @@ Text Label 4000 3600 0    60   ~ 0
 -1.5V
 Text Label 4000 4900 0    60   ~ 0
 1.8V
-Text GLabel 6275 2250 0    60   Input ~ 0
+Text GLabel 6275 2050 0    60   Input ~ 0
 15V_Supply
-Text GLabel 6275 2350 0    60   Input ~ 0
+Text GLabel 6275 2150 0    60   Input ~ 0
 -15V_Supply
 $Comp
 L GND #PWR010
@@ -489,8 +489,8 @@ F 3 "" H 6475 2250 50  0001 C CNN
 	1    6475 2250
 	1    0    0    -1  
 $EndComp
-Text GLabel 6275 2150 0    60   Input ~ 0
+Text GLabel 6275 2350 0    60   Input ~ 0
 3.3V_Supply
-Text GLabel 6275 2050 0    60   Input ~ 0
+Text GLabel 6275 2250 0    60   Input ~ 0
 5V_Supply
 $EndSCHEMATC
