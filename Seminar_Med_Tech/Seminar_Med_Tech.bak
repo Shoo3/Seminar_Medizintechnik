@@ -427,11 +427,11 @@ NoConn ~ 5125 3125
 NoConn ~ 7350 3375
 Text GLabel 10575 5125 2    60   Input ~ 0
 PACEOUT22
-Text GLabel 10075 4825 0    60   Input ~ 0
+Text GLabel 10075 5025 0    60   Input ~ 0
 PACEOUT12
 Text GLabel 10575 4925 2    60   Input ~ 0
 /PWDN
-Text GLabel 10075 4925 0    60   Input ~ 0
+Text GLabel 10075 5125 0    60   Input ~ 0
 PACEOUT11
 Text GLabel 10575 4825 2    60   Input ~ 0
 DAISY_IN
@@ -1128,8 +1128,8 @@ Text GLabel 5500 7200 2    60   Input ~ 0
 ECG_12P
 Text GLabel 4150 7200 0    60   Input ~ 0
 ECG_12N
-NoConn ~ 10075 5025
-NoConn ~ 10075 5125
+NoConn ~ 10075 4925
+NoConn ~ 10075 4825
 $Comp
 L C_Small C35
 U 1 1 594E4D87
@@ -1828,11 +1828,6 @@ Wire Wire Line
 	8625 3525 8625 2525
 Connection ~ 8350 2525
 Wire Wire Line
-	8350 2050 6375 2050
-Wire Wire Line
-	6375 2050 6375 1675
-Connection ~ 6375 1675
-Wire Wire Line
 	8250 2150 8250 3075
 Wire Wire Line
 	8475 1175 8475 1400
@@ -2281,4 +2276,51 @@ Wire Wire Line
 	2450 900  2450 1075
 Text GLabel 10075 5225 0    60   Input Italic 12
 AVSS
+$Comp
+L C_Small C36
+U 1 1 595675C7
+P 7775 1825
+F 0 "C36" H 7785 1895 50  0000 L CNN
+F 1 "1uF" H 7785 1745 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7775 1825 50  0001 C CNN
+F 3 "" H 7775 1825 50  0001 C CNN
+	1    7775 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C37
+U 1 1 595675CD
+P 8025 1825
+F 0 "C37" H 8035 1895 50  0000 L CNN
+F 1 "1uF" H 8035 1745 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8025 1825 50  0001 C CNN
+F 3 "" H 8025 1825 50  0001 C CNN
+	1    8025 1825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7775 1925 7775 1975
+Wire Wire Line
+	7775 1975 8025 1975
+Wire Wire Line
+	8025 1975 8025 1925
+Wire Wire Line
+	7900 1975 7900 2150
+Connection ~ 7900 1975
+Wire Wire Line
+	7775 1725 7775 1700
+Connection ~ 7775 1700
+Wire Wire Line
+	8025 1700 8025 1725
+Connection ~ 8025 1700
+Text GLabel 7900 2150 2    39   Input Italic 8
+AGND
+Text GLabel 8200 1700 2    39   Input Italic 8
+AVSS
+Wire Wire Line
+	7650 1700 8200 1700
+Wire Wire Line
+	7650 1700 7650 2050
+Wire Wire Line
+	7650 2050 8350 2050
 $EndSCHEMATC

@@ -782,8 +782,6 @@ Wire Wire Line
 Wire Wire Line
 	1350 4600 6275 4600
 Wire Wire Line
-	1350 4200 2400 4200
-Wire Wire Line
 	2400 4200 2400 6150
 Wire Wire Line
 	2400 6150 2850 6150
@@ -793,8 +791,6 @@ Wire Wire Line
 	2575 4100 2575 5200
 Wire Wire Line
 	1350 4100 2575 4100
-Wire Wire Line
-	1350 4300 6625 4300
 Wire Wire Line
 	7175 2650 7650 2650
 Wire Wire Line
@@ -813,8 +809,6 @@ Wire Wire Line
 	4575 2675 4750 2675
 Wire Wire Line
 	4575 3600 4575 2675
-Wire Wire Line
-	1350 3600 4575 3600
 Wire Wire Line
 	1350 3700 6825 3700
 Connection ~ 4675 6150
@@ -927,8 +921,6 @@ Wire Wire Line
 	2100 2725 2300 2725
 Wire Wire Line
 	2100 3400 2100 2725
-Wire Wire Line
-	1350 3400 2100 3400
 Connection ~ 3625 2725
 Wire Wire Line
 	3625 2725 3625 2550
@@ -992,33 +984,15 @@ Wire Wire Line
 Wire Wire Line
 	2000 5550 2050 5550
 Wire Wire Line
-	1375 3300 1375 2550
-Wire Wire Line
 	1375 2550 1000 2550
-Connection ~ 1375 3300
 Wire Wire Line
 	1000 2450 1400 2450
 Wire Wire Line
-	1400 2450 1400 3400
-Connection ~ 1400 3400
-Wire Wire Line
-	1000 2350 1425 2350
-Wire Wire Line
-	1425 2350 1425 3500
-Connection ~ 1425 3500
-Wire Wire Line
 	1000 2250 1450 2250
-Wire Wire Line
-	1450 2250 1450 3600
-Connection ~ 1450 3600
 Wire Wire Line
 	1000 2150 1475 2150
 Wire Wire Line
-	1475 2150 1475 3700
-Connection ~ 1475 3700
-Wire Wire Line
 	1000 2050 1500 2050
-Connection ~ 1500 4600
 Wire Wire Line
 	1000 1950 1525 1950
 Wire Wire Line
@@ -1044,25 +1018,25 @@ F 3 "" H 700 5050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 NoConn ~ 900  5100
-Text Label 1350 2550 2    60   ~ 0
+Text Label 50   3675 2    60   ~ 0
 ELEC_V2
-Text Label 1350 2450 2    60   ~ 0
+Text Label -600 3575 2    60   ~ 0
 ELEC_V3
-Text Label 1350 2350 2    60   ~ 0
+Text Label -850 3125 2    60   ~ 0
 ELEC_V4
-Text Label 1350 2250 2    60   ~ 0
+Text Label -1050 2650 2    60   ~ 0
 ELEC_V5
-Text Label 1350 2150 2    60   ~ 0
+Text Label -175 3250 2    60   ~ 0
 ELEC_V6
-Text Label 1350 2050 2    60   ~ 0
+Text Label 25   2900 2    60   ~ 0
 ELEC_RL
-Text Label 1350 1850 2    60   ~ 0
+Text Label 25   2250 2    60   ~ 0
 ELEC_LL
-Text Label 1350 1950 2    60   ~ 0
+Text Label -200 2625 2    60   ~ 0
 ELEC_V1
-Text Label 1350 1650 2    60   ~ 0
+Text Label -75  1775 2    60   ~ 0
 ELEC_RA
-Text Label 1350 1750 2    60   ~ 0
+Text Label 125  2125 2    60   ~ 0
 ELEC_LA
 $Comp
 L CONN_01X15 J6
@@ -1076,19 +1050,41 @@ F 3 "" H 1150 4000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 2050 1500 4600
-Wire Wire Line
-	1525 1950 1525 4400
-Connection ~ 1525 4400
+	1525 1950 1525 4100
 Wire Wire Line
 	1550 1850 1550 4300
 Wire Wire Line
-	1550 4300 1625 4300
-Wire Wire Line
 	1575 1750 1575 4200
 Wire Wire Line
-	1575 4200 1625 4200
+	1350 4200 2400 4200
 Wire Wire Line
-	1600 1650 1600 4100
-Connection ~ 1600 4100
+	1375 2550 1375 4600
+Connection ~ 1375 4600
+Wire Wire Line
+	1350 3400 2100 3400
+Wire Wire Line
+	1400 2450 1400 4400
+Connection ~ 1400 4400
+Wire Wire Line
+	1450 2250 1450 3500
+Wire Wire Line
+	1350 3600 4575 3600
+Wire Wire Line
+	1000 2350 1425 2350
+Wire Wire Line
+	1425 2350 1425 3600
+Connection ~ 1425 3600
+Connection ~ 1450 3500
+Wire Wire Line
+	1475 2150 1475 3400
+Connection ~ 1475 3400
+Wire Wire Line
+	1500 2050 1500 3300
+Connection ~ 1500 3300
+Connection ~ 1525 4100
+Wire Wire Line
+	1600 1650 1600 3700
+Connection ~ 1600 3700
+Wire Wire Line
+	1350 4300 6625 4300
 $EndSCHEMATC

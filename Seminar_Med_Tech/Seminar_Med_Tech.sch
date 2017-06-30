@@ -427,11 +427,11 @@ NoConn ~ 5125 3125
 NoConn ~ 7350 3375
 Text GLabel 10575 5125 2    60   Input ~ 0
 PACEOUT22
-Text GLabel 10075 5025 0    60   Input ~ 0
+Text GLabel 10075 5125 0    60   Input ~ 0
 PACEOUT12
 Text GLabel 10575 4925 2    60   Input ~ 0
 /PWDN
-Text GLabel 10075 5125 0    60   Input ~ 0
+Text GLabel 10075 5225 0    60   Input ~ 0
 PACEOUT11
 Text GLabel 10575 4825 2    60   Input ~ 0
 DAISY_IN
@@ -2274,8 +2274,6 @@ Wire Wire Line
 	2000 900  2450 900 
 Wire Wire Line
 	2450 900  2450 1075
-Text GLabel 10075 5225 0    60   Input Italic 12
-AVSS
 $Comp
 L C_Small C36
 U 1 1 595675C7
@@ -2323,4 +2321,5 @@ Wire Wire Line
 	7650 1700 7650 2050
 Wire Wire Line
 	7650 2050 8350 2050
+NoConn ~ 10075 5025
 $EndSCHEMATC
