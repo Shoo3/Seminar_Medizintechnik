@@ -17,11 +17,13 @@
 #define SCLK		BIT2	// P3
 #define START		BIT5	// P2
 #define RESET		BIT4	// P2
-#define DRDY		BIT5	// P1
-#define CS			BIT4	// P1
+#define CS2			BIT7	// P2
+#define DRDY1		BIT5	// P1
+#define DRDY2		BIT6	// P1
+#define CS1			BIT4	// P1
 #define LED_1		BIT0	// P1
-#define	LED_STATUS	BIT3	// P1
-#define LED_POWER	BIT2	// P1
+//#define	LED_STATUS	BIT3	// P1
+//#define LED_POWER	BIT2	// P1
 
 // STRUCTS
 typedef struct config {
