@@ -15,6 +15,8 @@
 #define MOSI		BIT0	// P3
 #define	MISO		BIT1	// P3
 #define SCLK		BIT2	// P3
+#define GPIO14		BIT6	// P2
+#define GPIO24		BIT3	// P2
 #define START		BIT5	// P2
 #define RESET		BIT4	// P2
 #define CS2			BIT7	// P2
@@ -22,38 +24,67 @@
 #define DRDY2		BIT6	// P1
 #define CS1			BIT4	// P1
 #define LED_1		BIT0	// P1
-//#define	LED_STATUS	BIT3	// P1
-//#define LED_POWER	BIT2	// P1
+/*
+Pin already used for GPIO
+#define	LED_STATUS	BIT3	// P1
+#define LED_POWER	BIT2	// P1
+*/
 
 // STRUCTS
 typedef struct config {
 	uint16_t start_bytes;
 	uint8_t operation;
-	uint8_t CONFIG1;
-	uint8_t CONFIG2;
-	uint8_t CONFIG3;
-	uint8_t LOFF;
-	uint8_t CH1SET;
-	uint8_t CH2SET;
-	uint8_t CH3SET;
-	uint8_t CH4SET;
-	uint8_t CH5SET;
-	uint8_t CH6SET;
-	uint8_t CH7SET;
-	uint8_t CH8SET;
-	uint8_t RLD_SENSP;
-	uint8_t RLD_SENSN;
-	uint8_t LOFF_SENSP;
-	uint8_t LOFF_SENSN;
-	uint8_t LOFF_FLIP;
-	uint8_t LOFF_STATP;
-	uint8_t LOFF_STATN;
-	uint8_t GPIO;
-	uint8_t PACE;
-	uint8_t RESP;
-	uint8_t CONFIG4;
-	uint8_t WCT1;
-	uint8_t WCT2;
+	uint8_t CP1_CONFIG1;
+	uint8_t CP1_CONFIG2;
+	uint8_t CP1_CONFIG3;
+	uint8_t CP1_LOFF;
+	uint8_t CP1_CH1SET;
+	uint8_t CP1_CH2SET;
+	uint8_t CP1_CH3SET;
+	uint8_t CP1_CH4SET;
+	uint8_t CP1_CH5SET;
+	uint8_t CP1_CH6SET;
+	uint8_t CP1_CH7SET;
+	uint8_t CP1_CH8SET;
+	uint8_t CP1_RLD_SENSP;
+	uint8_t CP1_RLD_SENSN;
+	uint8_t CP1_LOFF_SENSP;
+	uint8_t CP1_LOFF_SENSN;
+	uint8_t CP1_LOFF_FLIP;
+	uint8_t CP1_LOFF_STATP;
+	uint8_t CP1_LOFF_STATN;
+	uint8_t CP1_GPIO;
+	uint8_t CP1_PACE;
+	uint8_t CP1_RESP;
+	uint8_t CP1_CONFIG4;
+	uint8_t CP1_WCT1;
+	uint8_t CP1_WCT2;
+
+	uint8_t CP2_CONFIG1;	//Chip2
+	uint8_t CP2_CONFIG2;
+	uint8_t CP2_CONFIG3;
+	uint8_t CP2_LOFF;
+	uint8_t CP2_CH1SET;
+	uint8_t CP2_CH2SET;
+	uint8_t CP2_CH3SET;
+	uint8_t CP2_CH4SET;
+	uint8_t CP2_CH5SET;
+	uint8_t CP2_CH6SET;
+	uint8_t CP2_CH7SET;
+	uint8_t CP2_CH8SET;
+	uint8_t CP2_RLD_SENSP;
+	uint8_t CP2_RLD_SENSN;
+	uint8_t CP2_LOFF_SENSP;
+	uint8_t CP2_LOFF_SENSN;
+	uint8_t CP2_LOFF_FLIP;
+	uint8_t CP2_LOFF_STATP;
+	uint8_t CP2_LOFF_STATN;
+	uint8_t CP2_GPIO;
+	uint8_t CP2_PACE;
+	uint8_t CP2_RESP;
+	uint8_t CP2_CONFIG4;
+	uint8_t CP2_WCT1;
+	uint8_t CP2_WCT2;
 } CONFIG;
 
 
@@ -72,7 +103,7 @@ volatile uint8_t send_complete = TRUE;
 
 
 // INTERNAL VARIABLES
-uint8_t SPI_received[27], SPI_transfer; // uinut8_t SPI_received[27] -> erhoehen da wir 2 ADSs benutzten
+uint8_t SPI_received[54], SPI_transfer; 
 int t = 0;
 
 
@@ -84,7 +115,7 @@ void main(void) {
 	CONFIG current_configure = {0};
 
     PMM_setVCore(PMM_CORE_LEVEL_3); // Minimum Vcore setting required for the USB API is PMM_CORE_LEVEL_2
-    USBHAL_initPorts();           	// Config GPIOS
+    USBHAL_initPorts();           	// Config GPIOS, sets all Ports as low output
     USBHAL_initClocks(15000000);   	// Config clocks. MCLK=SMCLK=FLL=8MHz; ACLK=REFO=32kHz
     USB_setup(TRUE,TRUE);  			// Init USB & events; if a host is present, connect
 
@@ -92,18 +123,21 @@ void main(void) {
 
     __enable_interrupt();  			// Enable interrupts globally
 
-    init_adc();                     // -> init adc2?
-    //config_adc(current_configure);
+    init_adcs();                     
+    //config_adcs(current_configure);
 
     while(1) {
     	switch(USB_getConnectionState()) {
 
     	// USB is connected and is active
     		case ST_ENUM_ACTIVE:
-    			P1OUT |= LED_POWER;
+    			//P1OUT |= LED_POWER; 
+				P1OUT != LED_1;
+				wait_cycles(16000);		//wait 500ms
+				P1OUT &= ~LED1;
 
     			if(receive_status) {
-    				P1OUT |= LED_STATUS;
+    				//P1OUT |= LED_STATUS;
        				P2OUT &= ~START;
     				receive_status = FALSE; 	// Reset receive event
 
@@ -133,37 +167,44 @@ void main(void) {
     				}
     			}
 
-    			else if(!(P1IN & DRDY)) {
-    				// Send dummy bytes 0x00 to receive adc data and send the whole package of 27 bytes to matlab
-    				for (t = 0; t < 27; t++)
+    			else if(!(P1IN & DRDY1)) {
+    				// Send dummy bytes 0x00 to receive adc data from ADS1 and send the whole package of 54 bytes to matlab
+					P1OUT &= ~CS1;
+    				for (t = 0; t < 54; t++){
+						if(t==27){
+							P1OUT |= CS1;
+							P2OUT &= ~CS2;
+						}
 						SPI_received[t] = transferAndReceive(0x00);
-					USBCDC_sendDataInBackground((uint8_t *)&SPI_received, 27, CDC0_INTFNUM, 1000);
+					}
+					USBCDC_sendDataInBackground((uint8_t *)&SPI_received, 54, CDC0_INTFNUM, 1000);
+					P2OUT |= CS2;
 				}
-
     			break;
 
     		case ST_USB_DISCONNECTED:
     			// USB is physically disconnected
-    			P1OUT &= ~LED_POWER;
+    			P1OUT &= ~LED_1;
     			break;
 
     		default:
-    			P1OUT &= ~LED_POWER;
+    			P1OUT &= ~LED_1;
     			break;
     			}
     }
 }
 
-void init_msp() { // -> add ADC2 Pins
+void init_msp() {
 	// Set up pins function
-    P1DIR |= CS + LED_POWER + LED_STATUS;		// Set as output
-    P1DIR &= ~DRDY;							// Set as input
-    P1SEL &= ~(LED_1 + CS + DRDY);			// Set as general I/O
-    P1OUT &= ~(LED_1 + CS);
+    P1DIR |= CS1;		// Set as output, LED_POWER + LED_STATUS?
+    P1DIR &= ~(DRDY1 + DRDY2);				// Set as input
+    P1SEL &= ~(LED_1 + CS1 + DRDY1 + DRDY2);			// Set as general I/O
+    P1OUT &= ~(LED_1 + CS1);
 
-    P2DIR |= START + RESET;
-    P2SEL &= ~(START + RESET);
-    P2OUT &= ~START;						// Set START to low
+    P2DIR |= START + RESET + CS2;
+	P2DIR &= ~(GPIO14 + GPIO24);
+    P2SEL &= ~(START + RESET + CS2 + GPIO14 + GPIO24);
+    P2OUT &= ~(START+CS2);						// Set START and CS2 to low
 
     P3SEL |= MISO + MOSI + SCLK;
     P3DIR &= ~MISO;
@@ -178,7 +219,7 @@ void init_msp() { // -> add ADC2 Pins
     UCB0CTL1 &= ~UCSWRST;
 }
 
-void init_adc() {
+void init_adcs() {
 
 	// Set RESET=1 and wait t_POR for oscillator start-up
     P2OUT |= RESET;					// Set RESET to high
@@ -192,19 +233,35 @@ void init_adc() {
     wait_cycles(400);				// Wait 10ms
 }
 
-void config_adc(uint8_t *curr_config) {
+void config_adcs(uint8_t *curr_config) {
 	P2OUT &= ~START;
-	transferAndReceive(0x11);	// Disable Read Data Continuous Mode <- Could be non sense
-
 	volatile uint8_t i = 0;
+
+	P1OUT &= ~CS1;
+	P2OUT |= CS2;
+	transferAndReceive(0x11);	// Disable Read Data Continuous Mode <- Could be non sense
 
 	transferAndReceive(0x41);	// Write first register
 	transferAndReceive(0x18);	// Number of Register
 	for(i = 0; i < 25; i++)
-		transferAndReceive(*(curr_config + 3 + i)); // Begin at CONFIG1
+		transferAndReceive(*(curr_config + 3 + i)); // Begin at CP1_CONFIG1
 
 	// Set ADC back to Read Continues Mode
 	transferAndReceive(0x10);
+	P1OUT |= CS1;
+
+	P2OUT &= ~CS2;
+	transferAndReceive(0x11);	// Disable Read Data Continuous Mode <- Could be non sense
+
+	transferAndReceive(0x41);	// Write first register
+	transferAndReceive(0x18);	// Number of Register
+	for(i = 25; i < 50; i++)
+		transferAndReceive(*(curr_config + 3 + i)); // Begin at CP2_CONFIG1
+
+	// Set ADC back to Read Continues Mode
+	transferAndReceive(0x10);
+	P2OUT |= CS2;
+
 	P2OUT |= START;
 }
 
