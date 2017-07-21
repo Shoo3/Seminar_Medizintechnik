@@ -274,7 +274,7 @@ function radio_internGen_Callback(hObject, eventdata, handles)
 
 function radio_extGen_Callback(hObject, eventdata, handles)
     %% --- Executes on button press in radio_extGen.
-    set(handles.radio_internGen, 'Value', 0.0);
+    set(handles.radio_interunGen, 'Value', 0.0);
 
 function radio_ampX1_Callback(~, eventdata, handles)
     %% --- Executes on button press in radio_ampX1.
