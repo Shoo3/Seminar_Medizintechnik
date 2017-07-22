@@ -1,0 +1,454 @@
+EESchema Schematic File Version 2
+LIBS:Seminar_Med_Tech-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:MechTech
+LIBS:MedTech
+LIBS:MedTec2
+LIBS:Seminar_Med_Tech-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_02X10 J1
+U 1 1 593ACF11
+P 2800 4000
+F 0 "J1" H 2800 4550 50  0000 C CNN
+F 1 "CONN_02X10" V 2800 4000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x10_Pitch2.54mm" H 2800 2800 50  0001 C CNN
+F 3 "" H 2800 2800 50  0001 C CNN
+	1    2800 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X10 J2
+U 1 1 593AD152
+P 7600 3975
+F 0 "J2" H 7600 4525 50  0000 C CNN
+F 1 "CONN_02X10" V 7600 3975 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x10_Pitch2.54mm" H 7600 2775 50  0001 C CNN
+F 3 "" H 7600 2775 50  0001 C CNN
+	1    7600 3975
+	1    0    0    -1  
+$EndComp
+Text GLabel 2325 4150 0    60   Input ~ 0
+SPI_CLK
+Text GLabel 8475 4025 2    60   Input ~ 0
+SPI_IN
+Text GLabel 8475 4125 2    60   Input ~ 0
+SPI_OUT
+Text GLabel 7025 3625 0    60   Input ~ 0
+/RESET
+Text GLabel 7025 3525 0    60   Input ~ 0
+SPI_START
+Text GLabel 7025 3725 0    60   Input ~ 0
+SPI_DRDY1
+Text GLabel 7025 3825 0    60   Input ~ 0
+SPI_CS1
+Text GLabel 8475 4425 2    60   Output ~ 0
+EXT_CLK
+$Comp
+L Jumper_NC_Dual JP11
+U 1 1 593ADF16
+P 7225 5750
+F 0 "JP11" H 7275 5650 50  0000 L CNN
+F 1 "Jumper_NC_Dual" H 7225 5850 50  0000 C BNN
+F 2 "Jumper:jumper1x3" H 7225 5750 50  0001 C CNN
+F 3 "" H 7225 5750 50  0001 C CNN
+	1    7225 5750
+	0    -1   -1   0   
+$EndComp
+Text GLabel 7675 5750 2    60   Input ~ 0
+CLKSEL
+$Comp
+L R R37
+U 1 1 593ADFF6
+P 7600 5375
+F 0 "R37" V 7680 5375 50  0000 C CNN
+F 1 "10k" V 7600 5375 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7530 5375 50  0001 C CNN
+F 3 "" H 7600 5375 50  0001 C CNN
+	1    7600 5375
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 593AE084
+P 7225 6000
+F 0 "#PWR01" H 7225 5750 50  0001 C CNN
+F 1 "GND" H 7225 5850 50  0000 C CNN
+F 2 "" H 7225 6000 50  0001 C CNN
+F 3 "" H 7225 6000 50  0001 C CNN
+	1    7225 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 593AE114
+P 3675 5000
+F 0 "#PWR02" H 3675 4750 50  0001 C CNN
+F 1 "GND" H 3675 4850 50  0000 C CNN
+F 2 "" H 3675 5000 50  0001 C CNN
+F 3 "" H 3675 5000 50  0001 C CNN
+	1    3675 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 593AE149
+P 9375 3700
+F 0 "#PWR03" H 9375 3450 50  0001 C CNN
+F 1 "GND" H 9375 3550 50  0000 C CNN
+F 2 "" H 9375 3700 50  0001 C CNN
+F 3 "" H 9375 3700 50  0001 C CNN
+	1    9375 3700
+	1    0    0    -1  
+$EndComp
+Text GLabel 2325 4250 0    60   Input ~ 0
+SPI_CS2
+$Comp
+L GND #PWR04
+U 1 1 593E72B3
+P 9200 5600
+F 0 "#PWR04" H 9200 5350 50  0001 C CNN
+F 1 "GND" H 9200 5450 50  0000 C CNN
+F 2 "" H 9200 5600 50  0001 C CNN
+F 3 "" H 9200 5600 50  0001 C CNN
+	1    9200 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R38
+U 1 1 593E72CF
+P 9525 5500
+F 0 "R38" V 9605 5500 50  0000 C CNN
+F 1 "0" V 9525 5500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9455 5500 50  0001 C CNN
+F 3 "" H 9525 5500 50  0001 C CNN
+	1    9525 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper JP3
+U 1 1 593E89D7
+P 3850 3550
+F 0 "JP3" H 3850 3700 50  0000 C CNN
+F 1 "Jumper" H 3850 3470 50  0000 C CNN
+F 2 "Jumper:Jumper1x2" H 3850 3550 50  0001 C CNN
+F 3 "" H 3850 3550 50  0001 C CNN
+	1    3850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P TP7
+U 1 1 593E9035
+P 4275 3550
+F 0 "TP7" H 4275 3820 50  0000 C CNN
+F 1 "TEST" H 4275 3750 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 4475 3550 50  0001 C CNN
+F 3 "" H 4475 3550 50  0001 C CNN
+	1    4275 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C50
+U 1 1 593E9092
+P 4500 3900
+F 0 "C50" H 4525 4000 50  0000 L CNN
+F 1 "0.1uF" H 4525 3800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 4538 3750 50  0001 C CNN
+F 3 "" H 4500 3900 50  0001 C CNN
+	1    4500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C49
+U 1 1 593E90E8
+P 4875 3900
+F 0 "C49" H 4900 4000 50  0000 L CNN
+F 1 "100uF" H 4900 3800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 4913 3750 50  0001 C CNN
+F 3 "" H 4875 3900 50  0001 C CNN
+	1    4875 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 593E9316
+P 4700 4150
+F 0 "#PWR05" H 4700 3900 50  0001 C CNN
+F 1 "GND" H 4700 4000 50  0000 C CNN
+F 2 "" H 4700 4150 50  0001 C CNN
+F 3 "" H 4700 4150 50  0001 C CNN
+	1    4700 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 4875 3450 2    39   Input Italic 8
+5V_Supply
+Text GLabel 7600 5100 0    39   Input Italic 8
+DVDD
+Text GLabel 9850 5775 2    39   Input Italic 8
+AGND
+Text GLabel 7025 4125 0    60   Input ~ 0
+I/O_6
+Text GLabel 7025 4225 0    60   Input ~ 0
+I/O_7
+Text GLabel 7025 4325 0    60   Input ~ 0
+I/O_8
+Text GLabel 7025 3925 0    60   Input ~ 0
+I/O_4
+Text GLabel 7025 4025 0    60   Input ~ 0
+I/O_5
+Text GLabel 8475 3825 2    60   Input ~ 0
+I/O_3
+Text GLabel 8475 3725 2    60   Input ~ 0
+I/O_2
+Text GLabel 8475 3625 2    60   Input ~ 0
+I/O_1
+Wire Wire Line
+	2550 4150 2325 4150
+Wire Wire Line
+	8475 4025 7850 4025
+Wire Wire Line
+	7850 4125 8475 4125
+Wire Wire Line
+	7025 3825 7350 3825
+Wire Wire Line
+	7350 3525 7025 3525
+Wire Wire Line
+	7350 3725 7025 3725
+Wire Wire Line
+	7025 3625 7350 3625
+Wire Wire Line
+	2325 4250 2550 4250
+Wire Wire Line
+	7325 5750 7675 5750
+Wire Wire Line
+	7600 5525 7600 5750
+Connection ~ 7600 5750
+Wire Wire Line
+	7600 5225 7600 5100
+Wire Wire Line
+	3050 3650 3675 3650
+Wire Wire Line
+	3675 3650 3675 5000
+Wire Wire Line
+	7850 3525 9375 3525
+Wire Wire Line
+	9375 3525 9375 3700
+Wire Wire Line
+	7850 4425 8475 4425
+Wire Wire Line
+	7350 4425 7225 4425
+Wire Wire Line
+	7225 4425 7225 5500
+Wire Wire Line
+	9375 5500 9200 5500
+Wire Wire Line
+	9200 5500 9200 5600
+Wire Wire Line
+	9675 5500 9850 5500
+Wire Wire Line
+	9850 5500 9850 5775
+Wire Wire Line
+	3050 3550 3550 3550
+Wire Wire Line
+	4150 3550 4875 3550
+Wire Wire Line
+	4875 3450 4875 3750
+Wire Wire Line
+	4500 3750 4500 3550
+Wire Wire Line
+	4500 4050 4500 4150
+Wire Wire Line
+	4500 4150 4875 4150
+Wire Wire Line
+	4875 4150 4875 4050
+Connection ~ 4875 3550
+Wire Wire Line
+	7350 3925 7025 3925
+Wire Wire Line
+	7025 4025 7350 4025
+Wire Wire Line
+	7350 4125 7025 4125
+Wire Wire Line
+	7025 4225 7350 4225
+Wire Wire Line
+	7025 4325 7350 4325
+Wire Wire Line
+	8475 3625 7850 3625
+Wire Wire Line
+	7850 3725 8475 3725
+Wire Wire Line
+	7850 3825 8475 3825
+Wire Wire Line
+	2550 3950 2325 3950
+$Comp
+L CONN_01X10 PSK1
+U 1 1 5962D12A
+P 4200 6425
+F 0 "PSK1" H 4200 6975 50  0000 C CNN
+F 1 "CONN_01X10" V 4300 6425 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 4200 6425 50  0001 C CNN
+F 3 "" H 4200 6425 50  0001 C CNN
+	1    4200 6425
+	0    1    1    0   
+$EndComp
+Text GLabel 4650 6225 1    60   Input ~ 0
+I/O_1
+Text GLabel 4550 6225 1    60   Input ~ 0
+I/O_2
+Text GLabel 4450 6225 1    60   Input ~ 0
+I/O_3
+Text GLabel 4350 6225 1    60   Input ~ 0
+I/O_4
+Text GLabel 4250 6225 1    60   Input ~ 0
+I/O_5
+Text GLabel 4150 6225 1    60   Input ~ 0
+I/O_6
+Text GLabel 4050 6225 1    60   Input ~ 0
+I/O_7
+Text GLabel 3950 6225 1    60   Input ~ 0
+I/O_8
+NoConn ~ 3050 3750
+NoConn ~ 3050 3850
+NoConn ~ 3050 3950
+NoConn ~ 3050 4050
+NoConn ~ 3050 4150
+NoConn ~ 3050 4350
+NoConn ~ 3050 4450
+NoConn ~ 2550 4450
+NoConn ~ 2550 4050
+NoConn ~ 2550 3650
+NoConn ~ 7850 3925
+Connection ~ 4500 3550
+Connection ~ 4275 3550
+Text GLabel 2325 3950 0    60   Input ~ 0
+SPI_DRDY2
+NoConn ~ 3750 6225
+NoConn ~ 3850 6225
+$Comp
+L Jumper JP2
+U 1 1 5947B7A9
+P 1950 3550
+F 0 "JP2" H 1950 3700 50  0000 C CNN
+F 1 "Jumper" H 1950 3470 50  0000 C CNN
+F 2 "Jumper:Jumper1x2" H 1950 3550 50  0001 C CNN
+F 3 "" H 1950 3550 50  0001 C CNN
+	1    1950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P TP8
+U 1 1 5947B7AF
+P 1525 3550
+F 0 "TP8" H 1525 3820 50  0000 C CNN
+F 1 "TEST" H 1525 3750 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 1725 3550 50  0001 C CNN
+F 3 "" H 1725 3550 50  0001 C CNN
+	1    1525 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C33
+U 1 1 5947B7B5
+P 1300 3900
+F 0 "C33" H 1325 4000 50  0000 L CNN
+F 1 "0.1uF" H 1325 3800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 1338 3750 50  0001 C CNN
+F 3 "" H 1300 3900 50  0001 C CNN
+	1    1300 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C27
+U 1 1 5947B7BB
+P 925 3900
+F 0 "C27" H 950 4000 50  0000 L CNN
+F 1 "100uF" H 950 3800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 963 3750 50  0001 C CNN
+F 3 "" H 925 3900 50  0001 C CNN
+	1    925  3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 5947B7C1
+P 1100 4150
+F 0 "#PWR06" H 1100 3900 50  0001 C CNN
+F 1 "GND" H 1100 4000 50  0000 C CNN
+F 2 "" H 1100 4150 50  0001 C CNN
+F 3 "" H 1100 4150 50  0001 C CNN
+	1    1100 4150
+	-1   0    0    -1  
+$EndComp
+Text GLabel 925  3450 0    39   Input Italic 8
+3.3V_Supply
+Wire Wire Line
+	1650 3550 925  3550
+Wire Wire Line
+	925  3450 925  3750
+Wire Wire Line
+	1300 3750 1300 3550
+Wire Wire Line
+	1300 4050 1300 4150
+Wire Wire Line
+	925  4150 925  4050
+Connection ~ 925  3550
+Connection ~ 1300 3550
+Connection ~ 1525 3550
+Wire Wire Line
+	2250 3550 2550 3550
+Wire Wire Line
+	1300 4150 925  4150
+NoConn ~ 2550 3750
+NoConn ~ 2550 3850
+NoConn ~ 3050 4250
+NoConn ~ 2550 4350
+Text GLabel 8475 4225 2    60   Input ~ 0
+GPIO14
+Text GLabel 8475 4325 2    60   Input ~ 0
+GPIO24
+Wire Wire Line
+	8475 4225 7850 4225
+Wire Wire Line
+	7850 4325 8475 4325
+$EndSCHEMATC
