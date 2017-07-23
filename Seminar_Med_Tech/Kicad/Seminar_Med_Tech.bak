@@ -1128,8 +1128,6 @@ Text GLabel 5500 7200 2    60   Input ~ 0
 ECG_12P
 Text GLabel 4150 7200 0    60   Input ~ 0
 ECG_12N
-NoConn ~ 10075 4925
-NoConn ~ 10075 4825
 $Comp
 L C_Small C35
 U 1 1 594E4D87
@@ -1330,9 +1328,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 1950 1300 1500
 Wire Wire Line
-	5325 3125 5325 3325
-Wire Wire Line
-	8750 3775 8575 3775
+	8575 3775 9200 3775
 Wire Wire Line
 	8000 4475 8000 4600
 Wire Wire Line
@@ -1565,23 +1561,6 @@ Wire Wire Line
 	5750 2625 7050 2625
 Wire Wire Line
 	7050 2625 7050 2800
-Wire Wire Line
-	8950 2925 8950 4125
-Wire Wire Line
-	6950 2925 9800 2925
-Connection ~ 8950 2925
-Wire Wire Line
-	6950 2775 6950 2925
-Wire Wire Line
-	5750 2775 6950 2775
-Wire Wire Line
-	5325 3325 6000 3325
-Wire Wire Line
-	6000 3325 6000 3000
-Wire Wire Line
-	6000 3000 8750 3000
-Wire Wire Line
-	8750 3000 8750 3775
 Wire Wire Line
 	6450 2675 6450 2300
 Wire Wire Line
@@ -2322,4 +2301,29 @@ Wire Wire Line
 Wire Wire Line
 	7650 2050 8350 2050
 NoConn ~ 10075 5025
+Wire Wire Line
+	9800 2925 8950 2925
+Wire Wire Line
+	8950 2925 8950 4125
+Wire Wire Line
+	5750 2775 6000 2775
+Connection ~ 6000 2775
+NoConn ~ 5325 3125
+Wire Wire Line
+	9200 3775 9200 3500
+Wire Wire Line
+	9200 3500 9275 3500
+Text GLabel 9275 3500 2    60   Output ~ 0
+SPI_OUT
+Text GLabel 9825 4875 0    60   Input ~ 0
+AGND
+Wire Wire Line
+	9875 4825 9875 4925
+Wire Wire Line
+	9875 4875 9825 4875
+Connection ~ 9875 4875
+Wire Wire Line
+	9875 4925 10075 4925
+Wire Wire Line
+	9875 4825 10075 4825
 $EndSCHEMATC
